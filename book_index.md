@@ -6,7 +6,7 @@ layout: default
     <h1>Table Of Contents</h1>
     <br>
     Currently, <strong>Padrino - The Elegant Ruby Web Framework</strong> consists of
-    <li class="info badge">10 chapters</li>. More chapters will be added in the future.
+    <li class="info badge">10 chapters</li>
     <hr>
     <ol>
       <li><a href="/01-00-introduction.html">Introduction</a></li>

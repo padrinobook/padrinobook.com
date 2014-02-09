@@ -1,75 +1,31 @@
+require 'colorator'
 require 'rake'
 
-posts_dir = '_posts'
-
-desc "New post in #{posts_dir}"
-task :post do
-  require 'fileutils'
-  require 'stringex'
-  require './_plugins/titlecase.rb'
-
-  puts "What should we call this post for now?"
-  name = STDIN.gets.chomp
-
-  mkdir_p "#{posts_dir}"
-  title = "#{name.gsub(/&/,'&amp;').titlecase}"
-  filename = "_posts/#{Time.now.strftime('%Y-%m-%d')}-#{name.to_url}.md"
-  puts "Created new post: #{filename}"
-
-  post_content = <<-MARKDOWN
----
-layout: post
-title: TITLE
-description:
----
-**
-
-## Conclusion
-
-
-## Further reading
-
-  MARKDOWN
-  post_content = post_content.gsub('TITLE', title)
-
-  open(filename, 'w') do |post|
-    system "mkdir -p #{posts_dir}/";
-    post.puts post_content
-  end
-end
-
-desc "Staging"
+desc 'Staging'
 task :staging do
-  puts "# building the site .."
-  #system("jekyll")
+  puts "1. Building jekyll ..".bold.green
+  system 'jekyll build'
 
-  puts '# deploying the site ..'
-  system("rsync -vru -e \"ssh -p 2222\" --del ?site/*  hostalos@itmbs.com:/home2/hostalos/www/iso25")
+  puts "2. Deploying site with lovely rsync to /home/www/iso25..".bold.green
+  system "rsync -vru -e \"ssh\" --del ?site/* xa6195@xa6.serverdomain.org:/home/www/iso25"
 
-  puts '# Please refer to http://iso25.wikimatze.de to visit the staging system'
+  puts "3. Done!".bold.green
 end
 
-desc "Deploy"
-task :deploy do
-  require 'sweetie'
+desc 'Deploy'
+task :d do
+  puts "1. Building jekyll ..".bold.green
+  system 'jekyll build'
 
-  puts '1. Sweetie - time to update stats ..'
-  Sweetie::Conversion.conversion
-  Sweetie::Bitbucket.bitbucket("wikimatze")
+  puts "2. Deploying site with lovely rsync to /home/www/padrinobook ..".bold.green
+  system "rsync -vru -e \"ssh\" --del ?site/* xa6195@xa6.serverdomain.org:/home/www/padrinobook/"
 
-  puts '2. Building jekyll ..'
-  system "jekyll build"
-
-  puts '3. Deploying site with lovely rsync ..'
-  system "rsync -vru -e \"ssh -p 2222\" --del ?site/* hostalos@itmbs.com:/home2/hostalos/www/wikimatze.de/"
-
-  puts '4. Done!'
+  puts "3. Done!".bold.green
 end
 
 desc "Startup Jekyll"
-task :start do
-  system "jekyll build"
+task :s do
   system "jekyll serve --watch"
 end
 
-task :default => :start
+task :default => :s
