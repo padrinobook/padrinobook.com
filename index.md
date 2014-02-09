@@ -1,9 +1,10 @@
 ---
 layout: default
 ---
+
 <div class="row">
   <div class="twelve columns">
-    <h1>Padrino - The Elegant Ruby Web Framework</h1>
+    <h1>Padrinobook - A book about the Elegant Ruby Web Framework</h1>
     <li class="info badge author">
       Written by <a href="http://wikimatze.de">Matthias Günther</a>
       (<a href="http://twitter.com/wikimatze">@wikimatze</a>)
