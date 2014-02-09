@@ -1,0 +1,10 @@
+markdown: rdiscount
+pygments: true
+permalink: /:title.html
+rdiscount:
+  extensions: [smart]
+
+exclude:
+- Gemfile
+- Gemfile.lock
+- Rakefile

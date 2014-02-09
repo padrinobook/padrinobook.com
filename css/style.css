@@ -1,0 +1,151 @@
+/*
+We highly recommend you use SASS and write your custom styles in sass/_custom.scss.
+However, this blank file is available if you prefer
+*/
+
+hr {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #ffffff;
+}
+
+ul, ol { margin: 1em 0; padding: 0 0 0 2em; }
+ul, menu, dir {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+
+.info-box {
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  padding: 8px 35px 8px 14px;
+  margin-bottom: 20px;
+  text-shadow: 20px 100px 0 rgba(255, 255, 255, 0.5);
+  background-color: #fcf8e3;
+  border: 1px solid #fbeed5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.info-box h4 {
+  color: #3a87ad;
+}
+
+.navigation-header {
+  margin: 10px 0 10px 0;
+}
+
+.navigation-footer {
+  margin: 30px 0 0 0;
+}
+
+pre.table {
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 20px;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre;
+  white-space: pre-wrap;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  margin: 1em 0px;
+}
+
+.pretty.navbar {
+  margin-top: 25px;
+}
+
+pre, code, kbd, samp { font-family: monospace, monospace; _font-family: 'courier new', monospace; font-size: 0.98em; }
+code { color: #000}
+a:hover { text-decoration: underline;}
+.navbar a:hover, .navigation-header a:hover { text-decoration: none; }
+.label.author, .badge.author {
+  padding: 10px 10px;
+  font-size: 1.75rem;
+  height: 40px;
+}
+
+.right {
+  float: right;
+}
+
+.btn a {
+  text-decoration: none;
+}
+
+.active { position: relative; background: #868d92; z-index: 1000; }
+
+.whoring {
+  margin-top: 50px;
+}
+
+.toc {
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  position: fixed;
+  width: 150px;
+  padding-top: 20px;
+  color: #fff;
+  overflow-y: auto;
+}
+.toc ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.toc li {
+  padding: 5px 10px;
+}
+
+.toc a {
+  color: #d04526;
+  text-decoration: none;
+  display: block;
+}
+
+.toc .toc-h2 {
+  padding-left: 10px;
+}
+
+.toc .toc-h3 {
+  padding-left: 20px;
+}
+
+.toc .toc-h4 {
+  padding-left: 30px;
+}
+
+.toc .toc-active {
+  font-weight: bold;
+}
+
+@media (min-width: 1200px) {
+}
+@media (min-width: 900px) and (max-width: 1199px) {
+  .toc {display: none;}
+}
+@media (max-width: 767px) {
+  .toc {display: none;}
+}
+@media (max-width: 480px) {
+  .toc {display: none;}
+}
