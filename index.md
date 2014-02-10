@@ -26,10 +26,10 @@ layout: default
     </li>
     <br/>
     <br/>
-    I'm is writting this book with much
+    I'm writing this book with much
     <a href="https://github.com/matthias-guenther/padrino-book/issues?page=1&state=closed">help of the community</a>.
     Instead of waiting until the book is finished you can <a href="https://github.com/matthias-guenther/padrino-book">review the book</a>, <a href="https://github.com/matthias-guenther/padrino-book/pulls">post pull requests</a> as well as propose
-    additional chapters. You <a href="https://github.com/matthias-guenther/padrino-book/issues?page=1&state=open">ideas</a> and review helps very much to great an awesome product. You can either contact me via <a href="https://twitter.com/padrinobook">twitter</a> or via mail <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#97;&#116;&#116;&#104;&#105;&#97;&#115;&#64;&#112;&#97;&#100;&#114;&#105;&#110;&#111;&#98;&#111;&#111;&#107;&#46;&#99;&#111;&#109;">&#109;&#97;&#116;&#116;&#104;&#105;&#97;&#115;&#64;&#112;&#97;&#100;&#114;&#105;&#110;&#111;&#98;&#111;&#111;&#107;&#46;&#99;&#111;&#109;</a>
+    additional chapters. You <a href="https://github.com/matthias-guenther/padrino-book/issues?page=1&state=open">ideas</a> and review help very much to create an awesome product. You can either contact me via <a href="https://twitter.com/padrinobook">twitter</a> or via mail <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#97;&#116;&#116;&#104;&#105;&#97;&#115;&#64;&#112;&#97;&#100;&#114;&#105;&#110;&#111;&#98;&#111;&#111;&#107;&#46;&#99;&#111;&#109;">&#109;&#97;&#116;&#116;&#104;&#105;&#97;&#115;&#64;&#112;&#97;&#100;&#114;&#105;&#110;&#111;&#98;&#111;&#111;&#107;&#46;&#99;&#111;&#109;</a>
   </div>
 </div>
 <br/ >
