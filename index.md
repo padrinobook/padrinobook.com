@@ -9,6 +9,12 @@ layout: default
       Written by <a href="http://wikimatze.de">Matthias Günther</a>
       (<a href="http://twitter.com/wikimatze">@wikimatze</a>)
     </li>
+    <div class="pull_right">
+      <a href="https://twitter.com/share" class="twitter-share-button" data-count="none" data-via="padrinobook">Tweet</a>
+        <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+      <a href="http://twitter.com/padrinobook" class="twitter-follow-button" data-show-count="false">Follow padrinobook</a>
+        <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+    </div>
     <hr>
     If you want to go into web development with ease and no boundaries to which
     components you want to use, then dig into Padrino. Padrino is super interesting,
