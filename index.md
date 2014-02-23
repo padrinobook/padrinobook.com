@@ -21,6 +21,16 @@ layout: default
     learn Padrino to craft your web applications with joy and fun.
   </div>
 </div>
+<br/>
+
+<div class="row">
+  <div class="twelve columns">
+    <li class="info badge author warning">
+      Recent commits
+    </li>
+    <div id="github-commits"></div>
+  </div>
+</div>
 <br/ >
 
 

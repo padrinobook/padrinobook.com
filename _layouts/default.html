@@ -79,6 +79,16 @@
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
 
+    <script src="js/github-commits-widget.js"></script>
+
+    <script>
+      $(function() {
+        $('#github-commits').githubInfoWidget(
+          { user: 'matthias-guenther', repo: 'padrino-book', branch: 'user-profile', last: 5, limitMessageTo: 30 });
+      });
+    </script>
+
+
     <!--
     <script src="js/jquery.flexslider-min.js"></script>
     -->
