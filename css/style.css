@@ -75,8 +75,8 @@ a:hover { text-decoration: underline;}
 .navbar a:hover, .navigation-header a:hover { text-decoration: none; }
 .label.author, .badge.author {
   padding: 10px 10px;
-  font-size: 1.75rem;
-  height: 40px;
+  font-size: 1.2rem;
+  height: auto;
 }
 
 .right {
@@ -135,6 +135,23 @@ a:hover { text-decoration: underline;}
   font-weight: bold;
 }
 
+
+/* last commits plugin */
+.github-commits-list {
+  list-style: none;
+}
+
+.github-user, .github-commit {
+  padding-right: 10px;
+}
+
+.github-user img {
+  margin-right: 10px;
+}
+/* */
+
+
+/* not used so far */
 @media (min-width: 1200px) {
 }
 @media (min-width: 900px) and (max-width: 1199px) {
@@ -146,6 +163,7 @@ a:hover { text-decoration: underline;}
 @media (max-width: 480px) {
   .toc {display: none;}
 }
+/* */
 
 /* flexslider 2 layout */
 .flex-direction-nav a:before  { font-size: 28px;}

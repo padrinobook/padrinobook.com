@@ -6,8 +6,7 @@ layout: default
   <div class="twelve columns">
     <h1>Padrinobook - A book about the Elegant Ruby Web Framework</h1>
     <li class="info badge author">
-      Written by <a href="http://wikimatze.de">Matthias Günther</a>
-      (<a href="http://twitter.com/wikimatze">@wikimatze</a>)
+      Written by <a href="http://wikimatze.de">Matthias Günther</a> (<a href="http://twitter.com/wikimatze">@wikimatze</a>)
     </li>
     <div class="pull_right">
       <a href="https://twitter.com/share" class="twitter-share-button" data-count="none" data-via="padrinobook">Tweet</a>
@@ -20,6 +19,16 @@ layout: default
     components you want to use, then dig into Padrino. Padrino is super interesting,
     but there aren't a lot of docs available. This book is a practical approach to
     learn Padrino to craft your web applications with joy and fun.
+  </div>
+</div>
+<br/>
+
+<div class="row">
+  <div class="twelve columns">
+    <li class="info badge author warning">
+      Recent commits
+    </li>
+    <div id="github-commits"></div>
   </div>
 </div>
 <br/ >
@@ -40,10 +49,9 @@ layout: default
 </div>
 <br/ >
 
-
 <div class="row">
   <div class="twelve columns">
-    <li class="info badge author danger">
+    <li class="info badge author primary">
       Author
     </li>
     <br/>
