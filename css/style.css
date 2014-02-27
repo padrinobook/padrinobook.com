@@ -10,6 +10,10 @@ hr {
   border-bottom: 1px solid #ffffff;
 }
 
+a {
+  color: #ed1c24;
+}
+
 ul, ol { margin: 1em 0; padding: 0 0 0 2em; }
 ul, menu, dir {
   display: block;
