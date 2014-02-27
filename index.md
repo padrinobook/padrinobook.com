@@ -4,10 +4,17 @@ layout: default
 
 <div class="row">
   <div class="twelve columns">
-    <h1>Padrinobook - A book about the Elegant Ruby Web Framework</h1>
+    <h1>
+      <a href="/index.html" title="Padrinobook - A book about the Elegant Ruby Web Framework">
+        <img gumby-default="/logo.png"
+             gumby-media="only screen and (min-width: 960px)|/logo.png, only screen and (max-width: 767px)|/logo_tablet.png, only screen and (max-width: 320px)|/logo_mobile.png"  />
+      </a>
+    </h1>
+
     <li class="info badge author">
       Written by <a href="http://wikimatze.de">Matthias Günther</a> (<a href="http://twitter.com/wikimatze">@wikimatze</a>)
     </li>
+    <br />
     <div class="pull_right">
       <a href="https://twitter.com/share" class="twitter-share-button" data-count="none" data-via="padrinobook">Tweet</a>
         <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
@@ -25,7 +32,7 @@ layout: default
 
 <div class="row">
   <div class="twelve columns">
-    <li class="info badge author warning">
+    <li class="info badge author primary">
       Recent commits
     </li>
     <div id="github-commits"></div>
@@ -36,7 +43,7 @@ layout: default
 
 <div class="row">
   <div class="twelve columns">
-    <li class="info badge author success">
+    <li class="info badge author primary">
       Contribute
     </li>
     <br/>
