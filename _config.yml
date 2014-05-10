@@ -1,10 +1,24 @@
-markdown: rdiscount
-pygments: true
-permalink: /:title.html
+markdown: redcarpet
+highlighter: pygments
 rdiscount:
   extensions: [smart]
+timezone: DE
+
+
+permalink: /:title.html
+
 
 exclude:
 - Gemfile
 - Gemfile.lock
 - Rakefile
+
+
+# yaml default setup
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      layout: "default"
+
