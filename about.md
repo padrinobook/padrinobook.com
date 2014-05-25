@@ -12,7 +12,7 @@
     These are the strenghts of Padrino.
 
     Matthias is writting this book with much
-    <a href="https://github.com/matthias-guenther/padrino-book/issues?page=1&state=closed">help of the community</a>
+    <a href="https://github.com/wikimatze/padrino-book/issues?page=1&state=closed">help of the community</a>
     and is <a href="https://github.com/padrino/padrino-framework/contributors">contributing</a> to Padrino.
     </p>
 
