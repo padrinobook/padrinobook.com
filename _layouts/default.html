@@ -49,6 +49,28 @@
     -->
 
     <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h1>
+            <a href="/index.html" title="Padrinobook - A book about the Elegant Ruby Web Framework">
+              <img gumby-default="/logo.png"
+                   gumby-media="only screen and (min-width: 960px)|/logo.png, only screen and (max-width: 767px)|/logo_tablet.png, only screen and (max-width: 320px)|/logo_mobile.png"  />
+            </a>
+          </h1>
+
+          <li class="info badge author">
+            Written by <a href="http://wikimatze.de">Matthias Günther</a> (<a href="http://twitter.com/wikimatze">@wikimatze</a>)
+          </li>
+          <br />
+          <div class="pull_right">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-count="none" data-via="padrinobook">Tweet</a>
+              <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+            <a href="http://twitter.com/padrinobook" class="twitter-follow-button" data-show-count="false">Follow padrinobook</a>
+              <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+          </div>
+          <hr>
+        </div>
+      </div>
       {{ content }}
     </div>
 
@@ -86,10 +108,9 @@
     <script>
       $(function() {
         $('#github-commits').githubInfoWidget(
-          { user: 'matthias-guenther', repo: 'padrinobook', branch: 'master', last: 5, limitMessageTo: 30 });
+          { user: 'wikimatze', repo: 'padrinobook', branch: 'master', last: 5, limitMessageTo: 30 });
       });
     </script>
-
 
     <!--
     <script src="js/jquery.flexslider-min.js"></script>
