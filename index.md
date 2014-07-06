@@ -1,26 +1,7 @@
 ---
 ---
-
 <div class="row">
   <div class="twelve columns">
-    <h1>
-      <a href="/index.html" title="Padrinobook - A book about the Elegant Ruby Web Framework">
-        <img gumby-default="/logo.png"
-             gumby-media="only screen and (min-width: 960px)|/logo.png, only screen and (max-width: 767px)|/logo_tablet.png, only screen and (max-width: 320px)|/logo_mobile.png"  />
-      </a>
-    </h1>
-
-    <li class="info badge author">
-      Written by <a href="http://wikimatze.de">Matthias Günther</a> (<a href="http://twitter.com/wikimatze">@wikimatze</a>)
-    </li>
-    <br />
-    <div class="pull_right">
-      <a href="https://twitter.com/share" class="twitter-share-button" data-count="none" data-via="padrinobook">Tweet</a>
-        <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-      <a href="http://twitter.com/padrinobook" class="twitter-follow-button" data-show-count="false">Follow padrinobook</a>
-        <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-    </div>
-    <hr>
     If you want to go into web development with ease and no boundaries to which
     components you want to use, then dig into Padrino. Padrino is super interesting,
     but there aren't a lot of docs available. This book is a practical approach to
@@ -76,27 +57,9 @@
   </div>
 </div>
 
-<div class="row">
-  <div class="twelve columns info-box">
-    <h2>Sign up for the newsletter</h2>
-    <h4>Every two weeks I will inform you about the progress of the book.</h4>
-    <br>
-    <!-- Begin MailChimp Signup Form -->
-    <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-      #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-      /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-         We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-    </style>
-    <div id="mc_embed_signup">
-    <form action="http://wikimatze.us6.list-manage.com/subscribe/post?u=4010f8ce18503766e176536f1&amp;id=198f8c0321" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-      <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button pretty medium secondary btn"></div>
-    </form>
-    </div>
-    <!--End mc_embed_signup-->
-  </div>
-</div>
+{% include newsletter.html %}
+
+<!--End mc_embed_signup-->
 
 <!--
 <div class="row">
@@ -126,3 +89,5 @@
   </div>
 </div>
 -->
+  </div>
+</div>
