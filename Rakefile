@@ -13,7 +13,7 @@ task :staging do
 end
 
 desc 'Deploy'
-task :d do
+task :d => :html do
   puts "1. Building jekyll ..".bold.green
   system 'jekyll build'
 
@@ -26,6 +26,12 @@ end
 desc "Startup Jekyll"
 task :s do
   system "jekyll serve --watch"
+end
+
+
+desc "Get HTML sources of the book"
+task :html do
+  system "cd ~/ownCloud/padrino/manuscript && gitbook build && mv ~/ownCloud/padrino/manuscript/_book ~/ownCloud/padrinobook-website/book"
 end
 
 task :default => :s
