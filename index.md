@@ -43,7 +43,7 @@
     </li>
     <br/>
     <br/>
-    <img src="http://farm9.staticflickr.com/8370/8436515008_80960f2b70_t.jpg" class="right image circle" alt="Matthias Günther loves Vim and painting Warhammer figures">
+    <img src="https://farm3.staticflickr.com/2896/14517064206_8bcd41fb1e_t.jpg" class="right image circle" alt="Matthias Günther loves Vim and painting Warhammer figures">
     <p>Matthias is an Open Sourcer by heart, loves giving presentations about
     <a href="http://www.vim.org/">Vim</a>, and is writing this book about
     <a href="http://www.padrinorb.com/">Padrino</a>. Why? Because he wants learn something other than
