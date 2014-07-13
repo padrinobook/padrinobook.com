@@ -152,6 +152,11 @@ a:hover { text-decoration: underline;}
 .github-user img {
   margin-right: 10px;
 }
+
+.fb-like span {
+   top: -6px;
+}
+
 /* */
 
 
