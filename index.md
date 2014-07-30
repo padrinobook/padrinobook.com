@@ -2,24 +2,20 @@
 ---
 <div class="row">
   <div class="twelve columns">
+    <div class="pretty large secondary btn"><a href="https://www.softcover.io/books/fd219c19/padrinobook">Sample</a></div>
+    or <a href="/book">read online for free</a>.
+
+    <br/>
+    <br/>
+
     If you want to go into web development with ease and no boundaries to which
     components you want to use, then dig into Padrino. Padrino is super interesting,
     but there aren't a lot of docs available. This book is a practical approach to
     learn Padrino to craft your web applications with joy and fun.
+
   </div>
 </div>
 <br/>
-
-<div class="row">
-  <div class="twelve columns">
-    <li class="info badge author primary">
-      Recent commits
-    </li>
-    <div id="github-commits"></div>
-  </div>
-</div>
-<br/ >
-
 
 <div class="row">
   <div class="twelve columns">
@@ -28,10 +24,7 @@
     </li>
     <br/>
     <br/>
-    I'm writing this book with much
-    <a href="https://github.com/wikimatze/padrinobook/issues?page=1&state=closed">help of the community</a>.
-    Instead of waiting until the book is finished you can <a href="https://github.com/wikimatze/padrinobook">review the book</a>, <a href="https://github.com/wikimatze/padrinobook/pulls">post pull requests</a> as well as propose
-    additional chapters. You <a href="https://github.com/wikimatze/padrino-book/issues?page=1&state=open">ideas</a> and review help very much to create an awesome product. You can either contact me via <a href="https://twitter.com/padrinobook">twitter</a> or via mail <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#97;&#116;&#116;&#104;&#105;&#97;&#115;&#64;&#112;&#97;&#100;&#114;&#105;&#110;&#111;&#98;&#111;&#111;&#107;&#46;&#99;&#111;&#109;">&#109;&#97;&#116;&#116;&#104;&#105;&#97;&#115;&#64;&#112;&#97;&#100;&#114;&#105;&#110;&#111;&#98;&#111;&#111;&#107;&#46;&#99;&#111;&#109;</a>
+    I'm writing this book with much <a href="https://github.com/wikimatze/padrinobook/issues?page=1&state=closed">help of the community</a>. Instead of waiting until the book is finished you can <a href="https://github.com/wikimatze/padrinobook">see the source</a>, <a href="http://padrinobook.com/book/">watch the online version</a>, join the <a href="http://eepurl.com/Wskif">mailing list</a>, post a <a href="https://github.com/wikimatze/padrinobook/pulls">pull request</a>, visit the <a href="http://facebook.com/padrinobook">fanpage</a>, or follow <a href="https://twitter.com/padrinobook">@padrinobook on twitter</a>. You can contact me via mail <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#97;&#116;&#116;&#104;&#105;&#97;&#115;&#64;&#112;&#97;&#100;&#114;&#105;&#110;&#111;&#98;&#111;&#111;&#107;&#46;&#99;&#111;&#109;">&#109;&#97;&#116;&#116;&#104;&#105;&#97;&#115;&#64;&#112;&#97;&#100;&#114;&#105;&#110;&#111;&#98;&#111;&#111;&#107;&#46;&#99;&#111;&#109;</a>.
   </div>
 </div>
 <br/ >
@@ -56,6 +49,7 @@
     </p>
   </div>
 </div>
+<br/>
 
 {% include newsletter.html %}
 
