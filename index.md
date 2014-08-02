@@ -2,9 +2,8 @@
 ---
 <div class="row">
   <div class="twelve columns">
-    <div class="pretty large secondary btn"><a href="https://www.softcover.io/books/fd219c19/padrinobook">Sample</a></div>
+    <div class="pretty large secondary btn"><a href="https://www.softcover.io/downloads/fd219c19/padrinobook">Free Previews</a></div>
     or <a href="/book">read online for free</a>.
-
     <br/>
     <br/>
 
@@ -15,19 +14,9 @@
 
   </div>
 </div>
-<br/>
+<br>
 
-<div class="row">
-  <div class="twelve columns">
-    <li class="info badge author primary">
-      Contribute
-    </li>
-    <br/>
-    <br/>
-    I'm writing this book with much <a href="https://github.com/wikimatze/padrinobook/issues?page=1&state=closed">help of the community</a>. Instead of waiting until the book is finished you can <a href="https://github.com/wikimatze/padrinobook">see the source</a>, <a href="http://padrinobook.com/book/">watch the online version</a>, join the <a href="http://eepurl.com/Wskif">mailing list</a>, post a <a href="https://github.com/wikimatze/padrinobook/pulls">pull request</a>, visit the <a href="http://facebook.com/padrinobook">fanpage</a>, or follow <a href="https://twitter.com/padrinobook">@padrinobook on twitter</a>. You can contact me via mail <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#97;&#116;&#116;&#104;&#105;&#97;&#115;&#64;&#112;&#97;&#100;&#114;&#105;&#110;&#111;&#98;&#111;&#111;&#107;&#46;&#99;&#111;&#109;">&#109;&#97;&#116;&#116;&#104;&#105;&#97;&#115;&#64;&#112;&#97;&#100;&#114;&#105;&#110;&#111;&#98;&#111;&#111;&#107;&#46;&#99;&#111;&#109;</a>.
-  </div>
-</div>
-<br/ >
+{% include newsletter.html %}
 
 <div class="row">
   <div class="twelve columns">
@@ -47,11 +36,24 @@
     <a href="https://github.com/wikimatze/padrino-book/issues?page=1&state=closed">help of the community</a>
     and is <a href="https://github.com/padrino/padrino-framework/contributors">contributing</a> to Padrino.
     </p>
+    <p> Contact Matthias directly via mail <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#97;&#116;&#116;&#104;&#105;&#97;&#115;&#64;&#112;&#97;&#100;&#114;&#105;&#110;&#111;&#98;&#111;&#111;&#107;&#46;&#99;&#111;&#109;">&#109;&#97;&#116;&#116;&#104;&#105;&#97;&#115;&#64;&#112;&#97;&#100;&#114;&#105;&#110;&#111;&#98;&#111;&#111;&#107;&#46;&#99;&#111;&#109;</a>.
+    </p>
   </div>
 </div>
-<br/>
+<br>
 
-{% include newsletter.html %}
+<div class="row">
+  <div class="twelve columns">
+    <li class="info badge author primary">
+      Contribute
+    </li>
+    <br/>
+    <br/>
+    I'm writing this book with much <a href="https://github.com/wikimatze/padrinobook/issues?page=1&state=closed">help of the community</a>. Instead of waiting until the book is finished you can <a href="https://github.com/wikimatze/padrinobook">see the source</a>, <a href="http://padrinobook.com/book/">watch the online version</a>, join the <a href="http://eepurl.com/Wskif">mailing list</a>, post a <a href="https://github.com/wikimatze/padrinobook/pulls">pull request</a>, visit the <a href="http://facebook.com/padrinobook">fanpage</a>, or follow <a href="https://twitter.com/padrinobook">@padrinobook</a>.
+  </div>
+</div>
+<br>
+
 
 <!--End mc_embed_signup-->
 
