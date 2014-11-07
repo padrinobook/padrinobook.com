@@ -5,7 +5,10 @@ rdiscount:
 timezone: DE
 
 
-permalink: /:title.html
+permalink: /:title
+
+
+author: Matthias Günther
 
 
 exclude:
@@ -21,4 +24,9 @@ defaults:
       path: "" # empty string for all files
     values:
       layout: "default"
-
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
