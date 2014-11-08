@@ -3,11 +3,6 @@
 
 <div class="row">
   <div class="twelve columns">
-    <div class="pretty large secondary btn"><a href="https://www.softcover.io/downloads/fd219c19/padrinobook">Free Previews</a></div>
-    or <a href="/book">read online for free</a>.
-    <br/>
-    <br/>
-
     If you want to go into web development with ease and no boundaries to which
     components you want to use, then dig into Padrino. Padrino is super interesting,
     but there aren't a lot of docs available. This book is a practical approach to
@@ -29,7 +24,7 @@
     <p>Matthias is an Open Sourcer by heart, loves giving presentations about
     <a href="http://www.vim.org/">Vim</a>, and is writing this book about
     <a href="http://www.padrinorb.com/">Padrino</a>. Why? Because he wants learn something other than
-    <a href="http://rubyonrails.org/">rails</a>, something light weight, flexible, powerful, and fast.
+    <a href="http://rubyonrails.org/">Rails</a>, something light weight, flexible, powerful, and fast.
     These are the strenghts of Padrino.
 
     Matthias is writting this book with much
