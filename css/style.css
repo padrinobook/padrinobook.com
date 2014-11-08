@@ -91,6 +91,34 @@ a:hover { text-decoration: underline;}
   text-decoration: none;
 }
 
+.articles {
+  margin-top: 10px;
+}
+
+.articles ul {
+  padding: 25px 0 25px 0;
+}
+
+.articles li {
+  list-style: none;
+  padding: 5px 0px;
+  margin: 0;
+  color: #777;
+  border-bottom: 1px solid #eee;
+}
+
+.articles li span {
+  float: right;
+}
+
+.articles li:last-child {
+  border-bottom: none;
+}
+
+.articles a {
+  text-decoration: none;
+}
+
 .active { position: relative; background: #868d92; z-index: 1000; }
 
 .whoring {

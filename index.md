@@ -1,5 +1,6 @@
 ---
 ---
+
 <div class="row">
   <div class="twelve columns">
     <div class="pretty large secondary btn"><a href="https://www.softcover.io/downloads/fd219c19/padrinobook">Free Previews</a></div>
@@ -41,6 +42,23 @@
   </div>
 </div>
 <br>
+
+<div class="row">
+  <div class="twelve columns">
+    <li class="info badge author primary">
+      Recent News
+    </li>
+    <div class="articles">
+      <ul>
+        {% for post in site.posts %}
+          <li>
+          <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
 
 <div class="row">
   <div class="twelve columns">
