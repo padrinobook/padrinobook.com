@@ -65,7 +65,7 @@
     </div>
   </div>
 </div>
-<br/>
+<br>
 
 <div class="row">
   <div class="twelve columns">
@@ -82,7 +82,7 @@
     </ul>
   </div>
 </div>
-<br/>
+<br>
 
 <div class="row">
   <div class="twelve columns">
@@ -92,7 +92,7 @@
     <div id="github-commits"></div>
   </div>
 </div>
-<br/>
+<br>
 
 <!--End mc_embed_signup-->
 
