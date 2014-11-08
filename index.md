@@ -1,17 +1,12 @@
 ---
 ---
+
 <div class="row">
   <div class="twelve columns">
-    <div class="pretty large secondary btn"><a href="https://www.softcover.io/downloads/fd219c19/padrinobook">Free Previews</a></div>
-    or <a href="/book">read online for free</a>.
-    <br/>
-    <br/>
-
     If you want to go into web development with ease and no boundaries to which
     components you want to use, then dig into Padrino. Padrino is super interesting,
     but there aren't a lot of docs available. This book is a practical approach to
     learn Padrino to craft your web applications with joy and fun.
-
   </div>
 </div>
 <br>
@@ -29,14 +24,14 @@
     <p>Matthias is an Open Sourcer by heart, loves giving presentations about
     <a href="http://www.vim.org/">Vim</a>, and is writing this book about
     <a href="http://www.padrinorb.com/">Padrino</a>. Why? Because he wants learn something other than
-    <a href="http://rubyonrails.org/">rails</a>, something light weight, flexible, powerful, and fast.
+    <a href="http://rubyonrails.org/">Rails</a>, something light weight, flexible, powerful, and fast.
     These are the strenghts of Padrino.
 
     Matthias is writting this book with much
     <a href="https://github.com/wikimatze/padrino-book/issues?page=1&state=closed">help of the community</a>
     and is <a href="https://github.com/padrino/padrino-framework/contributors">contributing</a> to Padrino.
     </p>
-    <p> Contact Matthias directly via mail <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#97;&#116;&#116;&#104;&#105;&#97;&#115;&#64;&#112;&#97;&#100;&#114;&#105;&#110;&#111;&#98;&#111;&#111;&#107;&#46;&#99;&#111;&#109;">&#109;&#97;&#116;&#116;&#104;&#105;&#97;&#115;&#64;&#112;&#97;&#100;&#114;&#105;&#110;&#111;&#98;&#111;&#111;&#107;&#46;&#99;&#111;&#109;</a>.
+    <p> Contact Matthias directly via mail <a href={{ site.email }}>{{ site.email }}</a>.or on <a href="{{ site.twitter }}">twitter</a>
     </p>
   </div>
 </div>
@@ -54,6 +49,50 @@
 </div>
 <br>
 
+<div class="row">
+  <div class="twelve columns">
+    <li class="info badge author primary">
+      Recent News
+    </li>
+    <div class="articles">
+      <ul>
+        {% for post in site.posts %}
+          <li>
+          <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+<br>
+
+<div class="row">
+  <div class="twelve columns">
+    <li class="info badge author primary">
+    Written words:
+    </li>
+    <ul>
+      <li> 2014-07-29: 2 words - at version 0.12.2 in the book
+      <li> 2014-07-28: replaced PADRINO_ENV with RACK_ENV, fixed github name on some links
+      <li> 2014-07-27: Get rid of clutter words part two + file names/path for all codes examples
+      <li> 2014-07-26: Get rid of clutter words part one
+      <li> 2014-07-25: 40 words - check_box_tag for remember me function
+      <li> 2014-07-21: 101 words - infobox about cookies
+    </ul>
+  </div>
+</div>
+<br>
+
+<div class="row">
+  <div class="twelve columns">
+    <li class="info badge author primary">
+      Recent commits
+    </li>
+    <div id="github-commits"></div>
+  </div>
+</div>
+<br>
 
 <!--End mc_embed_signup-->
 
