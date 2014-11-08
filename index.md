@@ -36,7 +36,7 @@
     <a href="https://github.com/wikimatze/padrino-book/issues?page=1&state=closed">help of the community</a>
     and is <a href="https://github.com/padrino/padrino-framework/contributors">contributing</a> to Padrino.
     </p>
-    <p> Contact Matthias directly via mail <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#97;&#116;&#116;&#104;&#105;&#97;&#115;&#64;&#112;&#97;&#100;&#114;&#105;&#110;&#111;&#98;&#111;&#111;&#107;&#46;&#99;&#111;&#109;">&#109;&#97;&#116;&#116;&#104;&#105;&#97;&#115;&#64;&#112;&#97;&#100;&#114;&#105;&#110;&#111;&#98;&#111;&#111;&#107;&#46;&#99;&#111;&#109;</a>.
+    <p> Contact Matthias directly via mail <a href={{ site.email }}>{{ site.email }}</a>.or on <a href="{{ site.twitter }}">twitter</a>
     </p>
   </div>
 </div>
