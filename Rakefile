@@ -15,7 +15,7 @@ end
 desc "Deploy"
 task :d => :h do
   puts "Building jekyll ..".bold.green
-  system 'jekyll build'
+  system 'bundle exec jekyll b'
 
   puts "Deploying site with lovely rsync to /home/www/padrinobook ..".bold.green
   system "rsync -vru -e \"ssh\" --del ?site/* xa6195@xa6.serverdomain.org:/home/www/padrinobook/"
@@ -25,7 +25,7 @@ end
 
 desc "Startup Jekyll"
 task :s do
-  system "jekyll serve --watch"
+  system "bundle exec jekyll s --watch"
 end
 
 desc "Get HTML sources of the book"
