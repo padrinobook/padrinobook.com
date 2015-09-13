@@ -131,6 +131,22 @@ a:hover { text-decoration: underline;}
   margin-top: 50px;
 }
 
+li.info.badge {
+  padding: 10px;
+  font-size: 1.2rem;
+  height: auto;
+  list-style: none;
+  background: #4A4D50 none repeat scroll 0% 0%;
+  border: 1px solid #4A4D50;
+  border-radius: 10px;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 20px;
+  text-align: center;
+  color: #FFF;
+}
+
+
 .toc {
   top: 0px;
   left: 0px;
