@@ -2,7 +2,7 @@
 ---
 
 <div class="row">
-  <div class="twelve columns">
+  <div class="large-10 medium-10 columns">
     If you want to go into web development with ease and no boundaries to which
     components you want to use, then dig into Padrino. Padrino is super interesting,
     but there aren't a lot of docs available. This book is a practical approach to
@@ -14,8 +14,38 @@
 {% include newsletter.html %}
 
 <div class="row">
-  <div class="twelve columns">
+  <div class="large-10 medium-10 columns">
     <li class="info badge author primary">
+      Recent News
+    </li>
+    <div class="articles">
+      <ul>
+        {% for post in site.posts %}
+          <li>
+          <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+<br>
+
+<div class="row">
+  <div class="large-10 medium-10 columns">
+    <li class="info badge author primary">
+      Contribute
+    </li>
+    <br/>
+    <br/>
+    I'm writing this book with much <a href="https://github.com/wikimatze/padrinobook/issues?page=1&state=closed">help of the community</a>. Instead of waiting until the book is finished you can <a href="https://github.com/wikimatze/padrinobook">see the source</a>, <a href="http://padrinobook.com/book/">watch the online version</a>, join the <a href="http://eepurl.com/Wskif">mailing list</a>, post a <a href="https://github.com/wikimatze/padrinobook/pulls">pull request</a>, visit the <a href="http://facebook.com/padrinobook">fanpage</a>, or follow <a href="https://twitter.com/padrinobook">@padrinobook</a>.
+  </div>
+</div>
+<br>
+
+<div class="row">
+  <div class="large-10 medium-10 columns">
+    <li class="info badge">
       Author
     </li>
     <br/>
@@ -37,52 +67,6 @@
 </div>
 <br>
 
-<div class="row">
-  <div class="twelve columns">
-    <li class="info badge author primary">
-      Contribute
-    </li>
-    <br/>
-    <br/>
-    I'm writing this book with much <a href="https://github.com/wikimatze/padrinobook/issues?page=1&state=closed">help of the community</a>. Instead of waiting until the book is finished you can <a href="https://github.com/wikimatze/padrinobook">see the source</a>, <a href="http://padrinobook.com/book/">watch the online version</a>, join the <a href="http://eepurl.com/Wskif">mailing list</a>, post a <a href="https://github.com/wikimatze/padrinobook/pulls">pull request</a>, visit the <a href="http://facebook.com/padrinobook">fanpage</a>, or follow <a href="https://twitter.com/padrinobook">@padrinobook</a>.
-  </div>
-</div>
-<br>
-
-<div class="row">
-  <div class="twelve columns">
-    <li class="info badge author primary">
-      Recent News
-    </li>
-    <div class="articles">
-      <ul>
-        {% for post in site.posts %}
-          <li>
-          <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-</div>
-<br>
-
-<div class="row">
-  <div class="twelve columns">
-    <li class="info badge author primary">
-    Written words:
-    </li>
-    <ul>
-      <li> 2014-07-29: 2 words - at version 0.12.2 in the book
-      <li> 2014-07-28: replaced PADRINO_ENV with RACK_ENV, fixed github name on some links
-      <li> 2014-07-27: Get rid of clutter words part two + file names/path for all codes examples
-      <li> 2014-07-26: Get rid of clutter words part one
-      <li> 2014-07-25: 40 words - check_box_tag for remember me function
-      <li> 2014-07-21: 101 words - infobox about cookies
-    </ul>
-  </div>
-</div>
-<br>
 
 <div class="row">
   <div class="twelve columns">
