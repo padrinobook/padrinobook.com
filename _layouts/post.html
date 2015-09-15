@@ -4,14 +4,15 @@ layout: default
 
 <article>
   <div class="row">
-    <div class="twelve columns">
+    <div class="large-10 medium-10 columns">
     <h2>{{ page.title }}</h2>
 
     <header>
       <div class="author">
-        Posted on <time datetime="{{page.date | date:"%Y-%m-%d"}}" pubdate><a href="{{ page.url }}" title="Permalink for this post">{{page.date | date:"%Y-%m-%d"}}</a></time>
-        {% if page.update %}, updated <time>{{ page.update }}</time> {% endif %} by
-        <a rel="author" href="https://plus.google.com/+wikimatzede?rel=author">{{ site.author }}</a>
+        <img src="http://www.gravatar.com/avatar/9172bb642e29e9959f078f329308faa1?s=20" alt="Matthias Günther's Gravatar">
+        <a href="https://twitter.com/wikimatze">{{ site.author }}</a>
+        <time datetime="{{page.date | date:"%Y-%m-%d"}}">{{page.date | date:"%Y-%m-%d"}}</time>
+        {% if page.update %}, updated <time>{{ page.update }}</time> {% endif %}
       </div>
     </header>
     <div class="clearfix"></div>
