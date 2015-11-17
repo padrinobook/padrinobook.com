@@ -30,7 +30,7 @@ end
 
 desc "Get HTML sources of the book"
 task :h do
-  system "cd ~/ownCloud/padrino/manuscript && gitbook build && rm -rf ~/ownCloud/padrinobook-website/book && mv -f ~/ownCloud/padrino/manuscript/_book ~/ownCloud/padrinobook-website/book"
+  system "cd ~/git/PadrinoBook && gitbook build --gitbook=2.4.0 && rm -rf ~/git/padrinobook-website/book && mv -f _book ~/git/padrinobook-website/book"
 end
 
 task :default => :s
