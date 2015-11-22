@@ -14,8 +14,11 @@ end
 
 desc "Deploy"
 task :d => :h do
-  puts "Building jekyll ..".bold.green
-  system 'bundle exec jekyll b'
+  puts "Clean site ..".bold.green
+  system 'bundle exec jekyll clean'
+
+  puts "Build jekyll ..".bold.green
+  system 'bundle exec jekyll build'
 
   puts "Deploying site with lovely rsync to /home/www/padrinobook ..".bold.green
   system "rsync -vru -e \"ssh\" --del ?site/* xa6195@xa6.serverdomain.org:/home/www/padrinobook/"
