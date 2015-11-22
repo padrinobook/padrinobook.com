@@ -15,9 +15,9 @@
 
 <div class="row">
   <div class="large-10 medium-10 columns">
-    <li class="info badge author primary">
+    <span class="info badge author primary">
       Recent News
-    </li>
+    </span>
     <div class="articles">
       <ul>
         {% for post in site.posts %}
@@ -33,9 +33,9 @@
 
 <div class="row">
   <div class="large-10 medium-10 columns">
-    <li class="info badge author primary">
+    <span class="info badge author primary">
       Contribute
-    </li>
+    </span>
     <br/>
     <br/>
     I'm writing this book with much <a href="https://github.com/wikimatze/padrinobook/issues?page=1&state=closed">help of the community</a>. Instead of waiting until the book is finished you can <a href="https://github.com/wikimatze/padrinobook">see the source</a>, <a href="http://padrinobook.com/book/">watch the online version</a>, join the <a href="http://eepurl.com/Wskif">mailing list</a>, post a <a href="https://github.com/wikimatze/padrinobook/pulls">pull request</a>, visit the <a href="http://facebook.com/padrinobook">fanpage</a>, or follow <a href="https://twitter.com/padrinobook">@padrinobook</a>.
@@ -45,9 +45,9 @@
 
 <div class="row">
   <div class="large-10 medium-10 columns">
-    <li class="info badge">
+    <span class="info badge">
       Author
-    </li>
+    </span>
     <br/>
     <br/>
     <img src="https://farm3.staticflickr.com/2896/14517064206_8bcd41fb1e_t.jpg" class="right image circle" alt="Matthias Günther loves Vim and painting Warhammer figures">
@@ -61,7 +61,7 @@
     <a href="https://github.com/wikimatze/padrino-book/issues?page=1&state=closed">help of the community</a>
     and is <a href="https://github.com/padrino/padrino-framework/contributors">contributing</a> to Padrino.
     </p>
-    <p> Contact Matthias directly via mail <a href={{ site.email }}>{{ site.email }}</a>.or on <a href="{{ site.twitter }}">twitter</a>
+    <p> Contact Matthias directly via mail <a href={{ site.email }}>{{ site.email }}</a> or on <a href="{{ site.twitter }}">twitter</a>
     </p>
   </div>
 </div>
@@ -70,9 +70,9 @@
 
 <div class="row">
   <div class="twelve columns">
-    <li class="info badge author primary">
+    <span class="info badge author primary">
       Recent commits
-    </li>
+    </span>
     <div id="github-commits"></div>
   </div>
 </div>
