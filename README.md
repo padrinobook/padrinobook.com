@@ -9,4 +9,4 @@
 - [slackin](https://github.com/rauchg/slackin "slackin") for a communication channel under <http://padrinobook.herokuapp.com/>
   - [basic idea](http://rauchg.com/slackin/ "basic idea")
   - [install and deploy on heroku](https://github.com/rauchg/slackin "install and deploy on heroku")
-
+- [github-commits-widget](https://github.com/alexbeletsky/github-commits-widget "github-commits-widget")
