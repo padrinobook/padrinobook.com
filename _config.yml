@@ -3,8 +3,13 @@ rdiscount:
   extensions: [smart]
 timezone: DE
 
+
 redcarpet:
   syntax_highlighter: rouge
+
+
+gems:
+  - jekyll-sitemap
 
 
 permalink: /:title
