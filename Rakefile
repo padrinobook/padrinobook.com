@@ -6,10 +6,11 @@ task :staging do
   puts "Building jekyll ..".bold.green
   system 'jekyll build'
 
-  puts "Deploying site with lovely rsync to /home/www/stagingp..".bold.green
-  system "rsync -vru -e \"ssh\" --del ?site/* xa6195@xa6.serverdomain.org:/home/www/stagingp"
+  puts "Deploying site with lovely rsync to /home/www/stagingpadrinobook ..".bold.green
+  system "rsync -vru -e \"ssh\" --del ?site/* xa6195@xa6.serverdomain.org:/home/www/stagingpadrinobook"
 
   puts "Done!".bold.green
+  puts '# Please refer to http://padrinobook.wikimatze.de to visit the staging system'.green
 end
 
 desc "Deploy"

@@ -1,4 +1,5 @@
 html/
 book/
 bin/*
+.mucksrc
 
