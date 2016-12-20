@@ -16,13 +16,12 @@
     and is <a href="https://github.com/padrino/padrino-framework/contributors">contributing</a> to Padrino.
     </p>
 
-
     <h2>Colophon</h2>
 
     <p>
     This page was written in <a href="http://daringfireball.net/projects/markdown/">markdown</a> and compiled with
     <a href="http://jekyllrb.com/">jekyll</a>. For the layout of this page I'm using the
-    <a href="http://gumbyframework.com/">Gumby Framework</a>. Sending newsletter is done
+    <a href="http://foundation.zurb.com/">Foundation</a>. Sending newsletter is done
     with <a href="http://mailchimp.com/">MailChimp</a>.
 <!--
     and the online version of the book is generated with
