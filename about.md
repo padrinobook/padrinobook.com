@@ -4,12 +4,15 @@
   <div class="twelve columns">
     <h1>About Padrinobook</h1>
 
-    <img src="http://farm9.staticflickr.com/8370/8436515008_80960f2b70_t.jpg" class="right image circle" alt="Matthias Günther loves Vim and painting Warhammer figures">
+    <img src="https://c1.staticflickr.com/1/305/30960365443_dc82235ae2_q.jpg" class="right image circle" alt="Matthias Günther loves Vim and painting Warhammer figures">
+
     <p>Matthias is an Open Sourcer by heart, loves giving presentations about
     <a href="http://www.vim.org/">Vim</a>, and is writing this book about
-    <a href="http://www.padrinorb.com/">Padrino</a>. Why? Because he wants learn something other than
+    <a href="http://www.padrinorb.com/">Padrino</a>.
+    Why? Because he wants learn something other than
     <a href="http://rubyonrails.org/">rails</a>, something light weight, flexible, powerful, and fast.
     These are the strenghts of Padrino.
+    <br><br>
 
     Matthias is writting this book with much
     <a href="https://github.com/wikimatze/padrino-book/issues?page=1&state=closed">help of the community</a>
