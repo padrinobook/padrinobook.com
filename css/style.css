@@ -420,3 +420,58 @@ THE SOFTWARE.
   font-weight: bold;
 }
 
+
+
+// social-media hover colors
+
+.share {
+  position: relative;
+}
+
+.social {
+  background: transparent none repeat scroll 0 0;
+  display: block;
+  font-size: 22px;
+  padding: 15px;
+  position: fixed;
+  left: 0;
+  top: 5%;
+  z-index: 9999;
+}
+
+.social ul li {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social a {
+  color: #bbc7cc;
+  display: inline-block;
+  font-size: 2.3rem;
+  text-decoration: none;
+}
+
+.social a.icon-stumbleupon:hover, a.fa-stumbleupon:hover {
+  color: #eb4823;
+}
+.social a.fa-twitter-square:hover, a.fa-twitter:hover {
+  color: #55acee;
+}
+.social a.fa-facebook-square:hover, a.fa-facebook:hover {
+  color: #3b5998;
+}
+.social a.fa-google-plus-square:hover, a.fa-google-plus:hover {
+  color: #d34836;
+}
+.social a.fa-github-square:hover {
+  color: #2f2f2f;
+}
+
+a.fa-reddit-alien:hover {
+  color: #ff5700;
+}
+
+a.fa-medium:hover {
+  color: #00ab6b
+}
+
