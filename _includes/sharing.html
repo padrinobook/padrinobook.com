@@ -1,25 +1,22 @@
-<div class="pull_left">
-  <script type="text/javascript">
-    reddit_url = "{{ site.base_url }}{{ page.url | escape }}/";
-    reddit_title = "{{ post.title | escape }}";
-  </script>
-  <script type="text/javascript"
-          src="http://www.reddit.com/static/button/button1.js">
-  </script>
-  <br/>
-  <div class="g-plusone" data-size="small" data-annotation="inline"
-    data-width="200"
-    href="{{ site.base_url }}{{ page.url | escape }}/">
+<br>
+<div class="row">
+  <div class="large-11 large-offset-4 columns sharing">
+  <h5 style="margin-left: 2rem;">Share this post</h5>
+  <a class='fa fa-twitter' href="https://twitter.com/intent/tweet?text={{ page.title | escape }}&amp;amp;url={{ site.url }}{{ page.url | escape }}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title='Share this article on Twitter'>
+    <span class='hidden'></span>
+  </a>
+  <a class='fa fa-facebook' href='https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url | escape }}' onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title='Share this article on Facebook'>
+    <span class='hidden'></span>
+  </a>
+  <a class='fa fa-reddit-alien' href="https://www.reddit.com/submit?url={{ site.url }}{{ page.url | escape }}&amp;amp;title={{ page.title | escape }}" onclick="window.open(this.href, 'reddit-share', 'width=550,height=235');return false;" title='Share this article on Reddit'>
+    <span class='hidden'></span>
+  </a>
+  <a class='fa fa-stumbleupon' href="http://www.stumbleupon.com/submit?url={{ site.url }}{{ page.url | escape }}&amp;amp;title={{ page.title | escape }}" onclick="window.open(this.href, 'stumbleupon-share', 'width=550,height=235');return false;" title='Share this article on Stumbleupon'>
+    <span class='hidden'></span>
+  </a>
+  <a class='fa fa-google-plus' href="https://plus.google.com/share?url={{ site.url }}{{ page.url | escape }}" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title='Share this article on Google+'>
+    <span class='hidden'></span>
+  </a>
   </div>
-  <script type="text/javascript">
-    (function() {
-      var po = document.createElement('script');
-      po.type = 'text/javascript';
-      po.async = true;
-      po.src = 'https://apis.google.com/js/plusone.js';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(po, s);
-    })();
-  </script>
 </div>
 
