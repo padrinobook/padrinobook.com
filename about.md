@@ -19,6 +19,9 @@
     and is <a href="https://github.com/padrino/padrino-framework/contributors">contributing</a> to Padrino.
     </p>
 
+    <br>
+    <br>
+
     <h2>Colophon</h2>
 
     <p>

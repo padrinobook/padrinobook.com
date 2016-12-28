@@ -57,7 +57,7 @@
     <a href="http://rubyonrails.org/">Rails</a>, something light weight, flexible, powerful, and fast.
     These are the strenghts of Padrino.
 
-    Matthias is writting this book with much
+    He is writting this book with much
     <a href="https://github.com/wikimatze/padrino-book/issues?page=1&state=closed">help of the community</a>
     and is <a href="https://github.com/padrino/padrino-framework/contributors">contributing</a> to Padrino.
     </p>
