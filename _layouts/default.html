@@ -27,6 +27,13 @@
     <meta property="og:type" content="website" >
     <meta property="og:image" content="https://padrinobook.com/logo.png" >
 
+    <meta content="summary" name="twitter:card">
+    <meta content="@wikimatze" name="twitter:creator">
+    <meta content="@padrinobook" name="twitter:site">
+    <meta content="{% if page.description %}{{ page.description }}{% else %}A practical approach to learn crafting web applications in Padrino. Written by @wikimatze {% endif %}" name='twitter:description'>
+    <meta content="https://padrinobook.com{{ page.url }}" name="twitter:url">
+    <meta content="https://pbs.twimg.com/profile_images/814020419334311936/Ufc1etJh.jpg" name='twitter:image:src'>
+
     <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-touch-icon-72x72.png">
