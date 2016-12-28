@@ -18,12 +18,14 @@
     <meta content="index,follow,noodp" name="robots" >
     <meta name="language" content="en" >
     <meta name="robots" content="index,follow" >
-    <meta property="og:title" content="{{ page.title }}" >
-    <meta itemprop="name" content="{% if page.title %}{{ page.title }} | PadrinoBook from {{ site.author }}{% else %}PadrinoBook from {{ site.author }}{% endif %}" >
-    <meta property="og:image" content="http://padrinobook.wikimatze.de/logo.png" >
-    <meta property="og:url" content="http://padrinobook.com{{ page.url }}" >
-    <meta property="og:site_name" content="padrinobook.com" >
-    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}PadrinoBook - The Guide To Master The Elegant Ruby Web Framework.{% endif %}" >
+    <meta itemprop="name" content="{% if page.title %}{{ page.title }} | PadrinoBook written by {{ site.author }}{% else %}PadrinoBook written by {{ site.author }}{% endif %}" >
+
+    <meta property="og:site_name" content="Padrinobook" >
+    <meta property="og:title" content="{% if page.title %}PadrinoBook | {{ page.title }} {% else %}Padrinobook - A practical approach to learn crafting web applications in Padrino. {% endif %}" >
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}PadrinoBook - A practical approach to learn crafting web applications in Padrino.{% endif %}" >
+    <meta property="og:url" content="https://padrinobook.com{{ page.url }}" >
+    <meta property="og:type" content="website" >
+    <meta property="og:image" content="https://padrinobook.com/logo.png" >
 
     <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png">
