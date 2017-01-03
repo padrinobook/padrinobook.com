@@ -39,6 +39,10 @@ header {
   margin: 20px 0 25px 0;
 }
 
+.article-author {
+  font-style: italic;
+}
+
 
 pre.table {
   display: block;
@@ -66,14 +70,9 @@ pre, code, kbd, samp { font-family: monospace, monospace; _font-family: 'courier
 code { color: #000}
 a:hover { text-decoration: underline;}
 .navbar a:hover, .navigation-header a:hover { text-decoration: none; }
-.label.author, .badge.author {
-  padding: 10px 10px;
-  font-size: 1.2rem;
-  height: auto;
-}
 
-.author {
-  color: gray;
+.author a {
+  color: white;
 }
 
 .right {
@@ -118,7 +117,7 @@ a:hover { text-decoration: underline;}
   margin-top: 50px;
 }
 
-span.info.badge{
+span.information.badge, div.information.badge{
   padding: 10px;
   font-size: 1.2rem;
   height: auto;
@@ -475,6 +474,7 @@ a.fa-medium:hover {
   color: #00ab6b
 }
 
+
 // share
 .hidden {
   display: none;
@@ -492,4 +492,46 @@ a.fa-medium:hover {
 .button.success {
   background-color: #3adb76;
   color: white;
+}
+
+@media (max-width: 1400px) {
+  .social {
+    background: transparent none repeat scroll 0 0;
+    display: block;
+    font-size: 22px;
+    padding: 15px;
+    position: fixed;
+    left: 85%;
+    top: 5%;
+    z-index: 9999;
+  }
+}
+
+@media (max-width: 650px) {
+  .social {
+    display: none;
+  }
+
+  .info {
+    margin-left: 30px;
+  }
+
+  .image {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .sharing h5 {
+    margin-right: 1rem;
+    display: inline-block;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 440px) {
+  .sharing h5 {
+    margin-right: 1rem;
+    display: flex;
+  }
 }

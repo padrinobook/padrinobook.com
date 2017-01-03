@@ -11,11 +11,10 @@
 </div>
 <br>
 
-{% include newsletter.html %}
 
 <div class="row">
   <div class="large-10 medium-10 columns">
-    <span class="info badge author primary">
+    <span class="information badge author primary">
       Recent News
     </span>
     <div class="articles">
@@ -33,7 +32,7 @@
 
 <div class="row">
   <div class="large-10 medium-10 columns">
-    <span class="info badge author primary">
+    <span class="information badge author primary">
       Contribute
     </span>
     <br/>
@@ -45,7 +44,7 @@
 
 <div class="row">
   <div class="large-10 medium-10 columns">
-    <span class="info badge">
+    <span class="information badge">
       Author
     </span>
     <br/>
@@ -70,7 +69,7 @@
 
 <div class="row">
   <div class="twelve columns">
-    <span class="info badge author primary">
+    <span class="information badge author primary">
       Recent commits
     </span>
     <div id="github-commits"></div>
