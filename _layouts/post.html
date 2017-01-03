@@ -8,13 +8,11 @@ layout: default
     <h2>{{ page.title }}</h2>
 
     <header>
-      <div class="author">
-        <img src="http://www.gravatar.com/avatar/9172bb642e29e9959f078f329308faa1?s=20" alt="Matthias Günther's Gravatar">
-        <a href="https://twitter.com/wikimatze">{{ site.author }}</a>
+      <div class="article-author">
+        Written by <a href="https://twitter.com/wikimatze">{{ site.author }}</a>
         {% if page.update %}, updated <time>{{ page.update }}</time> {% endif %}
       </div>
     </header>
-    <div class="clearfix"></div>
 
     {{ content }}
 
