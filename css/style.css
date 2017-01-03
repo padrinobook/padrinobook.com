@@ -488,6 +488,9 @@ a.fa-medium:hover {
   margin: 1rem 1.6rem 1.6rem 0;
   text-decoration: none;
 }
+.sharing h5 {
+  margin-left: 2rem;
+}
 
 .button.success {
   background-color: #3adb76;
