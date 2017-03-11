@@ -67,6 +67,7 @@
 <br>
 
 
+<!--
 <div class="row">
   <div class="twelve columns">
     <span class="information badge author primary">
@@ -76,6 +77,7 @@
   </div>
 </div>
 <br>
+-->
 
 <!--End mc_embed_signup-->
 
