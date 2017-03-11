@@ -153,6 +153,7 @@
     <script type="text/javascript" src="/js/main.js"></script>
     <script type="text/javascript" src="/js/github-commits-widget.js"></script>
 
+    {% if jekyll.environment != "development" %}
     <!-- Hotjar Tracking Code for https://padrinobook.com -->
     <script>
         (function(h,o,t,j,a,r){
@@ -164,6 +165,7 @@
             a.appendChild(r);
         })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
+    {% endif %}
 
     <!--
     <script src="js/jquery.flexslider-min.js"></script>

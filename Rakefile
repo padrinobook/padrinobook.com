@@ -3,6 +3,7 @@ require 'rake'
 
 desc "Staging"
 task :staging do
+  system "export JEKYLL_ENV=development"
   puts "Building jekyll ..".bold.green
   system 'jekyll build'
 
@@ -15,6 +16,7 @@ end
 
 desc "Deploy"
 task :d => :h do
+  system "export JEKYLL_ENV=production"
   puts "Clean site ..".bold.green
   system 'bundle exec jekyll clean'
 
@@ -29,6 +31,7 @@ end
 
 desc "Startup Jekyll"
 task :s do
+  system "export JEKYLL_ENV=development"
   system "bundle exec jekyll s --watch"
 end
 
