@@ -1,13 +1,16 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html lang="en" class="no-js" prefix="og: http://ogp.me/ns#" >
   <head>
-    <title>PadrinoBook</title>
-
     <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="True" name='HandheldFriendly'>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="PadrinoBook - The Guide To Master The Elegant Ruby Web Framework" />
     <meta name="author" content="Matthias Günther">
+
+    <title>PadrinoBook</title>
+    <link rel="canonical" href="https://staging.padrinobook.com<%= current_page.url %>" />
 
     <link rel="stylesheet" href="/css/foundation.css" />
     <link rel="stylesheet" href="/css/syntax.css">
@@ -20,12 +23,12 @@
     <meta name="robots" content="index,follow" >
     <meta itemprop="name" content="{% if page.title %}{{ page.title }} | PadrinoBook written by {{ site.author }}{% else %}PadrinoBook written by {{ site.author }}{% endif %}" >
 
-    <meta property="og:site_name" content="Padrinobook" >
-    <meta property="og:title" content="{% if page.title %}PadrinoBook | {{ page.title }} {% else %}Padrinobook - A practical approach to learn crafting web applications in Padrino. {% endif %}" >
-    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}PadrinoBook - A practical approach to learn crafting web applications in Padrino.{% endif %}" >
-    <meta property="og:url" content="https://padrinobook.com{{ page.url }}" >
-    <meta property="og:type" content="website" >
-    <meta property="og:image" content="https://padrinobook.com/logo.png" >
+    <meta property="og:site_name" content="Padrinobook" />
+    <meta property="og:title" content="{% if page.title %}PadrinoBook | {{ page.title }} {% else %}Padrinobook - A practical approach to learn crafting web applications in Padrino. {% endif %}" />
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}PadrinoBook - A practical approach to learn crafting web applications in Padrino.{% endif %}" />
+    <meta property="og:url" content="https://staging.padrinobook.com{{ page.url }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://padrinobook.com/logo.png" />
 
     <meta content="summary" name="twitter:card">
     <meta content="@wikimatze" name="twitter:creator">
@@ -134,7 +137,7 @@
         <hr>
         <footer>
           <nav>
-            2016 &copy; <a href="http://wikimatze.de">Matthias Günther</a>
+            2017 &copy; <a href="http://wikimatze.de">Matthias Günther</a>
             &bull;
             <a href="/about.html">About</a>
             &bull;
