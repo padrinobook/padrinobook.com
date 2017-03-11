@@ -1,5 +1,6 @@
 ---
 title: Progress June 2013
+description: News branding for the book and updgrade to Padrino 0.12
 ---
 
 Hio

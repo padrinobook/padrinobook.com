@@ -1,5 +1,6 @@
 ---
 title: Logo, Twitter, and Deployment 2014
+description: News branding for the book and updgrade to Padrino 0.12
 ---
 
 Hio,
