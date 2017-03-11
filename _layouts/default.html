@@ -11,7 +11,7 @@
 
     <title>PadrinoBook</title>
 
-    <link rel="canonical" href="https://padrinobook.com<%= current_page.url %>" />
+    <link rel="canonical" href="https://padrinobook.com{{ page.url }}" />
 
     <link rel="stylesheet" href="/css/foundation.css" />
     <link rel="stylesheet" href="/css/syntax.css">
@@ -20,7 +20,6 @@
     <link rel="stylesheet" href="/css/fontawesome.css">
 
     <meta content="noodp" name="robots" >
-    <meta itemprop="name" content="{% if page.title %}{{ page.title }} | PadrinoBook written by {{ site.author }}{% else %}PadrinoBook written by {{ site.author }}{% endif %}" >
 
     <meta property="og:site_name" content="Padrinobook" />
     <meta property="og:title" content="{% if page.title %}PadrinoBook | {{ page.title }} {% else %}Padrinobook - A practical approach to learn crafting web applications in Padrino. {% endif %}" />
@@ -51,7 +50,7 @@
     <link rel="icon" type="image/png" href="/favicons/favicon-96x96.png" sizes="96x96">
     <link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
     <link rel="manifest" href="/favicons/manifest.json">
-    <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg">
     <link rel="shortcut icon" href="/favicons/favicon.ico">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png">
@@ -102,8 +101,9 @@
       <div class="small-6 large-6 medium-6 columns">
         <h1>
           <a href="/index.html" title="Padrinobook - A book about the Elegant Ruby Web Framework">
-            <img src="/logo.png"/>
+            <img src="/logo.png" alt="Logo of Padrinobook"/>
           </a>
+        </h1>
       </div>
       <div class="large-6 medium-6 columns info">
         <br>
@@ -143,8 +143,8 @@
             &bull;
             <a href="/imprint.html">Imprint</a>
           </nav>
-        </div>
-      </footer>
+        </footer>
+      </div>
     </div>
 
     <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us6.list-manage.com","uuid":"4010f8ce18503766e176536f1","lid":"198f8c0321"}) })</script>
