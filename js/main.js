@@ -1,8 +1,8 @@
 // for the latest github commits
-$(function() {
-    $('#github-commits').githubInfoWidget(
-        { user: 'padrinobook', repo: 'padrinobook', branch: 'master', last: 5, limitMessageTo: 30 });
-});
+// $(function() {
+//     $('#github-commits').githubInfoWidget(
+//         { user: 'padrinobook', repo: 'padrinobook', branch: 'master', last: 5, limitMessageTo: 30 });
+// });
 
 
 // Piwik tracking
@@ -17,12 +17,3 @@ _paq.push(['enableLinkTracking']);
     g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
 })();
 
-// <script type="text/javascript">
-// $(function(){
-//   $('.flexslider').flexslider({
-//     animation: "fade",
-//     prevText: '',
-//     nextText: '',
-//   });
-// });
-// </script>
