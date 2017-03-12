@@ -1,4 +1,5 @@
 ---
+title: Colophon
 ---
 <div class="row">
   <div class="twelve columns">
