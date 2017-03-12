@@ -1,5 +1,5 @@
 ---
-title: Colophon
+title: Imprint
 ---
 <div class="row">
   <div class="twelve columns">
