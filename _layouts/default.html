@@ -6,10 +6,10 @@
     <meta content="True" name='HandheldFriendly'>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="PadrinoBook - The Guide To Master The Elegant Ruby Web Framework" />
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
     <meta name="author" content="Matthias Günther">
 
-    <title>PadrinoBook</title>
+    <title>{% if page.title %}PadrinoBook | {{ page.title }} {% else %}PadrinoBook{% endif %}</title>
 
     <link rel="canonical" href="https://padrinobook.com{{ page.url }}" />
 
@@ -22,8 +22,8 @@
     <meta content="noodp" name="robots" >
 
     <meta property="og:site_name" content="Padrinobook" />
-    <meta property="og:title" content="{% if page.title %}PadrinoBook | {{ page.title }} {% else %}Padrinobook - A practical approach to learn crafting web applications in Padrino. {% endif %}" />
-    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}PadrinoBook - A practical approach to learn crafting web applications in Padrino.{% endif %}" />
+    <meta property="og:title" content="{% if page.title %}PadrinoBook | {{ page.title }} {% else %}{{ site.description }}{% endif %}" />
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
     <meta property="og:url" content="https://padrinobook.com{{ page.url }}" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://padrinobook.com/logo.png" />
@@ -31,8 +31,8 @@
     <meta content="summary_large_image" name="twitter:card" />
     <meta content="@wikimatze" name="twitter:creator" />
     <meta content="@padrinobook" name="twitter:site" />
-    <meta content="{% if page.title %}{{ page.title }}{% else %}Padrinobook - A practical approach to learn crafting web applications in Padrino. Written by @wikimatze {% endif %}" name="twitter:title" />
-    <meta content="{% if page.description %}PadrinoBook | {{ page.description }}{% else %}Padrinobook - A practical approach to learn crafting web applications in Padrino. Written by @wikimatze {% endif %}" name="twitter:description" />
+    <meta content="{% if page.title %}{{ page.title }}{% else %}{{ site.description }} written by @wikimatze {% endif %}" name="twitter:title" />
+    <meta content="{% if page.description %}PadrinoBook | {{ page.description }}{% else %}{{ site.description }} written by @wikimatze {% endif %}" name="twitter:description" />
     <meta content="https://padrinobook.com{{ page.url }}" name="twitter:url" />
     <meta content="{% if page.twitter_src %}{{ page.twitter_src }}{% else %}https://farm4.staticflickr.com/3725/33337025026_d36474c52b_b_d.jpg{% endif %}" name="twitter:image:src" />
 
