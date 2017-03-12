@@ -10,6 +10,7 @@ layout: default
     <header>
       <div class="article-author">
         Written by <a href="https://twitter.com/wikimatze">{{ site.author }}</a>
+
         {% if page.update %}, updated <time>{{ page.update }}</time> {% endif %}
       </div>
     </header>
@@ -18,10 +19,10 @@ layout: default
 
     {% include sharing.html %}
 
-    <!--
+    {% if jekyll.environment == "production" %}
     <aside>
       {% include comments.html %}
     </aside>
-    -->
+    {% endif %}
 </article>
 
