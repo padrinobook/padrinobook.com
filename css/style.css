@@ -1,3 +1,7 @@
+html {
+  font-size: 120% !important;
+}
+
 hr {
   margin: 20px 0;
   border: 0;
@@ -510,20 +514,6 @@ a.fa-medium:hover {
   }
 }
 
-@media (max-width: 650px) {
-  .social {
-    display: none;
-  }
-
-  .info {
-    margin-left: 30px;
-  }
-
-  .image {
-    display: none;
-  }
-}
-
 @media (max-width: 900px) {
   .sharing h5 {
     margin-right: 1rem;
@@ -534,6 +524,28 @@ a.fa-medium:hover {
 
   .sharing a {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 650px) {
+  html {
+    font-size: 120% !important;
+  }
+
+  .row {
+    margin-left: 0.3rem;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .info {
+    margin-left: 30px;
+  }
+
+  .image {
+    display: none;
   }
 }
 
