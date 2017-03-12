@@ -11,7 +11,7 @@ redcarpet:
 gems:
   - jekyll-sitemap
 
-permalink: /:title
+permalink: /:title/
 
 
 author: Matthias Günther
