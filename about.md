@@ -1,5 +1,6 @@
 ---
 title: About
+permalink: about/
 ---
 <div class="row">
   <div class="twelve columns">

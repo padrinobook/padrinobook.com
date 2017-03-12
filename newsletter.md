@@ -1,5 +1,6 @@
 ---
 title: Newsletter
+permalink: newsletter/
 ---
 <div class="row">
   <div class="twelve columns">

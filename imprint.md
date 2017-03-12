@@ -1,5 +1,6 @@
 ---
 title: Imprint
+permalink: imprint/
 ---
 <div class="row">
   <div class="twelve columns">
