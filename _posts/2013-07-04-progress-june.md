@@ -11,7 +11,7 @@ another two weeks have passed by and finally the spring is coming. As mentioned 
 The application around the book [job-vacany](https://github.com/wikimatze/job-vacancy) was upgraded to padrino 0.12 and it is still working as well as the tests.
 
 
-Last but not least I wrote an article about [Deploying Padrino Applications On Heroku](http://wikimatze.de/deploying-padrino-applications-on-heroku.html)
+Last but not least I wrote an article about [Deploying Padrino Applications On Heroku](https://wikimatze.de/deploying-padrino-applications-on-heroku.html)
 Feel free to read it and learn how you can bring your applications into the real world.
 
 

@@ -6,7 +6,7 @@ twitter_src: https://gallery.mailchimp.com/4010f8ce18503766e176536f1/images/3268
 
 Hi,
 
-during the last two weeks I was fixing a lot of grammar problems int the book and removed clutter words like easy, however, so, or just. I have even written a blog post about how to [Highlight Bad Words In Vim](http://wikimatze.de/highlight-bad-words-in-vim).
+during the last two weeks I was fixing a lot of grammar problems int the book and removed clutter words like easy, however, so, or just. I have even written a blog post about how to [Highlight Bad Words In Vim](https://wikimatze.de/highlight-bad-words-in-vim).
 
 
 I got used to GitHub issues as my workflow when I detect problems during my writting which I don't want to fix right now but later. If you found an issue, feel free to post it [PadrinoBook issues](https://github.com/wikimatze/PadrinoBook/issues/new)
@@ -26,5 +26,4 @@ I went there and visited a workshop from [Luca Guidi](http://lucaguidi.com/) abo
 Best regards,
 
 Matthias
-
 
