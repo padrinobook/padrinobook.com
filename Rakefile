@@ -3,9 +3,11 @@ require 'rake'
 
 desc "Staging"
 task :staging do
-  system "export JEKYLL_ENV=development"
+  puts "Clean site ..".bold.green
+  system 'bundle exec jekyll clean'
+
   puts "Building jekyll ..".bold.green
-  system 'jekyll build'
+  system 'export JEKYLL_ENV=development && bundle exec jekyll build'
 
   puts "Deploying site with lovely rsync to /home/www/stagingpadrinobook ..".bold.green
   system "rsync -vru -e \"ssh\" --del ?site/* xa6195@xa6.serverdomain.org:/home/www/stagingpadrinobook"
@@ -15,13 +17,12 @@ task :staging do
 end
 
 desc "Deploy"
-task :d => :h do
-  system "export JEKYLL_ENV=production"
+task :deploy do
   puts "Clean site ..".bold.green
   system 'bundle exec jekyll clean'
 
   puts "Build jekyll ..".bold.green
-  system 'bundle exec jekyll build'
+  system 'export JEKYLL_ENV=production && bundle exec jekyll build'
 
   puts "Deploying site with lovely rsync to /home/www/padrinobook ..".bold.green
   system "rsync -vru -e \"ssh\" --del ?site/* xa6195@xa6.serverdomain.org:/home/www/padrinobook/"
@@ -31,8 +32,7 @@ end
 
 desc "Startup Jekyll"
 task :s do
-  system "export JEKYLL_ENV=development"
-  system "bundle exec jekyll s --watch"
+  system "export JEKYLL_ENV=development && bundle exec jekyll s --watch"
 end
 
 desc "Get HTML sources of the book"
