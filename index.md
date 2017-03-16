@@ -19,24 +19,28 @@
       News
     </span>
     <ul>
-      {% for post in site.posts %}
+      {% for post in site.posts limit:1 %}
         <li>
           <a href="{{ post.url }}">{{ post.title }}</a>
         </li>
       {% endfor %}
     </ul>
+    <p>
+      The person behind this book <a href="https://twitter.com/wikimatze">@wikimatze</a>:
+    </p>
+    <img src="https://c1.staticflickr.com/1/305/30960365443_dc82235ae2_q.jpg" class="left image circle" alt="Matthias Günther loves Vim and painting Warhammer figures">
   </div>
   <div class="large-5 medium-5 columns info">
     <div class="newsletter-box">
       <h5>Stay informed with the newsletter:</h5>
-      <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+      <link href="https://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
       <style type="text/css">
         #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
         /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
            We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
       </style>
       <div id="mc_embed_signup">
-      <form action="http://wikimatze.us6.list-manage.com/subscribe/post?u=4010f8ce18503766e176536f1&amp;id=198f8c0321" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <form action="https://wikimatze.us6.list-manage.com/subscribe/post?u=4010f8ce18503766e176536f1&amp;id=198f8c0321" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
         <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button pretty medium info btn">
       </form>
