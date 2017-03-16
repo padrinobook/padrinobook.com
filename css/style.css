@@ -1,5 +1,5 @@
 html {
-  font-size: 120% !important;
+  font-size: 130% !important;
 }
 
 hr {
@@ -24,6 +24,13 @@ ul, menu, dir {
   -webkit-padding-start: 40px;
 }
 
+/* Cover */
+.cover img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 /* Newsletter */
 .newsletter-box {
   border-radius: 4px;
@@ -33,8 +40,16 @@ ul, menu, dir {
   border: 1px solid #f2f2f2;
 }
 
-.newsletter-box h2, #mc-embedded-subscribe {
+.newsletter-box h5, .newsletter-box p, .newsletter-box a, #mc-embedded-subscribe {
   color: white;
+}
+
+#mc_embed_signup input.email {
+  display: inline !important;
+}
+#mc_embed_signup input.button {
+  display: inline !important;
+  margin: 7px -5px 10px !important;
 }
 
 /* Different stuff */
