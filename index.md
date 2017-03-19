@@ -25,10 +25,10 @@
         </li>
       {% endfor %}
     </ul>
-    <p>
+    <p class="person-behind-the-book">
       The person behind this book <a href="https://twitter.com/wikimatze">@wikimatze</a>:
     </p>
-    <img src="https://c1.staticflickr.com/1/305/30960365443_dc82235ae2_q.jpg" class="left image circle" alt="Matthias Günther loves Vim and painting Warhammer figures">
+    <img src="https://c1.staticflickr.com/1/305/30960365443_dc82235ae2_q.jpg" class="left image circle person-behind-the-book" alt="Matthias Günther loves Vim and painting Warhammer figures">
   </div>
   <div class="large-5 medium-5 columns info">
     <div class="newsletter-box">

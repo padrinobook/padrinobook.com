@@ -4,6 +4,7 @@ permalink: imprint/
 ---
 <div class="row">
   <div class="twelve columns">
+
     <h1>Imprint</h1>
 
     <p> Accordance with § 5 TMG: </p>
