@@ -1,23 +1,19 @@
-// Gumby is ready to go
-Gumby.ready(function() {
-	Gumby.log('Gumby is ready to go...', Gumby.dump());
+// for the latest github commits
+// $(function() {
+//     $('#github-commits').githubInfoWidget(
+//         { user: 'padrinobook', repo: 'padrinobook', branch: 'master', last: 5, limitMessageTo: 30 });
+// });
 
-	// placeholder polyfil
-	if(Gumby.isOldie || Gumby.$dom.find('html').hasClass('ie9')) {
-		$('input, textarea').placeholder();
-	}
 
-	// skip link and toggle on one element
-	// when the skip link completes, trigger the switch
-	$('#skip-switch').on('gumby.onComplete', function() {
-		$(this).trigger('gumby.trigger');
-	});
+// Piwik tracking
+var _paq = _paq || [];
+_paq.push(['trackPageView']);
+_paq.push(['enableLinkTracking']);
+(function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://padrinobook.com/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+})();
 
-// Oldie document loaded
-}).oldie(function() {
-	Gumby.warn("This is an oldie browser...");
-
-// Touch devices loaded
-}).touch(function() {
-	Gumby.log("This is a touch enabled device...");
-});

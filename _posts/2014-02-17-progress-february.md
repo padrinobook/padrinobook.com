@@ -1,5 +1,6 @@
 ---
 title: Progress February 2014
+description: Switched from bootstrap to Gumby, news style for the book
 ---
 
 Hio,

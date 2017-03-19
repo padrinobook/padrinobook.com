@@ -1,5 +1,6 @@
 ---
 title: User Profile and HTML Version of the Book July 2014
+description: Installed a new logo, changed github name, rename github URL, add newsletterarchive, switched to softcover
 ---
 
 Hi,
@@ -28,5 +29,4 @@ Now enjoy watching the soccer worldcup finale game and have a good start in the 
 Best regards,
 
 Matthias
-
 
