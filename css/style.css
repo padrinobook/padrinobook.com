@@ -521,16 +521,10 @@ a.fa-medium:hover {
   color: white;
 }
 
-@media (max-width: 1400px) {
+
+@media (max-width: 1800px) {
   .social {
-    background: transparent none repeat scroll 0 0;
-    display: block;
-    font-size: 22px;
-    padding: 15px;
-    position: fixed;
-    left: 85%;
-    top: 5%;
-    z-index: 9999;
+    display: none;
   }
 }
 
