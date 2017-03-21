@@ -18,7 +18,7 @@ permalink: about/
     is <a href="https://github.com/padrino/padrino-framework/contributors" title="Contributing to Padrino">contributing</a> to Padrino, and helps
     keeping up <a href="http://padrinorb.com/" title="Padrino website">padrinorb.com</a>.
     </p>
-    <p> Contact Matthias directly via mail <a href={{ site.email }} title="Contact via mail">{{ site.email }}</a> or on
+    <p> Contact Matthias directly via <a href="/mail.php"title="Contact via mail">mail</a> or on
     <a href="{{ site.twitter }}" title="Contact via twitter">twitter</a>.
     </p>
   </div>
