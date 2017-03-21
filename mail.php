@@ -243,5 +243,23 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <script type="text/javascript">
       new ContactForm('#contact-form');
   </script>
+
+  <!-- <script type="text/javascript" src="/js/vendor/jquery.js"></script> -->
+  <script type="text/javascript" src="/js/main.js"></script>
+  <!-- <script type="text/javascript" src="/js/github-commits-widget.js"></script> -->
+
+  <!-- Hotjar Tracking Code for https://padrinobook.com -->
+  <script>
+      (function(h,o,t,j,a,r){
+          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+          h._hjSettings={hjid:442173,hjsv:5};
+          a=o.getElementsByTagName('head')[0];
+          r=o.createElement('script');r.async=1;
+          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+          a.appendChild(r);
+      })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
+  <!-- Piwik tracking pixel -->
+  <noscript><p><img src="https://padrinobook.com/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
   </body>
 </html>
