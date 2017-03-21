@@ -57,6 +57,27 @@ ul, menu, dir {
   margin: 7px -5px 10px !important;
 }
 
+#mc_embed_signup_newsletter form {
+  padding: 0;
+  display: inline !important;
+  margin: 7px -5px 10px !important;
+}
+
+#mc_embed_signup_newsletter input.email {
+  display: inline !important;
+  margin: 0 4% 10px 0;
+  min-width: 130px;
+  padding: 8px 0;
+  text-indent: 5px;
+  width: 58%;
+}
+
+#mc_embed_signup_newsletter input.button {
+  display: inline !important;
+  margin: 7px -5px 10px !important;
+  width: 35%;
+}
+
 /* Different stuff */
 
 header {
@@ -522,6 +543,30 @@ a.fa-medium:hover {
 }
 
 
+/* Alert-Box */
+.form-horizontal {
+  margin-left: 1.7rem;
+}
+.alert {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+.alert-success {
+  color: #3adb76;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #3c763d;
+}
+.alert-danger {
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  color: #a94442;
+}
+
+
+/* Media-Queries */
 @media (max-width: 1800px) {
   .social {
     display: none;
