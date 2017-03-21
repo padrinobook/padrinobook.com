@@ -176,7 +176,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </form>
                 <br>
                 <br>
-                or follow <a href="https://twitter.com/padrinobook">@padrinobook on twitter</a>, or sign up for the <a href="http://www.feedio.co/@padrinobook/feed">RSS feed</a>
+                or follow <a href="https://twitter.com/padrinobook">@padrinobook on twitter</a>, or sign up for the <a href="http://www.feedio.co/@padrinobook/feed">RSS feed</a>, or read about <a href="/news">previous news</a>.
             </div>
         <?php else: ?>
             <?php if(!empty($hasError)): ?>
@@ -225,6 +225,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <a href="http://eepurl.com/Wskif">Newsletter</a>
             <span class="footer-separater">&bull;</span>
             <a href="http://www.feedio.co/@padrinobook/feed">RSS</a>
+            <span class="footer-separater">&bull;</span>
+            <a href="/mail.php">Contact</a>
             <span class="footer-separater">&bull;</span>
             <a href="/contribute">Contribute</a>
             <span class="footer-separater">&bull;</span>
