@@ -13,7 +13,7 @@ task :staging do
   system "rsync -vru -e \"ssh\" --del ?site/* xa6195@xa6.serverdomain.org:/home/www/stagingpadrinobook"
 
   puts "Done!".bold.green
-  puts '# Please refer to https://padrinobook.wikimatze.de to visit the staging system'.green
+  puts '# Please refer to https://staging.padrinobook.com to visit the staging system'.green
 end
 
 desc "Deploy"
