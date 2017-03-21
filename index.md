@@ -25,7 +25,7 @@
         </li>
       {% endfor %}
     </ul>
-    <p class="person-behind-the-book">
+    <p>
       The person behind this book <a href="https://twitter.com/wikimatze">@wikimatze</a>:
     </p>
     <img src="https://c1.staticflickr.com/1/305/30960365443_dc82235ae2_q.jpg" class="left image circle person-behind-the-book" alt="Matthias Günther loves Vim and painting Warhammer figures">

@@ -78,6 +78,10 @@ ul, menu, dir {
   width: 35%;
 }
 
+img.person-behind-the-book {
+  margin-left: 100px;
+}
+
 /* Different stuff */
 
 header {
