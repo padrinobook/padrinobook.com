@@ -1,20 +1,27 @@
+PATH
+  remote: /home/wm/git/sweetie
+  specs:
+    sweetie (2.0.0)
+      json (~> 1.8)
+      nokogiri (~> 1.6)
+
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.5.0)
+    addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
     colorator (1.1.0)
     ffi (1.9.18)
     fileutils (0.7)
       rmagick (>= 2.13.1)
     forwardable-extended (2.6.0)
-    jekyll (3.4.2)
+    jekyll (3.5.0)
       addressable (~> 2.4)
       colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 1.1)
       kramdown (~> 1.3)
-      liquid (~> 3.0)
+      liquid (~> 4.0)
       mercenary (~> 0.3.3)
       pathutil (~> 0.9)
       rouge (~> 1.7)
@@ -25,32 +32,29 @@ GEM
       jekyll (~> 3.3)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
-    json (2.0.2)
+    json (1.8.6)
     kramdown (1.13.2)
-    liquid (3.0.6)
+    liquid (4.0.0)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
-    mini_portile2 (2.1.0)
-    nokogiri (1.7.0)
-      mini_portile2 (~> 2.1.0)
+    mini_portile2 (2.2.0)
+    nokogiri (1.8.0)
+      mini_portile2 (~> 2.2.0)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
     rake (10.4.2)
     rb-fsevent (0.9.8)
-    rb-inotify (0.9.8)
-      ffi (>= 0.5.0)
+    rb-inotify (0.9.10)
+      ffi (>= 0.5.0, < 2)
     redcarpet (3.3.4)
     rmagick (2.16.0)
     rouge (1.10.1)
     safe_yaml (1.0.4)
-    sass (3.4.23)
+    sass (3.4.24)
     stringex (2.5.2)
-    sweetie (1.0.1)
-      json (>= 1.6.1)
-      nokogiri (>= 1.4.6)
 
 PLATFORMS
   ruby
@@ -58,13 +62,13 @@ PLATFORMS
 DEPENDENCIES
   colorator (= 1.1.0)
   fileutils (= 0.7)
-  jekyll (= 3.4.2)
+  jekyll (~> 3.5)
   jekyll-sitemap (= 1.0.0)
   rake (= 10.4.2)
   redcarpet (= 3.3.4)
   rouge (= 1.10.1)
   stringex (= 2.5.2)
-  sweetie (= 1.0.1)
+  sweetie!
 
 BUNDLED WITH
-   1.13.5
+   1.14.6
