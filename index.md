@@ -16,7 +16,7 @@
 <div class="row">
   <div class="large-5 medium-5 columns articles">
     <span class="information badge author primary">
-      News
+      <a href="/news">News</a>
     </span>
     <ul>
       {% for post in site.posts limit:1 %}
@@ -47,8 +47,9 @@
       </div>
     </div>
     <div class="newsletter-box">
-      <h5>Grab a preview version:</h5>
-      <a class="nice large success button pretty large secondary btn " href="https://www.softcover.io/downloads/fd219c19/padrinobook">Preview</a>
+      <h5>Get the book:</h5>
+      <a class="nice large button alert large secondary btn" style="text-decoration: none; margin-right: 10px" href="https://www.softcover.io/books/wikimatze/padrinobook#pricing">Buy</a>
+      <a class="nice large button pretty large secondary btn" href="https://www.softcover.io/download/wikimatze/padrinobook/ebooks/padrinobook-preview.pdf">Preview</a>
       <p> or <a href="/book">read online</a>.</p>
     </div>
   </div>
