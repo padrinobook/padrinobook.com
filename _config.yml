@@ -21,6 +21,20 @@ url: https://padrinobook.com
 title: PadrinoBook
 description: PadrinoBook - The Guide To Master The Elegant Ruby Web Framework
 
+# statistics
+build: 6-19-2017
+htmlpages: 600
+images: 20
+links: 271
+
+
+# bitbucket
+pmwiki_dropcaps_recipe: 2017-02-24
+pmwiki_syntaxlove_recipe: 2017-02-26
+pmwiki_twitter_recipe: 2017-02-26
+pmwiki_linkicons_recipe: 2017-02-26
+pmwiki_headlineimage_recipe: 2017-02-25
+
 
 exclude:
 - Gemfile

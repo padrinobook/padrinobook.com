@@ -1,5 +1,17 @@
 require 'colorator'
 require 'rake'
+require 'sweetie'
+
+
+desc 'write stats in the _config.yml'
+task :create_stati do
+  sweetie = Sweetie::Conversion.new('./_site', './_config.yml')
+  sweetie.create_stati
+
+  stati_helper = Sweetie::BitbucketStatiHelper.new('./_config.yml', 'wikimatze')
+  bitbucket = Sweetie::Bitbucket.new(stati_helper)
+  bitbucket.update_stati
+end
 
 desc "Staging"
 task :staging do
