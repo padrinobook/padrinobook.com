@@ -1,13 +1,11 @@
 ---
 ---
-<p>
-  If you want to go into web development with ease and no boundaries to which
-  components you want to use, then dig into Padrino.
-  Padrino is super interesting, but there aren't a lot of docs available and this book will change it.
-</p>
-<p>
-  This book will teach you how to craft web applications in Padrino with joy and fun.
-</p>
+If you want to go into web development with ease and no boundaries to which
+components you want to use, then dig into Padrino.
+Padrino is super interesting, but there aren't a lot of docs available and this book will change it.
+
+
+This book will teach you how to craft web applications in Padrino with joy and fun.
 
 <div class="columns is-vcentered">
   <div class="column is-6">
