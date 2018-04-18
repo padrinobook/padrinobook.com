@@ -2,27 +2,16 @@
 <html lang="en" class="no-js" prefix="og: http://ogp.me/ns#" >
   <head>
     <meta charset="utf-8" />
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta content="True" name='HandheldFriendly'>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}PadrinoBook | {{ page.title }} {% else %}PadrinoBook{% endif %}</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
     <meta name="author" content="Matthias Günther">
-
-    <title>{% if page.title %}PadrinoBook | {{ page.title }} {% else %}PadrinoBook{% endif %}</title>
+    <meta content="noodp" name="robots" >
 
     <link rel="canonical" href="https://padrinobook.com{{ page.url }}" />
 
-    <link rel="stylesheet" href="/css/foundation.css" />
-    <link rel="stylesheet" href="/css/syntax.css">
-    <!-- <link rel="stylesheet" href="/css/flexslider.css"> -->
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/fontawesome.css">
-
-    <meta content="noodp" name="robots" >
-
-    <link href="http://www.feedio.co/@padrinobook/feed" rel="alternate" type="application/rss+xml" title="RSS feed for PadrinoBook">
-
+    <meta property="og:locale" content="en_US" />
     <meta property="og:site_name" content="Padrinobook" />
     <meta property="og:title" content="{% if page.title %}PadrinoBook | {{ page.title }} {% else %}{{ site.description }}{% endif %}" />
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
@@ -58,6 +47,14 @@
     <meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png">
     <meta name="msapplication-config" content="/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
+
+    <link href="http://www.feedio.co/@padrinobook/feed" rel="alternate" type="application/rss+xml" title="RSS feed for PadrinoBook">
+
+    <link rel="stylesheet" href="/css/bulma.css" />
+    <link rel="stylesheet" href="/css/syntax.css">
+    <!-- <link rel="stylesheet" href="/css/flexslider.css"> -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/fontawesome.css">
   </head>
   <body>
     <div class='social share'>
@@ -81,15 +78,47 @@
     </div>
 
     <br>
+    <br>
+    <br>
 
-    <div class="row">
-      <div class="small-10 large-10 medium-10 columns cover">
-        <a href="/index.html" title="Padrinobook - A book about the Elegant Ruby Web Framework">
-          <img src="/logo.png" alt="Logo of Padrinobook"/>
-        </a>
+    <div class="container content">
+      <a href="/index.html" title="Padrinobook - A book about the Elegant Ruby Web Framework">
+        <img src="/logo.png" alt="Logo of Padrinobook"/>
+      </a>
+
+      <br>
+      <br>
+
+      {{ content }}
+    </div>
+    <footer>
+      <div class="container">
+        <hr>
+        <nav>
+          <span class="copyright">2017 &copy;</span>
+          <span class="footer-separater">&bull;</span>
+          <a href="http://www.feedio.co/@padrinobook/feed">RSS</a>
+          <span class="footer-separater">&bull;</span>
+          <a href="/mail.php">Contact</a>
+          <span class="footer-separater">&bull;</span>
+          <a href="/news">News</a>
+          <span class="footer-separater">&bull;</span>
+          <a href="http://eepurl.com/Wskif">Newsletter</a>
+          <span class="footer-separater">&bull;</span>
+          <a href="/about">About</a>
+          <span class="footer-separater">&bull;</span>
+          <a href="/imprint">Imprint</a>
+          <span class="footer-separater">&bull;</span>
+          <a href="/contribute">Contribute</a>
+        </nav>
       </div>
-      <br>
-      <br>
+    </footer>
+
+    <!-- <div class="row">                                         -->
+    <!--   <div class="small-10 large-10 medium-10 columns cover"> -->
+    <!--   </div>                                                  -->
+    <!--   <br>                                                    -->
+    <!--   <br>                                                    -->
       <!-- <div class="large-6 medium-6 columns info"> -->
         <!-- <div class="information badge author primary">                     -->
 
@@ -109,34 +138,8 @@
         <!--   </div> -->
         <!-- </div> -->
       <!-- </div> -->
-      <hr>
+      <!-- <hr> -->
     <!-- </div> -->
-    {{ content }}
-
-    <div class="row">
-      <div class="large-12 medium-12 columns">
-        <hr>
-        <footer>
-          <nav>
-            <span class="copyright">2017 &copy;</span>
-            <span class="footer-separater">&bull;</span>
-            <a href="http://www.feedio.co/@padrinobook/feed">RSS</a>
-            <span class="footer-separater">&bull;</span>
-            <a href="/mail.php">Contact</a>
-            <span class="footer-separater">&bull;</span>
-            <a href="/news">News</a>
-            <span class="footer-separater">&bull;</span>
-            <a href="http://eepurl.com/Wskif">Newsletter</a>
-            <span class="footer-separater">&bull;</span>
-            <a href="/about">About</a>
-            <span class="footer-separater">&bull;</span>
-            <a href="/imprint">Imprint</a>
-            <span class="footer-separater">&bull;</span>
-            <a href="/contribute">Contribute</a>
-          </nav>
-        </footer>
-      </div>
-    </div>
 
     {% if jekyll.environment == "production" %}
     <!-- <script type="text/javascript" src="/js/vendor/jquery.js"></script> -->
