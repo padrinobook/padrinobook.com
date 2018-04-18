@@ -3,8 +3,7 @@ layout: default
 ---
 
 <article>
-  <div class="row">
-    <div class="large-10 medium-10 columns">
+  <div class="container">
     <h2>{{ page.title }}</h2>
 
     <!-- <header>                                                                     -->
@@ -16,13 +15,6 @@ layout: default
     <!-- </header>                                                                    -->
 
     {{ content }}
-
-    {% include sharing.html %}
-
-    {% if jekyll.environment == "production" %}
-    <aside>
-      {% include comments.html %}
-    </aside>
-    {% endif %}
+  </div>
 </article>
 
