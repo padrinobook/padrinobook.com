@@ -54,37 +54,83 @@
     <link rel="stylesheet" href="/css/syntax.css">
     <!-- <link rel="stylesheet" href="/css/flexslider.css"> -->
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/fontawesome.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
   </head>
   <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <span class="navbar-burger burger" data-target="navbarMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenu" class="navbar-menu">
+
+          <div class="navbar-end">
+            {% if page.active == "home" %}
+            <a  class="navbar-item is-active" href="/">Home</a>
+            {% else %}
+            <a  class="navbar-item" href="/">Home</a>
+            {% endif %}
+            {% if page.active == "news" %}
+            <a class="navbar-item is-active" href="/news" title="Overview of latest articles">News</a>
+            {% else %}
+            <a class="navbar-item" href="/news" title="Overview of latest articles">News</a>
+            {% endif %}
+
+            {% if page.active == "contribute" %}
+            <a class="navbar-item is-active" href="/contribute" title="Some notes about me">Contribute</a>
+            {% else %}
+            <a class="navbar-item" href="/contribute" title="Some notes about me">Contribute</a>
+            {% endif %}
+
+            {% if page.active == "about" %}
+            <a class="navbar-item is-active" href="/about" title="Some notes about me">About</a>
+            {% else %}
+            <a class="navbar-item" href="/about" title="Some notes about me">About</a>
+            {% endif %}
+            {% if page.active == "imprint" %}
+            <a class="navbar-item is-active" href="/imprint" title="Some notes about me">Imprint</a>
+            {% else %}
+            <a class="navbar-item" href="/imprint" title="Some notes about me">Imprint</a>
+            {% endif %}
+            <a class="navbar-item" href="/mail.php" title="Contact me">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
     <div class='social share'>
       <ul>
         <li>
-          <a class='fa fa-twitter-square' href='https://twitter.com/padrinobook' rel='noopener noreferrer' target='_blank' title='Follow me on Twitter'></a>
+          <a class='fab fa-twitter-square' href='https://twitter.com/padrinobook' rel='noopener noreferrer' target='_blank' title='Follow me on Twitter'></a>
         </li>
         <li>
-          <a class='fa fa-facebook-square' href='https://www.facebook.com/padrinobook' rel='noopener noreferrer' target='_blank' title='Follow me on Facebook'></a>
+          <a class='fab fa-facebook-square' href='https://www.facebook.com/padrinobook' rel='noopener noreferrer' target='_blank' title='Follow me on Facebook'></a>
         </li>
         <li>
-          <a class='fa fa-google-plus-square' href="https://plus.google.com/109249095952663676924" rel='noopener noreferrer' target='_blank' title='Follow me on Google+'></a>
+          <a class='fab fa-google-plus-square' href="https://plus.google.com/109249095952663676924" rel='noopener noreferrer' target='_blank' title='Follow me on Google+'></a>
         </li>
         <li>
-          <a class='fa fa-github-square' href='https://github.com/padrinobook/padrinobook' rel='noopener noreferrer' target='_blank' title='Follow me on GitHub'></a>
+          <a class='fab fa-github-square' href='https://github.com/padrinobook/padrinobook' rel='noopener noreferrer' target='_blank' title='Follow me on GitHub'></a>
         </li>
         <li>
-          <a class='fa fa-medium' href='https://medium.com/@padrinobook' rel='noopener noreferrer' target='_blank' title='Follow me on Medium'></a>
+          <a class='fab fa-medium' href='https://medium.com/@padrinobook' rel='noopener noreferrer' target='_blank' title='Follow me on Medium'></a>
         </li>
       </ul>
     </div>
 
     <br>
-    <br>
-    <br>
 
     <div class="container content">
       <a href="/index.html" title="Padrinobook - A book about the Elegant Ruby Web Framework">
-        <img src="/logo.png" alt="Logo of Padrinobook"/>
+        <img id="logo" src="/logo.png" alt="Logo of Padrinobook"/>
       </a>
+      <div id="logo-text">
+        <strong>PadrinoBook</strong>
+      </div>
 
       <br>
       <br>
@@ -95,7 +141,7 @@
       <div class="container">
         <hr>
         <nav>
-          <span class="copyright">2017 &copy;</span>
+          <i class="far fa-copyright"></i> <span class="copyright">Matthias Günther</span>
           <span class="footer-separater">&bull;</span>
           <a href="http://www.feedio.co/@padrinobook/feed">RSS</a>
           <span class="footer-separater">&bull;</span>
@@ -141,6 +187,32 @@
       <!-- <hr> -->
     <!-- </div> -->
 
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        // Get all "navbar-burger" elements
+        var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+        // Check if there are any navbar burgers
+        if ($navbarBurgers.length > 0) {
+
+          // Add a click event on each of them
+          $navbarBurgers.forEach(function ($el) {
+            $el.addEventListener('click', function () {
+
+              // Get the target from the "data-target" attribute
+              var target = $el.dataset.target;
+              var $target = document.getElementById(target);
+
+              // Toggle the class on both the "navbar-burger" and the "navbar-menu"
+              $el.classList.toggle('is-active');
+              $target.classList.toggle('is-active');
+
+            });
+          });
+        }
+      });
+    </script>
+
     {% if jekyll.environment == "production" %}
     <!-- <script type="text/javascript" src="/js/vendor/jquery.js"></script> -->
     <script type="text/javascript" src="/js/main.js"></script>
@@ -157,6 +229,18 @@
             a.appendChild(r);
         })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
+
+    <script>
+      (function() {
+      var burger = document.querySelector('.burger');
+      var menu = document.querySelector('#'+burger.dataset.target);
+      burger.addEventListener('click', function() {
+          burger.classList.toggle('is-active');
+          menu.classList.toggle('is-active');
+      });
+      })();
+    </script>
+
     <!-- Piwik tracking pixel -->
     <noscript><p><img src="https://padrinobook.com/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
     {% endif %}
