@@ -5,8 +5,6 @@
 
 ## Notes about the technology
 
-- [foundation css](http://foundation.zurb.com/ "foundation css")
-- [slackin](https://github.com/rauchg/slackin "slackin") for a communication channel under <http://padrinobook.herokuapp.com/>
-  - [basic idea](http://rauchg.com/slackin/ "basic idea")
-  - [install and deploy on heroku](https://github.com/rauchg/slackin "install and deploy on heroku")
-- [github-commits-widget](https://github.com/alexbeletsky/github-commits-widget "github-commits-widget")
+- [bulma](https://bulma.io/ "bulma"): An open source CSS framework based on [flexbox](https://www.w3schools.com/css/css3_flexbox.asp "flexbox")
+- [jekyll](https://jekyllrb.com/ "jekyll"): Static website generator written in [Ruby](https://www.ruby-lang.org/en/ "Ruby")
+
