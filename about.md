@@ -1,6 +1,7 @@
 ---
 title: About
 permalink: about/
+active: about
 ---
 <h1>About</h1>
 

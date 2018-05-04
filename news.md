@@ -1,6 +1,7 @@
 ---
 title: News
 permalink: news/
+active: news
 ---
 
 <h1>News</h1>

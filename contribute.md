@@ -1,6 +1,7 @@
 ---
 title: Contribute
 permalink: contribute/
+active: contribute
 ---
 <h1>Contribute</h1>
 

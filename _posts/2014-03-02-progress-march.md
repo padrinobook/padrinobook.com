@@ -1,6 +1,7 @@
 ---
 title: Progress March 2014
 description: Own mail address and responsive website adjustments
+active: news
 ---
 
 Hio,
