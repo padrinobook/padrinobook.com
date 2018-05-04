@@ -54,30 +54,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 ?><!DOCTYPE html>
-<html>
+<html lang="en" class="no-js" prefix="og: http://ogp.me/ns#" >
   <head>
     <meta charset="utf-8" />
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta content="True" name='HandheldFriendly'>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PadrinoBook</title>
     <meta name="description" content="PadrinoBook - The Guide To Master The Elegant Ruby Web Framework" />
     <meta name="author" content="Matthias Günther">
-
-    <title>PadrinoBook</title>
+    <meta content="noodp" name="robots" >
 
     <link rel="canonical" href="https://padrinobook.com/" />
 
-    <link rel="stylesheet" href="/css/foundation.css" />
-    <link rel="stylesheet" href="/css/syntax.css">
-    <!-- <link rel="stylesheet" href="/css/flexslider.css"> -->
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/fontawesome.css">
-
-    <meta content="noodp" name="robots" >
-
-    <link href="http://www.feedio.co/@padrinobook/feed" rel="alternate" type="application/rss+xml" title="RSS feed for PadrinoBook">
-
+    <meta property="og:locale" content="en_US" />
     <meta property="og:site_name" content="Padrinobook" />
     <meta property="og:title" content="PadrinoBook - The Guide To Master The Elegant Ruby Web Framework" />
     <meta property="og:description" content="PadrinoBook - The Guide To Master The Elegant Ruby Web Framework" />
@@ -113,153 +102,187 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png">
     <meta name="msapplication-config" content="/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-  </head>
 
+    <link href="http://www.feedio.co/@padrinobook/feed" rel="alternate" type="application/rss+xml" title="RSS feed for PadrinoBook">
+
+    <link rel="stylesheet" href="/css/bulma.css" />
+    <link rel="stylesheet" href="/css/syntax.css">
+    <!-- <link rel="stylesheet" href="/css/flexslider.css"> -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+  </head>
   <body>
-  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <span class="navbar-burger burger" data-target="navbarMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenu" class="navbar-menu">
+
+          <div class="navbar-end">
+            <a class="navbar-item" href="/">Home</a>
+            <a class="navbar-item" href="/news" title="Overview of latest articles">News</a>
+            <a class="navbar-item" href="/about" title="Some notes about me">About</a>
+            <a class="navbar-item is-active" href="/mail.php" title="Contact me">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
     <div class='social share'>
       <ul>
         <li>
-          <a class='fa fa-twitter-square' href='https://twitter.com/padrinobook' rel='noopener noreferrer' target='_blank' title='Follow me on Twitter'></a>
+          <a class='fab fa-twitter-square' href='https://twitter.com/padrinobook' rel='noopener noreferrer' target='_blank' title='Follow me on Twitter'></a>
         </li>
         <li>
-          <a class='fa fa-facebook-square' href='https://www.facebook.com/padrinobook' rel='noopener noreferrer' target='_blank' title='Follow me on Facebook'></a>
+          <a class='fab fa-facebook-square' href='https://www.facebook.com/padrinobook' rel='noopener noreferrer' target='_blank' title='Follow me on Facebook'></a>
         </li>
         <li>
-          <a class='fa fa-google-plus-square' href="https://plus.google.com/109249095952663676924" rel='noopener noreferrer' target='_blank' title='Follow me on Google+'></a>
+          <a class='fab fa-google-plus-square' href="https://plus.google.com/109249095952663676924" rel='noopener noreferrer' target='_blank' title='Follow me on Google+'></a>
         </li>
         <li>
-          <a class='fa fa-github-square' href='https://github.com/padrinobook/padrinobook' rel='noopener noreferrer' target='_blank' title='Follow me on GitHub'></a>
+          <a class='fab fa-github-square' href='https://github.com/padrinobook/padrinobook' rel='noopener noreferrer' target='_blank' title='Follow me on GitHub'></a>
         </li>
         <li>
-          <a class='fa fa-medium' href='https://medium.com/@padrinobook' rel='noopener noreferrer' target='_blank' title='Follow me on Medium'></a>
+          <a class='fab fa-medium' href='https://medium.com/@padrinobook' rel='noopener noreferrer' target='_blank' title='Follow me on Medium'></a>
         </li>
       </ul>
     </div>
 
     <br>
 
-    <div class="row">
-      <div class="small-10 large-10 medium-10 columns cover">
-        <a href="/index.html" title="Padrinobook - A book about the Elegant Ruby Web Framework">
-          <img src="/logo.png" alt="Logo of Padrinobook"/>
-        </a>
-      </div>
+    <div class="container content">
+      <a href="/index.html" title="Padrinobook - A book about the Elegant Ruby Web Framework">
+        <img src="/logo.png" alt="Logo of Padrinobook"/>
+      </a>
+
       <br>
       <br>
-      <div class="row">
-        <div class="large-10 medium-10 columns content">
-          <article>
-          <header>
-            <h1>Contact</h1>
-          </header>
 
-        <?php if(!empty($emailSent)): ?>
-            <div class="col-md-6 col-md-offset-3">
-                <div class="alert alert-success text-center"><?php echo $config->get('messages.success'); ?></div>
-                <br>
+      <header>
+        <h1 class="lead">Contact</h1>
+      </header>
 
-                In the meanwhile, you can either sign up for the newsletter:
-
-                <br>
-
-                <link href="https://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
-                <style type="text/css">
-                  #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-                  /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-                     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-                </style>
-                <div id="mc_embed_signup_newsletter">
-                <form action="https://wikimatze.us6.list-manage.com/subscribe/post?u=4010f8ce18503766e176536f1&amp;id=198f8c0321" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button pretty medium info btn">
-                </form>
-                <br>
-                <br>
-                or follow <a href="https://twitter.com/padrinobook">@padrinobook on twitter</a>, or sign up for the <a href="http://www.feedio.co/@padrinobook/feed">RSS feed</a>, or read about <a href="/news">previous news</a>.
-            </div>
-        <?php else: ?>
-            <?php if(!empty($hasError)): ?>
-            <div class="col-md-5 col-md-offset-4">
-                <div class="alert alert-danger text-center"><?php echo $config->get('messages.error'); ?></div>
-            </div>
-            <?php endif; ?>
-              <form action="<?php echo $_SERVER['REQUEST_URI']; ?>" enctype="application/x-www-form-urlencoded" id="contact-form" class="form-horizontal" method="post">
-                <div class="form-group">
-                    <label for="form-email" class="col-lg-2 control-label"><?php echo $config->get('fields.email'); ?></label>
-                    <div class="col-lg-10">
-                        <input type="email" class="form-control" id="form-email" name="form-email" placeholder="<?php echo $config->get('fields.email'); ?>" required>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="form-subject" class="col-lg-2 control-label"><?php echo $config->get('fields.subject'); ?></label>
-                    <div class="col-lg-10">
-                        <input type="text" class="form-control" id="form-subject" name="form-subject" placeholder="<?php echo $config->get('fields.subject'); ?>" required>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="form-message" class="col-lg-2 control-label"><?php echo $config->get('fields.message'); ?></label>
-                    <div class="col-lg-10">
-                        <textarea class="form-control" rows="5" id="form-message" name="form-message" placeholder="<?php echo $config->get('fields.message'); ?>" required></textarea>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-lg-offset-2 col-lg-10">
-                        <button type="submit" class="button large expanded"><?php echo $config->get('fields.btn-send'); ?></button>
-                    </div>
-                </div>
-            </form>
-          <?php endif; ?>
-          </article>
+    <?php if(!empty($emailSent)): ?>
+        <div class="notification is-success">
+            <?php echo $config->get('messages.success'); ?>
         </div>
-      </div>
+    <?php else: ?>
+        <?php if(!empty($hasError)): ?>
+        <div class="notification is-danger">
+            <?php echo $config->get('messages.error'); ?>
+        </div>
+        <?php endif; ?>
+
+        <form action="<?php echo $_SERVER['REQUEST_URI']; ?>" enctype="application/x-www-form-urlencoded" id="contact-form" class="form-horizontal" method="post">
+            <div class="field">
+              <label for="form-email" class="label"><?php echo $config->get('fields.email'); ?></label>
+              <div class="control has-icons-left">
+                <input type="email" class="input" id="form-email" name="form-email" placeholder="<?php echo $config->get('fields.email'); ?>" required>
+                <span class="icon is-small is-left">
+                  <i class="fas fa-envelope"></i>
+                </span>
+              </div>
+            </div>
+            <div class="field">
+              <label for="form-email" class="label"><?php echo $config->get('fields.subject'); ?></label>
+              <div class="control has-icons-left">
+                <input type="text" class="input" id="form-subject" name="form-subject" placeholder="<?php echo $config->get('fields.subject'); ?>" required>
+                <span class="icon is-small is-left">
+                  <i class="fas fa-rocket"></i>
+                </span>
+              </div>
+            </div>
+            <div class="field">
+              <label class="label"><?php echo $config->get('fields.message'); ?></label>
+              <div class="control">
+                <textarea class="textarea" id="form-message" name="form-message" placeholder="<?php echo $config->get('fields.message'); ?>" required></textarea>
+              </div>
+            </div>
+
+            <div class="field is-grouped">
+              <div class="control">
+                <button type="submit" class="button is-large is-link"><?php echo $config->get('fields.btn-send'); ?></button>
+              </div>
+            </div>
+        </form>
+      <?php endif; ?>
     </div>
 
-    <div class="row">
-      <div class="large-12 medium-12 columns">
+    <footer>
+      <div class="container">
         <hr>
-        <footer>
-          <nav>
-            <span class="copyright">2017 &copy;</span>
-            <span class="footer-separater">&bull;</span>
-            <a href="http://eepurl.com/Wskif">Newsletter</a>
-            <span class="footer-separater">&bull;</span>
-            <a href="http://www.feedio.co/@padrinobook/feed">RSS</a>
-            <span class="footer-separater">&bull;</span>
-            <a href="/mail.php">Contact</a>
-            <span class="footer-separater">&bull;</span>
-            <a href="/contribute">Contribute</a>
-            <span class="footer-separater">&bull;</span>
-            <a href="/about">About</a>
-            <span class="footer-separater">&bull;</span>
-            <a href="/news">News</a>
-            <span class="footer-separater">&bull;</span>
-            <a href="/imprint">Imprint</a>
-          </nav>
-        </footer>
+        <nav>
+          <i class="far fa-copyright"></i> <span class="copyright">Matthias Günther</span>
+          <span class="footer-separater">&bull;</span>
+          <a href="http://www.feedio.co/@padrinobook/feed">RSS</a>
+          <span class="footer-separater">&bull;</span>
+          <a href="/mail.php">Contact</a>
+          <span class="footer-separater">&bull;</span>
+          <a href="/news">News</a>
+          <span class="footer-separater">&bull;</span>
+          <a href="http://eepurl.com/Wskif">Newsletter</a>
+          <span class="footer-separater">&bull;</span>
+          <a href="/about">About</a>
+          <span class="footer-separater">&bull;</span>
+          <a href="/imprint">Imprint</a>
+          <span class="footer-separater">&bull;</span>
+          <a href="/contribute">Contribute</a>
+        </nav>
       </div>
-    </div>
-  <script type="text/javascript" src="mail/public/js/contact-form.js"></script>
-  <script type="text/javascript">
-      new ContactForm('#contact-form');
-  </script>
+    </footer>
 
-  <!-- <script type="text/javascript" src="/js/vendor/jquery.js"></script> -->
-  <script type="text/javascript" src="/js/main.js"></script>
-  <!-- <script type="text/javascript" src="/js/github-commits-widget.js"></script> -->
+    <script type="text/javascript" src="mail/public/js/contact-form.js"></script>
+    <script type="text/javascript">
+        new ContactForm('#contact-form');
+    </script>
 
-  <!-- Hotjar Tracking Code for https://padrinobook.com -->
-  <script>
-      (function(h,o,t,j,a,r){
-          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-          h._hjSettings={hjid:442173,hjsv:5};
-          a=o.getElementsByTagName('head')[0];
-          r=o.createElement('script');r.async=1;
-          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-          a.appendChild(r);
-      })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
-  </script>
-  <!-- Piwik tracking pixel -->
-  <noscript><p><img src="https://padrinobook.com/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        // Get all "navbar-burger" elements
+        var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+        // Check if there are any navbar burgers
+        if ($navbarBurgers.length > 0) {
+
+          // Add a click event on each of them
+          $navbarBurgers.forEach(function ($el) {
+            $el.addEventListener('click', function () {
+
+              // Get the target from the "data-target" attribute
+              var target = $el.dataset.target;
+              var $target = document.getElementById(target);
+
+              // Toggle the class on both the "navbar-burger" and the "navbar-menu"
+              $el.classList.toggle('is-active');
+              $target.classList.toggle('is-active');
+
+            });
+          });
+        }
+      });
+    </script>
+
+    <script type="text/javascript" src="/js/main.js"></script>
+    <!-- <script type="text/javascript" src="/js/github-commits-widget.js"></script> -->
+
+    <!-- Hotjar Tracking Code for https://padrinobook.com -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:442173,hjsv:5};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+    <!-- Piwik tracking pixel -->
+    <noscript><p><img src="https://padrinobook.com/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
   </body>
 </html>
