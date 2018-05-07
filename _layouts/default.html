@@ -230,17 +230,6 @@
         })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
 
-    <script>
-      (function() {
-      var burger = document.querySelector('.burger');
-      var menu = document.querySelector('#'+burger.dataset.target);
-      burger.addEventListener('click', function() {
-          burger.classList.toggle('is-active');
-          menu.classList.toggle('is-active');
-      });
-      })();
-    </script>
-
     <!-- Piwik tracking pixel -->
     <noscript><p><img src="https://padrinobook.com/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
     {% endif %}
