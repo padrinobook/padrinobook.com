@@ -1,7 +1,7 @@
 ---
 title: Imprint
 permalink: imprint/
-active: home
+active: imprint
 ---
 
 <h1>Imprint</h1>
