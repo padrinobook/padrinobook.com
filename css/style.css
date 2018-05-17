@@ -539,7 +539,6 @@ a.fa-medium:hover {
 }
 
 /* Navigation */
-// navbar
 .navbar-menu {
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -618,6 +617,15 @@ a.fa-medium:hover {
     font-size: 120% !important;
   }
 
+  .input {
+    max-width: 94%;
+  }
+
+  .textarea {
+    min-width: 95% !important;
+    max-width: 95% !important;
+  }
+
   .person-behind-the-book {
     display: none;
   }
@@ -653,7 +661,6 @@ a.fa-medium:hover {
     margin-right: 1rem;
     display: flex;
   }
-
   .sharing a {
     font-size: 2rem;
     margin-left: 0.1rem;
