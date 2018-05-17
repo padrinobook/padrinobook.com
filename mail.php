@@ -109,7 +109,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <link rel="stylesheet" href="/css/syntax.css">
     <!-- <link rel="stylesheet" href="/css/flexslider.css"> -->
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   </head>
   <body>
     <nav class="navbar">
@@ -132,7 +132,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
       </div>
     </nav>
-
 
     <div class='social share'>
       <ul>
@@ -158,8 +157,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     <div class="container content">
       <a href="/index.html" title="Padrinobook - A book about the Elegant Ruby Web Framework">
-        <img src="/logo.png" alt="Logo of Padrinobook"/>
+        <img id="logo" src="/logo.png" alt="Logo of Padrinobook"/>
       </a>
+      <div id="logo-text">
+        <strong>PadrinoBook</strong>
+      </div>
 
       <br>
       <br>
@@ -220,15 +222,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <nav>
           <i class="far fa-copyright"></i> <span class="copyright">Matthias Günther</span>
           <span class="footer-separater">&bull;</span>
-          <a href="http://www.feedio.co/@padrinobook/feed">RSS</a>
+          <a href="/about">About</a>
           <span class="footer-separater">&bull;</span>
           <a href="/mail.php">Contact</a>
           <span class="footer-separater">&bull;</span>
           <a href="/news">News</a>
-          <span class="footer-separater">&bull;</span>
-          <a href="http://eepurl.com/Wskif">Newsletter</a>
-          <span class="footer-separater">&bull;</span>
-          <a href="/about">About</a>
           <span class="footer-separater">&bull;</span>
           <a href="/imprint">Imprint</a>
           <span class="footer-separater">&bull;</span>
