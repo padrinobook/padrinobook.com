@@ -70,33 +70,36 @@
 
           <div class="navbar-end">
             {% if page.active == "home" %}
-            <a  class="navbar-item is-active" href="/">Home</a>
+            <a  class="navbar-item is-active" href="/" title="Back to home of padrinobook">Home</a>
             {% else %}
-            <a  class="navbar-item" href="/">Home</a>
+            <a  class="navbar-item" href="/" title="Back to home of padrinobook">Home</a>
             {% endif %}
+
+            {% if page.active == "about" %}
+            <a class="navbar-item is-active" href="/about" title="Behind the padrinobook is wikimatze">About</a>
+            {% else %}
+            <a class="navbar-item" href="/about" title="Behind the padrinobook is wikimatze">About</a>
+            {% endif %}
+
+            <a class="navbar-item" href="/mail.php" title="Contact me">Contact</a>
+
             {% if page.active == "news" %}
             <a class="navbar-item is-active" href="/news" title="Overview of latest articles">News</a>
             {% else %}
             <a class="navbar-item" href="/news" title="Overview of latest articles">News</a>
             {% endif %}
 
-            {% if page.active == "contribute" %}
-            <a class="navbar-item is-active" href="/contribute" title="Some notes about me">Contribute</a>
+            {% if page.active == "imprint" %}
+            <a class="navbar-item is-active" href="/imprint" title="Legal stuff from me">Imprint</a>
             {% else %}
-            <a class="navbar-item" href="/contribute" title="Some notes about me">Contribute</a>
+            <a class="navbar-item" href="/imprint" title="Legal stuff from me">Imprint</a>
             {% endif %}
 
-            {% if page.active == "about" %}
-            <a class="navbar-item is-active" href="/about" title="Some notes about me">About</a>
+            {% if page.active == "contribute" %}
+            <a class="navbar-item is-active" href="/contribute" title="Learn how to help me with padrinobook">Contribute</a>
             {% else %}
-            <a class="navbar-item" href="/about" title="Some notes about me">About</a>
+            <a class="navbar-item" href="/contribute" title="Learn how to help me with padrinobook">Contribute</a>
             {% endif %}
-            {% if page.active == "imprint" %}
-            <a class="navbar-item is-active" href="/imprint" title="Some notes about me">Imprint</a>
-            {% else %}
-            <a class="navbar-item" href="/imprint" title="Some notes about me">Imprint</a>
-            {% endif %}
-            <a class="navbar-item" href="/mail.php" title="Contact me">Contact</a>
           </div>
         </div>
       </div>
