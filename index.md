@@ -24,35 +24,35 @@ This book will teach you how to craft web applications in Padrino with joy and f
     </p>
     <img src="https://c1.staticflickr.com/1/305/30960365443_dc82235ae2_q.jpg" class="left image circle person-behind-the-book" alt="Matthias Günther loves Vim and painting Warhammer figures">
   </div>
-  <div class="column is-6">
 
-  <div class="newsletter-box">
-    <h5>Stay informed with the newsletter:</h5>
-    <div id="mc_embed_signup">
-    <form action="https://wikimatze.us6.list-manage.com/subscribe/post?u=4010f8ce18503766e176536f1&amp;id=198f8c0321" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-      <div class="field">
-        <div class="control has-icons-left">
-          <input class="input" id="mce-EMAIL" class="email" name="EMAIL" placeholder="Email" value="" type="email" required>
-          <span class="icon is-small is-left">
-            <i class="fas fa-envelope"></i>
-          </span>
+  <div class="column is-6 newsletter">
+    <div class="newsletter-box">
+      <h5>Stay informed with the newsletter:</h5>
+      <div id="mc_embed_signup">
+      <form action="https://wikimatze.us6.list-manage.com/subscribe/post?u=4010f8ce18503766e176536f1&amp;id=198f8c0321" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div class="field">
+          <div class="control has-icons-left">
+            <input class="input" id="mce-EMAIL" class="email" name="EMAIL" placeholder="Email" value="" type="email" required>
+            <span class="icon is-small is-left">
+              <i class="fas fa-envelope"></i>
+            </span>
+          </div>
         </div>
-      </div>
-      <div class="field is-grouped">
-        <div class="control">
-          <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button is-large is-link">Send</button>
+        <div class="field is-grouped">
+          <div class="control">
+            <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button is-large is-link">Send</button>
+          </div>
         </div>
+      </form>
       </div>
-    </form>
+    </div>
+    <div class="newsletter-box">
+      <h5>Get the book:</h5>
+      <a class="button is-danger is-large" style="text-decoration: none; margin-right: 10px" href="https://www.softcover.io/books/wikimatze/padrinobook#pricing">Buy</a>
+      <a class="button is-success" style="text-decoration: none;" href="https://www.softcover.io/download/wikimatze/padrinobook/ebooks/padrinobook-preview.pdf">Preview</a>
+      <p> or <a href="/book">read online</a>.</p>
     </div>
   </div>
-  <div class="newsletter-box">
-    <h5>Get the book:</h5>
-    <a class="button is-danger is-large" style="text-decoration: none; margin-right: 10px" href="https://www.softcover.io/books/wikimatze/padrinobook#pricing">Buy</a>
-    <a class="button is-success" style="text-decoration: none;" href="https://www.softcover.io/download/wikimatze/padrinobook/ebooks/padrinobook-preview.pdf">Preview</a>
-    <p> or <a href="/book">read online</a>.</p>
-  </div>
-</div>
 
 <!--
 <div class="row">
