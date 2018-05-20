@@ -219,20 +219,25 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </div>
 
     <footer>
-      <div class="container">
+      <div class="container has-text-centered ">
         <hr>
         <nav>
           <i class="far fa-copyright"></i> <span class="copyright">Matthias Günther</span>
           <span class="footer-separater">&bull;</span>
-          <a href="/about">About</a>
+          <a class="footer-desktop" href="/about">About</a>
           <span class="footer-separater">&bull;</span>
-          <a href="/mail.php">Contact</a>
+          <a class="footer-desktop" href="/mail.php">Contact</a>
           <span class="footer-separater">&bull;</span>
-          <a href="/news">News</a>
+          <a class="footer-desktop" href="/news">News</a>
           <span class="footer-separater">&bull;</span>
-          <a href="/imprint">Imprint</a>
+          <a class="footer-desktop" href="/imprint">Imprint</a>
           <span class="footer-separater">&bull;</span>
-          <a href="/contribute">Contribute</a>
+          <a class="footer-desktop" href="/contribute">Contribute</a>
+          <a class="footer-mobile" href="https://twitter.com/padrinobook" title="Follow padrinobook on twitter"><i class="fab fa-twitter"></i></a>
+          <a class="footer-mobile" href="https://www.facebook.com/padrinobook" title="Follow padrinobook on facebook"><i class="fab fa-facebook-f"></i></a>
+          <a class="footer-mobile" href="https://plus.google.com/109249095952663676924" title="Follow padrinobook on google+"><i class="fab fa-google-plus-g"></i></a>
+          <a class="footer-mobile" href="https://medium.com/@padrinobook" title="Follow padrinobook on medium"><i class="fab fa-medium-m"></i></a>
+          <a class="footer-mobile" href="https://github.com/padrinobook" title="Follow padrinobook on GitHub"><i class="fab fa-github-alt"></i></a>
         </nav>
       </div>
     </footer>

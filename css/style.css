@@ -572,6 +572,10 @@ a.fa-medium:hover {
   }
 }
 
+footer a.footer-mobile {
+  display: none;
+}
+
 @media (max-width: 1800px) {
   .social {
     display: none;
@@ -602,9 +606,16 @@ a.fa-medium:hover {
     text-rendering: optimizelegibility;
   }
 
-  footer {
+  footer span.copyright, footer span.footer-separater, footer nav i.far, footer a.footer-desktop {
     display: none;
   }
+
+  footer nav a.footer-mobile {
+    display: block;
+    margin-bottom: 25px;
+    font-size: 25px;
+  }
+
   #logo-text {
     display: inherit;
     margin-left: 1.2rem;
@@ -654,9 +665,7 @@ a.fa-medium:hover {
   .copyright, .footer-separater {
     display: none;
   }
-  footer nav a {
-    display: block;
-  }
+
   .sharing h5 {
     margin-right: 1rem;
     display: flex;
