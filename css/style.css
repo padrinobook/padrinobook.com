@@ -36,12 +36,7 @@ ul, menu, dir {
   border-radius: 4px;
   margin-bottom: 20px;
   padding: 8px 35px 8px 10px;
-  background: none repeat scroll 0 0 black;
-  border: 1px solid #f2f2f2;
-}
-
-.newsletter-box h5, .newsletter-box p, .newsletter-box a, #mc-embedded-subscribe {
-  color: white;
+  border: 0.5px dotted grey;
 }
 
 #mc_embed_signup input.email {
