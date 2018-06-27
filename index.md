@@ -32,7 +32,7 @@ This book will teach you how to craft web applications in Padrino with joy and f
       <form action="https://wikimatze.us6.list-manage.com/subscribe/post?u=4010f8ce18503766e176536f1&amp;id=198f8c0321" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div class="field">
           <div class="control has-icons-left">
-            <input class="input" id="mce-EMAIL" class="email" name="EMAIL" placeholder="Email" value="" type="email" required>
+            <input class="input" id="mce-EMAIL" name="EMAIL" placeholder="Email" value="" type="email" required>
             <span class="icon is-small is-left">
               <i class="fas fa-envelope"></i>
             </span>
@@ -89,5 +89,4 @@ This book will teach you how to craft web applications in Padrino with joy and f
   </div>
 </div>
 -->
-  </div>
 </div>
