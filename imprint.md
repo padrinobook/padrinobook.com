@@ -5,64 +5,27 @@ active: imprint
 ---
 
 <h1>Imprint</h1>
+Information in accordance with Section 5 TMG
+<br><br>Matthias Günther<br>Köpenicker Str. 149a<br>12355 Berlin<br>
+<h2>Contact Information</h2>
+Telephone: 0177 4858289<br>E-Mail: <a href="mailto:padrinobook@gmail.com">padrinobook@gmail.com</a><br>Internet address: <a href="https://padrinobook.com" target="_blank">https://padrinobook.com</a><br><br>
+<h2>Disclaimer</h2>
+<br>Accountability for content<br>
+The contents of our pages have been created with the utmost care. However, we cannot guarantee the contents'
+accuracy, completeness or topicality. According to statutory provisions, we are furthermore responsible for
+our own content on these web pages. In this matter, please note that we are not obliged to monitor
+the transmitted or saved information of third parties, or investigate circumstances pointing to illegal activity.
+Our obligations to remove or block the use of information under generally applicable laws remain unaffected by this as per
+§§ 8 to 10 of the Telemedia Act (TMG).
 
-<p> Accordance with § 5 TMG: </p>
+<br>Accountability for links<br>
+Responsibility for the content of
+external links (to web pages of third parties) lies solely with the operators of the linked pages. No violations were
+evident to us at the time of linking. Should any legal infringement become known to us, we will remove the respective
+link immediately.
 
-<p> Matthias Günther </p>
+<br>Copyright<br> Our web pages and their contents are subject to German copyright law. Unless
+expressly permitted by law, every form of utilizing, reproducing or processing
+works subject to copyright protection on our web pages requires the prior consent of the respective owner of the rights.
+Individual reproductions of a work are only allowed for private use.
 
-<p> Alboinstr. 37</p>
-
-<p> 12103 Berlin </p>
-
-
-<h2> Disclaimer </h2>
-
-The contents of our pages have been created with great care. For the accuracy, completeness and
-topicality of contents I can not take any responsibility. As a service provider I’m responsible
-according to § 7 paragraph 1 of TMG for own contents on these pages under the general laws.
-According to § 8 to 10 TMG I’m not obligated to control transmitted or stored information, or to
-investigate circumstances that indicate illegal activity. Obligations to remove or block the use of
-information under the general laws remain unaffected. A liability is only possible from the date of
-knowledge of a specific infringement. On becoming aware of such violations, I will immediately
-remove this content.
-
-
-<h2> Liability for links </h2>
-
-This site contains links to external websites over which I have no control. The linked sites were
-checked at the time of linking for possible violations of law. Illegal contents were not apparent at
-the time of linking. A permanent control of the linked pages is unreasonable without concrete
-evidence of a violation. Upon notification of violations, I will remove such links immediately.
-
-
-<h2> Copyright </h2>
-
-The operator of the site content and works provided on these pages are subject to German copyright
-law. The reproduction, adaptation, distribution or any kind of exploitation outside the limits of
-copyright require the written consent of the author or creator. Downloads and copies of these pages
-are only permitted for private, non-commercial use. Insofar as the content is not created by the
-website operator, the property rights of third parties. In particular, third-party content as such.
-Should you become aware of a copyright violation, we ask for a hint. Upon notification of
-violations, we will immediately remove such content.
-
-
-<h2> Privacy </h2>
-
-<p>
-The use of our website is usually possible without providing personal information. As far as on our
-sides personal data (such as name, address or e-mail addresses) are collected, this is as far as
-possible, on a voluntary basis. This data will not be disclosed to third parties without your
-express consent.
-</p>
-
-<p>
-We point out that data transmission over the Internet (e.g. communication by e-mail) security gaps. A
-complete protection of data against access by third parties is not possible.
-</p>
-
-<p>
-The use of the framework of the imprint obligation published contact data by third parties to send
-unsolicited advertisements and information materials is hereby expressly excluded. The site
-operators reserve the right to take legal action in case of unsolicited promotional information,
-such as spam e-mails.
-</p>
