@@ -17,7 +17,7 @@ Matthias is writting this book with much
 is <a href="https://github.com/padrino/padrino-framework/contributors" title="Contributing to Padrino">contributing</a> to Padrino, and helps
 keeping up <a href="http://padrinorb.com/" title="Padrino website">padrinorb.com</a>.
 </p>
-<p> Contact Matthias directly via <a href="/mail.php"title="Contact via mail">mail</a> or on
-<a href="{{ site.twitter }}" title="Contact via twitter">twitter</a>.
+<p> Contact Matthias directly via <a href="/mail.php"title="Contact via mail">mail</a>, or on
+<a href="{{ site.twitter }}" title="Contact via twitter">twitter</a>, or join the <a href="https://wikimatze.us6.list-manage.com/subscribe/post?u=4010f8ce18503766e176536f1&id=198f8c0321" title="Padrinobook Mailing list">mailinglist</a>.
 </p>
 
