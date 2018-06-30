@@ -139,17 +139,74 @@ This book will teach you how to craft web applications in Padrino with joy and f
 <section id="building">
   <h2>What You'll Be Creating</h2>
   <figure class="image is-square">
-    <img src="https://picsum.photos/620/620?image=1028">
+    <img src="https://picsum.photos/1202/1202?image=877">
   </figure>
   <h3>A job vacancy board with authentication, searching, and admin interface.</h3>
 </section>
 
 <section id="getting">
-  <h2>What You Get</h2>
+  <h2>What You'll Get</h2>
   <figure class="image is-square">
-    <img src="https://picsum.photos/620/620?image=1028">
+    <img src="https://picsum.photos/g/1202/1202?image=1051">
   </figure>
-  <h3>A job vacancy board with authentication, searching, and admin interface.</h3>
+  <div class="columns">
+    <div class="column is-4">
+      <div class="feature">
+        <i class="far fa-copy fa-2x"></i>
+        <h5>xx chapters</h5>
+        <p>
+          They will tell you everything about building the job vacancy app.
+        </p>
+      </div>
+    </div>
+    <div class="column is-4">
+      <div class="feature">
+        <i class="far far fa-file-video fa-2x"></i>
+        <h5>xx videos</h5>
+        <p>
+          Follow the book by Listen to my voice while I'm going through book.
+        </p>
+      </div>
+    </div>
+    <div class="column is-4">
+      <div class="feature">
+        <i class="far fa-file-code fa-2x"></i>
+        <h5>xx code samples</h5>
+        <p>
+          From ruby to css and javascript - all written code is explained.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="columns">
+    <div class="column is-4">
+     <div class="feature">
+        <i class="far fa-file-alt fa-3x"></i>
+        <h5>xx info boxes</h5>
+        <p>
+          Explain basic concepts of web apps technologies + contains challenges.
+        </p>
+      </div>
+    </div>
+    <div class="column is-4">
+      <div class="feature">
+        <i class="far fa-file-image fa-3x"></i>
+        <h5>xx images</h5>
+        <p>
+          Detailed images will explain you concepts and ideas.
+        </p>
+      </div>
+    </div>
+    <div class="column is-4">
+      <div class="feature">
+        <i class="far fa-sticky-note fa-3x"></i>
+        <h5>xx footnotes</h5>
+        <p>
+          Give you more detailed links and explanation for further reading.
+        </p>
+      </div>
+    </div>
+  </div>
 </section>
 
 <!--
