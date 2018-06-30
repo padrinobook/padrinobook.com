@@ -24,6 +24,10 @@ ul, menu, dir {
   -webkit-padding-start: 40px;
 }
 
+.content h2 {
+  font-size: 2.5em;
+}
+
 /* Cover */
 .cover img {
   margin-left: auto;
@@ -556,6 +560,74 @@ a.fa-medium:hover {
   background-color: black !important;
 }
 
+/* Testimonials */
+#testimonials {
+  border-top: 1px dotted #c9c5cf;
+}
+
+#testimonials h2 {
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.testimonial .portrait img {
+  border-radius: 100px;
+  width: 55px;
+  height: 55px;
+}
+
+.testimonial h5 {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.testimonial h5.name {
+  color: #ed1c24;
+}
+.testimonial h5.position {
+	margin-bottom: 0px;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+/* Padrino */
+#padrino {
+  border-top: 1px dotted #c9c5cf;
+  margin-top: 50px;
+}
+
+#padrino h2 {
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+#padrino p.intro {
+  font-size: 140%;
+}
+
+/* Building */
+#building {
+  border-top: 1px dotted #c9c5cf;
+  margin-top: 50px;
+}
+
+#building h2 {
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+#building h3 {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+
 /* Media-Queries */
 @media screen and (min-width: 1023px) {
   .navbar-end {
@@ -624,6 +696,12 @@ footer a.footer-mobile {
   .newsletter {
     padding: 1.75rem;
   }
+
+  /* testimonial */
+  .quoted {
+    padding-bottom: 10%;
+    margin-top: -5%;
+  }
 }
 
 @media (max-width: 650px) {
@@ -656,9 +734,6 @@ footer a.footer-mobile {
     margin-left: 30px;
   }
 
-  .image {
-    display: none;
-  }
   img#logo {
     display: none;
   }
