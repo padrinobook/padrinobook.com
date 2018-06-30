@@ -28,6 +28,10 @@ ul, menu, dir {
   font-size: 2.5em;
 }
 
+.center {
+  text-align: center;
+}
+
 /* Cover */
 .cover img {
   margin-left: auto;
@@ -650,6 +654,10 @@ footer a.footer-mobile {
 }
 
 @media (max-width: 900px) {
+  .mobile-space {
+    margin-top: 1.5em;
+  }
+
   .sharing h5 {
     margin-right: 1rem;
     display: inline-block;
@@ -697,10 +705,23 @@ footer a.footer-mobile {
     padding: 1.75rem;
   }
 
+  .testimonial h5 {
+    font-size: 20px;
+  }
+
+  .testimonial .center a.portrait {
+    margin-top: 22em;
+  }
+
+  .testimonial .portrait img {
+    border-radius: 100px;
+    width: 95px;
+    height: auto;
+  }
+
   /* testimonial */
-  .quoted {
-    padding-bottom: 10%;
-    margin-top: -5%;
+  .content blockquote {
+    border-left: none;
   }
 }
 
@@ -736,6 +757,11 @@ footer a.footer-mobile {
 
   img#logo {
     display: none;
+  }
+
+  #building h3 {
+    text-align: center;
+    font-size: 0.9em;
   }
 }
 

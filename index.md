@@ -64,11 +64,20 @@ This book will teach you how to craft web applications in Padrino with joy and f
         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de
       </blockquote>
       <div class="quoted">
-        <div class="is-pulled-right">
+        <div class="is-pulled-right is-hidden-mobile">
           <h5 class="name">Matthias Günther</h5>
           <h5 class="position">Software Developer</h5>
         </div>
-        <div class="is-pulled-right">
+        <div class="is-pulled-right is-hidden-mobile">
+          <a class="portrait" href="http://www.gander.io/">
+            <img src="https://c1.staticflickr.com/1/305/30960365443_dc82235ae2_q.jpg">
+          </a>
+        </div>
+        <div class="center mobile-space is-hidden-tablet">
+          <h5 class="name">Matthias Günther</h5>
+          <h5 class="position">Software Developer</h5>
+        </div>
+        <div class="center mobile-space is-hidden-tablet">
           <a class="portrait" href="http://www.gander.io/">
             <img src="https://c1.staticflickr.com/1/305/30960365443_dc82235ae2_q.jpg">
           </a>
@@ -80,11 +89,20 @@ This book will teach you how to craft web applications in Padrino with joy and f
         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de
       </blockquote>
       <div class="quoted">
-        <div class="is-pulled-right">
+        <div class="is-pulled-right is-hidden-mobile">
           <h5 class="name">Matthias Günther</h5>
           <h5 class="position">Software Developer</h5>
         </div>
-        <div class="is-pulled-right">
+        <div class="is-pulled-right is-hidden-mobile">
+          <a class="portrait" href="http://www.gander.io/">
+            <img src="https://pbs.twimg.com/profile_images/814020419334311936/Ufc1etJh_400x400.jpg">
+          </a>
+        </div>
+        <div class="center mobile-space is-hidden-tablet">
+          <h5 class="name">Matthias Günther</h5>
+          <h5 class="position">Software Developer</h5>
+        </div>
+        <div class="center mobile-space is-hidden-tablet">
           <a class="portrait" href="http://www.gander.io/">
             <img src="https://pbs.twimg.com/profile_images/814020419334311936/Ufc1etJh_400x400.jpg">
           </a>
@@ -121,9 +139,17 @@ This book will teach you how to craft web applications in Padrino with joy and f
 <section id="building">
   <h2>What You'll Be Creating</h2>
   <figure class="image is-square">
-    <img src="http://lorempixel.com/output/nature-q-g-620-620-3.jpg">
+    <img src="https://picsum.photos/620/620?image=1028">
   </figure>
-  <h3>A job vacancy board with authentication, searching, and managing.</h3>
+  <h3>A job vacancy board with authentication, searching, and admin interface.</h3>
+</section>
+
+<section id="getting">
+  <h2>What You Get</h2>
+  <figure class="image is-square">
+    <img src="https://picsum.photos/620/620?image=1028">
+  </figure>
+  <h3>A job vacancy board with authentication, searching, and admin interface.</h3>
 </section>
 
 <!--
