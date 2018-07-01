@@ -19,10 +19,6 @@ This book will teach you how to craft web applications in Padrino with joy and f
         </li>
       {% endfor %}
     </ul>
-    <p>
-      The person behind this book <a href="https://twitter.com/wikimatze">@wikimatze</a>:
-    </p>
-    <img src="https://c1.staticflickr.com/1/305/30960365443_dc82235ae2_q.jpg" class="left image circle person-behind-the-book" alt="Matthias Günther loves Vim and painting Warhammer figures">
   </div>
 
   <div class="column is-6 newsletter">
@@ -54,7 +50,6 @@ This book will teach you how to craft web applications in Padrino with joy and f
     </div>
   </div>
 </div>
-
 
 <section id="testimonials">
   <h2>What people are saying</h2>
@@ -264,6 +259,49 @@ This book will teach you how to craft web applications in Padrino with joy and f
       </li>
     </ul>
 </section>
+
+<section id="author">
+  <h2>About the Author</h2>
+  <div class="columns">
+    <div class="column is-2">
+      <img src="https://c1.staticflickr.com/1/305/30960365443_dc82235ae2_q.jpg" class="center image circle" alt="Matthias Günther loves Vim and painting Warhammer figures">
+      <p class="center is-hidden-tablet">
+        Matthias Günther
+      </p>
+      <p class="center is-hidden-tablet">
+        <a href="https://twitter.com/wikimatze">Follow @wikimatze</a>
+      </p>
+    </div>
+    <div class="column is-9">
+      <p>Matthias is an Open Sourcer by heart, loves giving presentations about
+      <a href="http://www.vim.org/" title="Vim">Vim</a>, and is writing this book about
+      <a href="http://www.padrinorb.com/" title="Padrino">Padrino</a>.
+      Matthias is writting this book with much
+      <a href="https://github.com/wikimatze/padrino-book/issues?page=1&state=closed" title="help of the Padrino community">help of the community</a>
+      is <a href="https://github.com/padrino/padrino-framework/contributors" title="Contributing to Padrino">contributing</a> to Padrino, and helps
+      keeping up <a href="http://padrinorb.com/" title="Padrino website">padrinorb.com</a>.
+      </p>
+      <p class="is-hidden-mobile">
+        <a href="https://twitter.com/wikimatze">Follow @wikimatze</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="starting-time">
+  <h2>Start to Discover Padrino</h2>
+  <div class="columns">
+    <div class="column is-11">
+      <p class="center">
+        Get the book to start building your app now.!
+      </p>
+      <p class="center">
+        <a class="center button is-danger is-large" style="text-decoration: none; margin-right: 10px" href="https://www.softcover.io/books/wikimatze/padrinobook#pricing">Get the Book!</a>
+      </p>
+    </div>
+  </div>
+</section>
+
 
 <!--
 <div class="row">

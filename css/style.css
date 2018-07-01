@@ -30,6 +30,13 @@ ul, menu, dir {
 
 .center {
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.has-image-centered {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Cover */
@@ -88,10 +95,6 @@ form#mc-embedded-subscribe-form button.is-info {
   background-color: #209cee;
   border-color: transparent;
   color: #fff;
-}
-
-img.person-behind-the-book {
-  margin-left: 20%;
 }
 
 /* Different stuff */
@@ -686,6 +689,31 @@ a.fa-medium:hover {
   font-weight: 300;
 }
 
+/* Author */
+#author {
+  border-top: 1px dotted #c9c5cf;
+  margin-top: 50px;
+}
+
+#author h2 {
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+/* Starting */
+#starting-time {
+  margin-top: 50px;
+}
+
+#starting-time h2 {
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
 /* Media-Queries */
 @media screen and (min-width: 1023px) {
   .navbar-end {
@@ -791,10 +819,6 @@ footer a.footer-mobile {
   .textarea {
     min-width: 95% !important;
     max-width: 95% !important;
-  }
-
-  .person-behind-the-book {
-    display: none;
   }
 
   .row {
