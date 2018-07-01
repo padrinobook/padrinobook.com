@@ -653,6 +653,38 @@ a.fa-medium:hover {
   margin-bottom: 5px;
 }
 
+/* Chapters */
+#chapters {
+  border-top: 1px dotted #c9c5cf;
+  margin-top: 50px;
+}
+
+#chapters h2 {
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+#chapters ul.list {
+  list-style-type: none;
+}
+
+#chapters ul.list li {
+  border-bottom: 1px dotted #c9c5cf;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+#chapters ul.list .subchapter {
+  margin-left: 25px;
+}
+
+#chapters ul.list .chapter-number {
+  float: right;
+  color: #aaa9b1;
+  font-weight: 300;
+}
 
 /* Media-Queries */
 @media screen and (min-width: 1023px) {
@@ -779,6 +811,13 @@ footer a.footer-mobile {
 
   img#logo {
     display: none;
+  }
+
+  #chapters ul.list .chapter-number {
+    float: right;
+    margin-right: 20px;
+    color: #aaa9b1;
+    font-weight: 300;
   }
 
   #building h3 {

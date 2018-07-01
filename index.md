@@ -115,7 +115,7 @@ This book will teach you how to craft web applications in Padrino with joy and f
 <section id="padrino">
   <h2>What's Padrino?</h2>
   <div class="columns">
-    <div class="column">
+    <div class="column is-11">
       <p class="intro">
         <a href="http://padrinorb.com/" title="Padrino">Padrino</a> is a fully featured Ruby framework that helps
         building <i>flexible</i>, <i>powerful</i> and <i>fast</i> web apps.
@@ -181,7 +181,7 @@ This book will teach you how to craft web applications in Padrino with joy and f
   <div class="columns">
     <div class="column is-4">
      <div class="feature">
-        <i class="far fa-file-alt fa-3x"></i>
+        <i class="far fa-file-alt fa-2x"></i>
         <h5>xx info boxes</h5>
         <p>
           Explain basic concepts of web apps technologies + contains challenges.
@@ -190,7 +190,7 @@ This book will teach you how to craft web applications in Padrino with joy and f
     </div>
     <div class="column is-4">
       <div class="feature">
-        <i class="far fa-file-image fa-3x"></i>
+        <i class="far fa-file-image fa-2x"></i>
         <h5>xx images</h5>
         <p>
           Detailed images will explain you concepts and ideas.
@@ -199,7 +199,7 @@ This book will teach you how to craft web applications in Padrino with joy and f
     </div>
     <div class="column is-4">
       <div class="feature">
-        <i class="far fa-sticky-note fa-3x"></i>
+        <i class="far fa-sticky-note fa-2x"></i>
         <h5>xx footnotes</h5>
         <p>
           Give you more detailed links and explanation for further reading.
@@ -207,6 +207,58 @@ This book will teach you how to craft web applications in Padrino with joy and f
       </div>
     </div>
   </div>
+</section>
+
+<section id="chapters">
+  <h2>Chapters List</h2>
+  <div class="columns">
+    <div class="column is-11">
+    <ul class="list">
+      <li>
+        Introduction and Setup
+        <span class="chapter-number">1</span>
+      </li>
+      <li>
+        <span class="subchapter">Motivation</span>
+        <span class="chapter-number">1.1</span>
+      </li>
+      <li>
+        <span class="subchapter">Tools and Knowledge</span>
+        <span class="chapter-number">1.2</span>
+      </li>
+      <li>
+        <span class="subchapter">Hello Padrino</span>
+        <span class="chapter-number">1.3</span>
+      </li>
+      <li>
+        <span class="subchapter">Conclusion
+        <span class="chapter-number">1.4</span>
+      </li>
+      <li>
+        Job Vacancy Application
+        <span class="chapter-number">2</span>
+      </li>
+      <li>
+        <span class="subchapter">Creating the Application
+        <span class="chapter-number">2.1</span>
+      </li>
+      <li>
+        <span class="subchapter">Creating Models
+        <span class="chapter-number">2.2</span>
+      </li>
+      <li>
+        <span class="subchapter">Login and Registration
+        <span class="chapter-number">2.3</span>
+      </li>
+      <li>
+        <span class="subchapter">Sessions
+        <span class="chapter-number">2.4</span>
+      </li>
+      <li>
+        <span class="subchapter">User Profile
+        <span class="chapter-number">2.5</span>
+      </li>
+    </ul>
 </section>
 
 <!--
