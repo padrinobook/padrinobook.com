@@ -2,10 +2,11 @@
 active: home
 ---
 If you want to go into web development with ease and no boundaries to which
-components you want to use, then dig into Padrino.
-Padrino is super interesting, but there aren't a lot of docs available and this book will change it.
-
+components you want to use, then dig into <a href="http://padrinorb.com/">Padrino</a>.
 This book will teach you how to craft web applications in Padrino with joy and fun.
+
+Padrino is super interesting, but there aren't a lot of docs available so start learning it with this <a href="https://www.softcover.io/books/wikimatze/padrinobook">book</a>.
+
 
 <div class="columns is-vcentered">
   <div class="column is-6">
@@ -143,6 +144,29 @@ This book will teach you how to craft web applications in Padrino with joy and f
   <h3>A job vacancy board with authentication, searching, and admin interface.</h3>
 </section>
 
+<section id="newsletter-signup" class="is-hidden-tablet">
+  <h2>Sign up for thew Newsletter</h2>
+  <div class="columns">
+    <div class="column is-9">
+      <form action="https://wikimatze.us6.list-manage.com/subscribe/post?u=4010f8ce18503766e176536f1&amp;id=198f8c0321" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div class="field">
+          <div class="control has-icons-left">
+            <input class="input" id="mce-EMAIL" name="EMAIL" placeholder="Email" value="" type="email" required>
+            <span class="icon is-small is-left">
+              <i class="fas fa-envelope"></i>
+            </span>
+          </div>
+        </div>
+        <div class="field is-grouped">
+          <div class="control">
+            <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button is-large is-link">Send</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
 <section id="getting">
   <h2>What You'll Get</h2>
   <figure class="image is-square">
@@ -260,12 +284,29 @@ This book will teach you how to craft web applications in Padrino with joy and f
     </ul>
 </section>
 
+<section id="buy" class="is-hidden-tablet">
+  <h2>Get the book</h2>
+  <div class="columns">
+    <div class="column is-11 center">
+    <p>
+      <a class="button is-danger is-large" style="text-decoration: none; margin-right: 10px" href="https://www.softcover.io/books/wikimatze/padrinobook#pricing">Get the Book</a>
+    </p>
+    <p>
+      <a class="button is-success is-big" style="text-decoration: none;" href="https://www.softcover.io/download/wikimatze/padrinobook/ebooks/padrinobook-preview.pdf">Get a free Preview</a>
+    </p>
+    <p>
+      or <a href="/book">read online</a>.
+    </p>
+    </div>
+  </div>
+</section>
+
 <section id="author">
   <h2>About the Author</h2>
   <div class="columns">
     <div class="column is-2">
       <img src="https://c1.staticflickr.com/1/305/30960365443_dc82235ae2_q.jpg" class="center image circle" alt="Matthias Günther loves Vim and painting Warhammer figures">
-      <p class="center is-hidden-tablet">
+      <p class="center name is-hidden-tablet">
         Matthias Günther
       </p>
       <p class="center is-hidden-tablet">
@@ -296,12 +337,38 @@ This book will teach you how to craft web applications in Padrino with joy and f
         Get the book to start building your app now.!
       </p>
       <p class="center">
-        <a class="center button is-danger is-large" style="text-decoration: none; margin-right: 10px" href="https://www.softcover.io/books/wikimatze/padrinobook#pricing">Get the Book!</a>
+        <a class="button is-danger is-large" style="text-decoration: none; margin-right: 10px" href="https://www.softcover.io/books/wikimatze/padrinobook#pricing">Get the Book!</a>
       </p>
     </div>
   </div>
 </section>
 
+<section id="newsletter">
+  <h2>Newsletter Sign up</h2>
+  <div class="columns">
+    <div class="column is-11">
+      <p class="center">To stay informed about the latest developments, please sign up.
+      </p>
+
+      <p class="center">
+        <a class="button is-danger is-large" style="text-decoration: none; margin-right: 10px" href="https://wikimatze.us6.list-manage.com/subscribe/post?u=4010f8ce18503766e176536f1&id=198f8c0321">Sign up the newsletter</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact me</h2>
+  <div class="columns">
+    <div class="column is-11">
+      <p class="center">If you have any questions, don't hesitate to drop me a line.</p>
+
+      <p class="center">
+        <a class="button is-danger is-large" style="text-decoration: none; margin-right: 10px" href="/mail.php">Contact me</a>
+      </p>
+    </div>
+  </div>
+</section>
 
 <!--
 <div class="row">

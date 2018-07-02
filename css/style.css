@@ -702,6 +702,10 @@ a.fa-medium:hover {
   margin-top: 20px;
 }
 
+#author p.center.name {
+  margin-top: 5px;
+}
+
 /* Starting */
 #starting-time {
   margin-top: 50px;
@@ -713,6 +717,64 @@ a.fa-medium:hover {
   margin-bottom: 40px;
   margin-top: 20px;
 }
+
+/* Contact */
+#contact {
+  border-top: 1px dotted #c9c5cf;
+  margin-top: 50px;
+}
+
+#contact h2 {
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+/* Newsletter */
+#newsletter {
+  border-top: 1px dotted #c9c5cf;
+  margin-top: 50px;
+}
+
+#newsletter h2 {
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+/* Newsletter Signup*/
+#newsletter-signup {
+  border-top: 1px dotted #c9c5cf;
+  margin-top: 50px;
+}
+
+#newsletter-signup h2 {
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+#newsletter-signup form {
+  margin-left: 1.3rem;
+  margin-right: 1.3rem;
+}
+
+/* Buy */
+#buy {
+  border-top: 1px dotted #c9c5cf;
+  margin-top: 50px;
+}
+
+#buy h2 {
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
 
 /* Media-Queries */
 @media screen and (min-width: 1023px) {
