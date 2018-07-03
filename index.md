@@ -7,7 +7,7 @@ This book will teach you how to craft web applications in Padrino with joy and f
 
 Padrino is super interesting, but there aren't a lot of docs available so start learning it with this <a href="https://www.softcover.io/books/wikimatze/padrinobook">book</a>.
 
-<section id="testimonials">
+<section id="testimonials" class="hide">
   <h2>What people are saying</h2>
   <div class="columns">
     <div class="column is-6 testimonial">
@@ -91,7 +91,7 @@ Padrino is super interesting, but there aren't a lot of docs available so start 
   </div>
 </section>
 
-<section id="building">
+<section id="building" class="hide">
   <h2>What You'll Be Creating</h2>
   <figure class="image is-square">
     <img src="https://picsum.photos/1202/1202?image=877">
@@ -124,7 +124,7 @@ Padrino is super interesting, but there aren't a lot of docs available so start 
 
 <section id="getting">
   <h2>What You'll Get</h2>
-  <figure class="image is-square">
+  <figure class="image is-square hide">
     <img src="https://picsum.photos/g/1202/1202?image=1051">
   </figure>
   <div class="columns">

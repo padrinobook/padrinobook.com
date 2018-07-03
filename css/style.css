@@ -34,6 +34,10 @@ ul, menu, dir {
   margin-right: auto;
 }
 
+.hide {
+  display: none;
+}
+
 .has-image-centered {
   margin-left: auto;
   margin-right: auto;
