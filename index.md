@@ -131,7 +131,7 @@ Padrino is super interesting, but there aren't a lot of docs available so start 
     <div class="column is-4">
       <div class="feature">
         <i class="far fa-copy fa-2x"></i>
-        <h5>xx chapters</h5>
+        <h5>42 chapters</h5>
         <p>
           They will tell you everything about building the job vacancy app.
         </p>
@@ -140,7 +140,7 @@ Padrino is super interesting, but there aren't a lot of docs available so start 
     <div class="column is-4">
       <div class="feature">
         <i class="far far fa-file-video fa-2x"></i>
-        <h5>xx videos</h5>
+        <h5>0 videos</h5>
         <p>
           Follow the book by Listen to my voice while I'm going through book.
         </p>
@@ -149,7 +149,7 @@ Padrino is super interesting, but there aren't a lot of docs available so start 
     <div class="column is-4">
       <div class="feature">
         <i class="far fa-file-code fa-2x"></i>
-        <h5>xx code samples</h5>
+        <h5>189 code samples</h5>
         <p>
           From ruby to css and javascript - all written code is explained.
         </p>
@@ -160,7 +160,7 @@ Padrino is super interesting, but there aren't a lot of docs available so start 
     <div class="column is-4">
      <div class="feature">
         <i class="far fa-file-alt fa-2x"></i>
-        <h5>xx info boxes</h5>
+        <h5>19 info boxes</h5>
         <p>
           Explain basic concepts of web apps technologies + contains challenges.
         </p>
@@ -169,7 +169,7 @@ Padrino is super interesting, but there aren't a lot of docs available so start 
     <div class="column is-4">
       <div class="feature">
         <i class="far fa-file-image fa-2x"></i>
-        <h5>xx images</h5>
+        <h5>2 images</h5>
         <p>
           Detailed images will explain you concepts and ideas.
         </p>
@@ -178,7 +178,7 @@ Padrino is super interesting, but there aren't a lot of docs available so start 
     <div class="column is-4">
       <div class="feature">
         <i class="far fa-sticky-note fa-2x"></i>
-        <h5>xx footnotes</h5>
+        <h5>31 footnotes</h5>
         <p>
           Give you more detailed links and explanation for further reading.
         </p>
