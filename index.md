@@ -7,51 +7,6 @@ This book will teach you how to craft web applications in Padrino with joy and f
 
 Padrino is super interesting, but there aren't a lot of docs available so start learning it with this <a href="https://www.softcover.io/books/wikimatze/padrinobook">book</a>.
 
-
-<div class="columns is-vcentered">
-  <div class="column is-6">
-        <span class="information badge author primary">
-      <a href="/news">News</a>
-    </span>
-    <ul>
-      {% for post in site.posts limit:1 %}
-        <li>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
-
-  <div class="column is-6 newsletter">
-    <div class="newsletter-box">
-      <h5>Stay informed with the newsletter:</h5>
-      <div id="mc_embed_signup">
-      <form action="https://wikimatze.us6.list-manage.com/subscribe/post?u=4010f8ce18503766e176536f1&amp;id=198f8c0321" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <div class="field">
-          <div class="control has-icons-left">
-            <input class="input" id="mce-EMAIL" name="EMAIL" placeholder="Email" value="" type="email" required>
-            <span class="icon is-small is-left">
-              <i class="fas fa-envelope"></i>
-            </span>
-          </div>
-        </div>
-        <div class="field is-grouped">
-          <div class="control">
-            <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button is-large is-link">Send</button>
-          </div>
-        </div>
-      </form>
-      </div>
-    </div>
-    <div class="newsletter-box">
-      <h5>Get the book:</h5>
-      <a class="button is-danger is-large" style="text-decoration: none; margin-right: 10px" href="https://www.softcover.io/books/wikimatze/padrinobook#pricing">Buy</a>
-      <a class="button is-success" style="text-decoration: none;" href="https://www.softcover.io/download/wikimatze/padrinobook/ebooks/padrinobook-preview.pdf">Preview</a>
-      <p> or <a href="/book">read online</a>.</p>
-    </div>
-  </div>
-</div>
-
 <section id="testimonials">
   <h2>What people are saying</h2>
   <div class="columns">
@@ -344,21 +299,21 @@ Padrino is super interesting, but there aren't a lot of docs available so start 
 </section>
 
 <section id="newsletter">
-  <h2>Newsletter Sign up</h2>
+  <h2>Newsletter Subscription</h2>
   <div class="columns">
     <div class="column is-11">
       <p class="center">To stay informed about the latest developments, please sign up.
       </p>
 
       <p class="center">
-        <a class="button is-danger is-large" style="text-decoration: none; margin-right: 10px" href="https://wikimatze.us6.list-manage.com/subscribe/post?u=4010f8ce18503766e176536f1&id=198f8c0321">Sign up the newsletter</a>
+        <a class="button is-danger is-large" style="text-decoration: none; margin-right: 10px" href="https://wikimatze.us6.list-manage.com/subscribe/post?u=4010f8ce18503766e176536f1&id=198f8c0321">Get the newsletter</a>
       </p>
     </div>
   </div>
 </section>
 
 <section id="contact">
-  <h2>Contact me</h2>
+  <h2>Drop me a line</h2>
   <div class="columns">
     <div class="column is-11">
       <p class="center">If you have any questions, don't hesitate to drop me a line.</p>

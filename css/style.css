@@ -46,57 +46,6 @@ ul, menu, dir {
   display: block;
 }
 
-/* Newsletter */
-.newsletter-box {
-  border-radius: 4px;
-  margin-bottom: 20px;
-  padding: 8px 35px 8px 10px;
-  border: 0.5px dotted grey;
-}
-
-#mc_embed_signup input.email {
-  display: inline !important;
-  margin: 0 4% 10px 0;
-  min-width: 130px;
-  padding: 8px 0;
-  text-indent: 5px;
-  width: 58%;
-}
-#mc_embed_signup input.button {
-  display: inline !important;
-  margin: 7px -5px 10px !important;
-}
-
-#mc_embed_signup_newsletter form {
-  padding: 0;
-  display: inline !important;
-  margin: 7px -5px 10px !important;
-}
-
-#mc_embed_signup_newsletter input.email {
-  display: inline !important;
-  margin: 0 4% 10px 0;
-  min-width: 130px;
-  padding: 8px 0;
-  text-indent: 5px;
-  width: 58%;
-}
-
-#mc_embed_signup_newsletter input.button {
-  display: inline !important;
-  margin: 7px -5px 10px !important;
-  width: 35%;
-}
-
-form#mc-embedded-subscribe-form button.is-large {
-  font-size: 1.5rem;
-}
-form#mc-embedded-subscribe-form button.is-info {
-  background-color: #209cee;
-  border-color: transparent;
-  color: #fff;
-}
-
 /* Different stuff */
 
 header {
@@ -177,24 +126,6 @@ a:hover { text-decoration: underline;}
 
 .active { position: relative; background: #868d92; z-index: 1000; }
 
-.whoring {
-  margin-top: 50px;
-}
-
-span.information.badge, div.information.badge{
-  padding: 10px;
-  font-size: 1.2rem;
-  height: auto;
-  list-style: none;
-  background: #4A4D50 none repeat scroll 0% 0%;
-  border: 1px solid #4A4D50;
-  border-radius: 10px;
-  display: inline-block;
-  font-weight: bold;
-  line-height: 20px;
-  text-align: center;
-  color: #FFF;
-}
 
 .image.circle {
   border-radius: 50% !important;
