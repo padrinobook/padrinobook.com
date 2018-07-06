@@ -1,11 +1,20 @@
 ---
 active: home
 ---
-If you want to go into web development with ease and no boundaries to which
-components you want to use, then dig into <a href="http://padrinorb.com/">Padrino</a>.
-This book will teach you how to craft web applications in Padrino with joy and fun.
-
-Padrino is super interesting, but there aren't a lot of docs available so start learning it with this <a href="https://www.softcover.io/books/wikimatze/padrinobook">book</a>.
+<section>
+  <div class="columns">
+    <div class="column is-12">
+      <p>
+        If you want to go into web development with ease and no boundaries to which
+        components you want to use, then dig into <a href="http://padrinorb.com/">Padrino</a>.
+        This book will teach you how to craft web applications in Padrino with joy and fun.
+      </p>
+      <p>
+        Padrino is super interesting, but there aren't a lot of docs available so start learning it with this <a href="https://www.softcover.io/books/wikimatze/padrinobook">book</a>.
+      </p>
+    </div>
+  </div>
+</section>
 
 <section id="testimonials" class="hide">
   <h2>What people are saying</h2>
@@ -70,7 +79,7 @@ Padrino is super interesting, but there aren't a lot of docs available so start 
 <section id="padrino">
   <h2>What's Padrino?</h2>
   <div class="columns">
-    <div class="column is-11">
+    <div class="column is-12">
       <p class="intro">
         <a href="http://padrinorb.com/" title="Padrino">Padrino</a> is a fully featured Ruby framework that helps
         building <i>flexible</i>, <i>powerful</i> and <i>fast</i> web apps.
@@ -102,7 +111,7 @@ Padrino is super interesting, but there aren't a lot of docs available so start 
 <section id="newsletter-signup" class="is-hidden-tablet">
   <h2>Sign up for thew Newsletter</h2>
   <div class="columns">
-    <div class="column is-9">
+    <div class="column is-12">
       <form action="https://wikimatze.us6.list-manage.com/subscribe/post?u=4010f8ce18503766e176536f1&amp;id=198f8c0321" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div class="field">
           <div class="control has-icons-left">
@@ -190,7 +199,7 @@ Padrino is super interesting, but there aren't a lot of docs available so start 
 <section id="chapters">
   <h2>Chapters List</h2>
   <div class="columns">
-    <div class="column is-11">
+    <div class="column is-10">
       <ul class="list">
         <li>
           Introduction and Setup
@@ -244,7 +253,7 @@ Padrino is super interesting, but there aren't a lot of docs available so start 
 <section id="buy" class="is-hidden-tablet">
   <h2>Get the book</h2>
   <div class="columns">
-    <div class="column is-11 center">
+    <div class="column is-12 center">
     <p>
       <a class="button is-danger is-large" style="text-decoration: none; margin-right: 10px" href="https://www.softcover.io/books/wikimatze/padrinobook#pricing">Get the Book</a>
     </p>
@@ -270,7 +279,7 @@ Padrino is super interesting, but there aren't a lot of docs available so start 
         <a href="https://twitter.com/wikimatze">Follow @wikimatze</a>
       </p>
     </div>
-    <div class="column is-9">
+    <div class="column is-10">
       <p>Matthias is an Open Sourcer by heart, loves giving presentations about
       <a href="http://www.vim.org/" title="Vim">Vim</a>, and is writing this book about
       <a href="http://www.padrinorb.com/" title="Padrino">Padrino</a>.
@@ -289,7 +298,7 @@ Padrino is super interesting, but there aren't a lot of docs available so start 
 <section id="starting-time">
   <h2>Start to Discover Padrino</h2>
   <div class="columns">
-    <div class="column is-11">
+    <div class="column is-12">
       <p class="center">
         Get the book to start building your app now.!
       </p>
@@ -303,8 +312,8 @@ Padrino is super interesting, but there aren't a lot of docs available so start 
 <section id="newsletter">
   <h2>Newsletter Subscription</h2>
   <div class="columns">
-    <div class="column is-11">
-      <p class="center">To stay informed about the latest developments, please sign up.
+    <div class="column is-12">
+      <p class="center">Sign up to stay informed about the latest developments.
       </p>
 
       <p class="center">
@@ -317,7 +326,7 @@ Padrino is super interesting, but there aren't a lot of docs available so start 
 <section id="contact">
   <h2>Drop me a line</h2>
   <div class="columns">
-    <div class="column is-11">
+    <div class="column is-12">
       <p class="center">If you have any questions, don't hesitate to drop me a line.</p>
 
       <p class="center">
