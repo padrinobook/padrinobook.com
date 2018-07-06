@@ -23,7 +23,7 @@ Padrino is super interesting, but there aren't a lot of docs available so start 
         </div>
         <div class="is-pulled-right is-hidden-mobile">
           <a class="portrait" href="http://www.gander.io/">
-            <img src="https://c1.staticflickr.com/1/305/30960365443_dc82235ae2_q.jpg">
+            <img src="https://c1.staticflickr.com/1/305/30960365443_dc82235ae2_q.jpg" alt="Testimonial 1">
           </a>
         </div>
         <div class="center mobile-space is-hidden-tablet">
@@ -32,7 +32,7 @@ Padrino is super interesting, but there aren't a lot of docs available so start 
         </div>
         <div class="center mobile-space is-hidden-tablet">
           <a class="portrait" href="http://www.gander.io/">
-            <img src="https://c1.staticflickr.com/1/305/30960365443_dc82235ae2_q.jpg">
+            <img src="https://c1.staticflickr.com/1/305/30960365443_dc82235ae2_q.jpg" alt="Testimonial 2">
           </a>
         </div>
       </div>
@@ -50,7 +50,7 @@ Padrino is super interesting, but there aren't a lot of docs available so start 
         </div>
         <div class="is-pulled-right is-hidden-mobile">
           <a class="portrait" href="http://www.gander.io/">
-            <img src="https://pbs.twimg.com/profile_images/814020419334311936/Ufc1etJh_400x400.jpg">
+            <img src="https://pbs.twimg.com/profile_images/814020419334311936/Ufc1etJh_400x400.jpg" alt="Testimonial 3">
           </a>
         </div>
         <div class="center mobile-space is-hidden-tablet">
@@ -59,7 +59,7 @@ Padrino is super interesting, but there aren't a lot of docs available so start 
         </div>
         <div class="center mobile-space is-hidden-tablet">
           <a class="portrait" href="http://www.gander.io/">
-            <img src="https://pbs.twimg.com/profile_images/814020419334311936/Ufc1etJh_400x400.jpg">
+            <img src="https://pbs.twimg.com/profile_images/814020419334311936/Ufc1etJh_400x400.jpg" alt="Testimonial 4">
           </a>
         </div>
       </div>
@@ -94,7 +94,7 @@ Padrino is super interesting, but there aren't a lot of docs available so start 
 <section id="building" class="hide">
   <h2>What You'll Be Creating</h2>
   <figure class="image is-square">
-    <img src="https://picsum.photos/1202/1202?image=877">
+    <img src="https://picsum.photos/1202/1202?image=877" alt="building">
   </figure>
   <h3>A job vacancy board with authentication, searching, and admin interface.</h3>
 </section>
@@ -125,7 +125,7 @@ Padrino is super interesting, but there aren't a lot of docs available so start 
 <section id="getting">
   <h2>What You'll Get</h2>
   <figure class="image is-square hide">
-    <img src="https://picsum.photos/g/1202/1202?image=1051">
+    <img src="https://picsum.photos/g/1202/1202?image=1051" alt="Getting">
   </figure>
   <div class="columns">
     <div class="column is-4">
@@ -191,52 +191,54 @@ Padrino is super interesting, but there aren't a lot of docs available so start 
   <h2>Chapters List</h2>
   <div class="columns">
     <div class="column is-11">
-    <ul class="list">
-      <li>
-        Introduction and Setup
-        <span class="chapter-number">1</span>
-      </li>
-      <li>
-        <span class="subchapter">Motivation</span>
-        <span class="chapter-number">1.1</span>
-      </li>
-      <li>
-        <span class="subchapter">Tools and Knowledge</span>
-        <span class="chapter-number">1.2</span>
-      </li>
-      <li>
-        <span class="subchapter">Hello Padrino</span>
-        <span class="chapter-number">1.3</span>
-      </li>
-      <li>
-        <span class="subchapter">Conclusion
-        <span class="chapter-number">1.4</span>
-      </li>
-      <li>
-        Job Vacancy Application
-        <span class="chapter-number">2</span>
-      </li>
-      <li>
-        <span class="subchapter">Creating the Application
-        <span class="chapter-number">2.1</span>
-      </li>
-      <li>
-        <span class="subchapter">Creating Models
-        <span class="chapter-number">2.2</span>
-      </li>
-      <li>
-        <span class="subchapter">Login and Registration
-        <span class="chapter-number">2.3</span>
-      </li>
-      <li>
-        <span class="subchapter">Sessions
-        <span class="chapter-number">2.4</span>
-      </li>
-      <li>
-        <span class="subchapter">User Profile
-        <span class="chapter-number">2.5</span>
-      </li>
-    </ul>
+      <ul class="list">
+        <li>
+          Introduction and Setup
+          <span class="chapter-number">1</span>
+        </li>
+        <li>
+          <span class="subchapter">Motivation</span>
+          <span class="chapter-number">1.1</span>
+        </li>
+        <li>
+          <span class="subchapter">Tools and Knowledge</span>
+          <span class="chapter-number">1.2</span>
+        </li>
+        <li>
+          <span class="subchapter">Hello Padrino</span>
+          <span class="chapter-number">1.3</span>
+        </li>
+        <li>
+          <span class="subchapter">Conclusion</span>
+          <span class="chapter-number">1.4</span>
+        </li>
+        <li>
+          Job Vacancy Application
+          <span class="chapter-number">2</span>
+        </li>
+        <li>
+          <span class="subchapter">Creating the Application</span>
+          <span class="chapter-number">2.1</span>
+        </li>
+        <li>
+          <span class="subchapter">Creating Models</span>
+          <span class="chapter-number">2.2</span>
+        </li>
+        <li>
+          <span class="subchapter">Login and Registration</span>
+          <span class="chapter-number">2.3</span>
+        </li>
+        <li>
+          <span class="subchapter">Sessions</span>
+          <span class="chapter-number">2.4</span>
+        </li>
+        <li>
+          <span class="subchapter">User Profile</span>
+          <span class="chapter-number">2.5</span>
+        </li>
+      </ul>
+    </div>
+  </div>
 </section>
 
 <section id="buy" class="is-hidden-tablet">
