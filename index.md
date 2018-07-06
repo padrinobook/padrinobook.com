@@ -124,8 +124,8 @@ Padrino is super interesting, but there aren't a lot of docs available so start 
 
 <section id="getting">
   <h2>What You'll Get</h2>
-  <figure class="image is-square hide">
-    <img src="https://picsum.photos/g/1202/1202?image=1051" alt="Getting">
+  <figure class="image get">
+    <img src="/images/get.png" alt="What you can get from the book">
   </figure>
   <div class="columns">
     <div class="column is-4">
@@ -137,7 +137,7 @@ Padrino is super interesting, but there aren't a lot of docs available so start 
         </p>
       </div>
     </div>
-    <div class="column is-4">
+    <div class="column is-4 hide">
       <div class="feature">
         <i class="far far fa-file-video fa-2x"></i>
         <h5>0 videos</h5>
@@ -155,8 +155,6 @@ Padrino is super interesting, but there aren't a lot of docs available so start 
         </p>
       </div>
     </div>
-  </div>
-  <div class="columns">
     <div class="column is-4">
      <div class="feature">
         <i class="far fa-file-alt fa-2x"></i>
@@ -166,6 +164,8 @@ Padrino is super interesting, but there aren't a lot of docs available so start 
         </p>
       </div>
     </div>
+  </div>
+  <div class="columns">
     <div class="column is-4">
       <div class="feature">
         <i class="far fa-file-image fa-2x"></i>
