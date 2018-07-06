@@ -4,7 +4,6 @@
 //         { user: 'padrinobook', repo: 'padrinobook', branch: 'master', last: 5, limitMessageTo: 30 });
 // });
 
-
 // Piwik tracking
 var _paq = _paq || [];
 _paq.push(['trackPageView']);

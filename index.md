@@ -340,26 +340,4 @@ Padrino is super interesting, but there aren't a lot of docs available so start 
 -->
 
 <!--End mc_embed_signup-->
-
-<!--
-
-<div class="row">
-  <div class="flexslider">
-    <ul class="slides">
-      <li>
-        <img src="images/cover.png" />
-      </li>
-      <li>
-        <img src="images/online.png" />
-      </li>
-      <li>
-        <img src="images/sources.png" />
-      </li>
-      <li>
-        <img src="images/working.png" />
-      </li>
-    </ul>
-  </div>
-</div>
--->
 </div>

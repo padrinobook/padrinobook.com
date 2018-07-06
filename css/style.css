@@ -65,7 +65,6 @@ header {
   font-style: italic;
 }
 
-
 pre.table {
   display: block;
   padding: 9.5px;
@@ -205,9 +204,6 @@ a:hover { text-decoration: underline;}
 .toc .toc-active {
   font-weight: bold;
 }
-/* flexslider 2 layout */
-.flex-direction-nav a:before  { font-size: 28px;}
-
 
 /* Unused on index page */
 
