@@ -326,18 +326,3 @@ Padrino is super interesting, but there aren't a lot of docs available so start 
     </div>
   </div>
 </section>
-
-<!--
-<div class="row">
-  <div class="twelve columns">
-    <span class="information badge author primary">
-      Recent commits
-    </span>
-    <div id="github-commits"></div>
-  </div>
-</div>
-<br>
--->
-
-<!--End mc_embed_signup-->
-</div>
