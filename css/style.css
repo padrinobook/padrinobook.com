@@ -32,6 +32,18 @@ ul, menu, dir {
   font-size: 2.1em;
 }
 
+#logo-text, img#logo {
+  margin-bottom: 1.4rem;
+}
+#logo-text strong, h1 {
+  font-size: 2.6rem;
+  margin-left: 0;
+}
+#logo-text h1 {
+  font-size: 2.6rem;
+  margin-left: 0;
+}
+
 .center {
   text-align: center;
   margin-left: auto;
@@ -274,7 +286,6 @@ a.fa-medium:hover {
   color: white;
 }
 
-
 /* Alert-Box */
 .form-horizontal {
   margin-left: 1.7rem;
@@ -392,13 +403,17 @@ a.fa-medium:hover {
   border-top: 1px dotted #c9c5cf;
   margin-top: 50px;
 }
-
 #getting h2 {
   text-align: center;
   font-weight: 300;
   margin-bottom: 40px;
   margin-top: 20px;
 }
+#getting image.get img {
+  height: auto;
+  width: auto;
+}
+
 
 .feature {
   text-align: center;
@@ -497,7 +512,7 @@ a.fa-medium:hover {
   margin-top: 20px;
 }
 
-/* Newsletter Signup*/
+/* Newsletter Signup */
 #newsletter-signup {
   border-top: 1px dotted #c9c5cf;
   margin-top: 50px;
@@ -513,19 +528,6 @@ a.fa-medium:hover {
 #newsletter-signup form {
   margin-left: 1.3rem;
   margin-right: 1.3rem;
-}
-
-/* Buy */
-#buy {
-  border-top: 1px dotted #c9c5cf;
-  margin-top: 50px;
-}
-
-#buy h2 {
-  text-align: center;
-  font-weight: 300;
-  margin-bottom: 40px;
-  margin-top: 20px;
 }
 
 

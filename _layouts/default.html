@@ -126,15 +126,16 @@
     <br>
 
     <div class="container content">
-      <a href="/index.html" title="Padrinobook - A book about the Elegant Ruby Web Framework">
+      <a class="is-hidden-mobile" href="/index.html" title="Padrinobook - A book about the Elegant Ruby Web Framework">
         <img id="logo" src="/logo.png" alt="Logo of Padrinobook"/>
       </a>
-      <div id="logo-text">
+      <div class="is-hidden-tablet" id="logo-text">
+        {% if page.active == "home" %}
+        <h1>PadrinoBook</h1>
+        {% else %}
         <strong>PadrinoBook</strong>
+        {% endif %}
       </div>
-
-      <br>
-      <br>
 
       {{ content }}
     </div>
