@@ -242,8 +242,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       </div>
     </footer>
 
-    <script type="text/javascript" src="mail/public/js/contact-form.js"></script>
-    <script type="text/javascript">
+    <script src="mail/public/js/contact-form.js"></script>
+    <script>
         new ContactForm('#contact-form');
     </script>
 
@@ -273,7 +273,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       });
     </script>
 
-    <script type="text/javascript" src="/js/main.js"></script>
+    <script src="/js/main.js"></script>
     <!-- <script type="text/javascript" src="/js/github-commits-widget.js"></script> -->
 
     <!-- Hotjar Tracking Code for https://padrinobook.com -->

@@ -30,7 +30,6 @@ ul, menu, dir {
 
 .content h2 {
   font-size: 2.1em;
-  margin-left: 1.2rem;
 }
 
 .center {
@@ -567,7 +566,7 @@ footer a.footer-mobile {
     font-size: 1rem;
   }
 
-  h1 {
+  h1, h2 {
     margin-left: 1.2rem;
   }
 
