@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/padrinobook/padrinobook.com/issues"
   },
-  "homepage": "https://github.com/padrinobook/padrinobook.com#readme"
+  "homepage": "https://github.com/padrinobook/padrinobook.com#readme",
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "uglifycss": "0.0.29",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8"
+  }
 }

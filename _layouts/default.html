@@ -50,9 +50,13 @@
 
     <link href="http://www.feedio.co/@padrinobook/feed" rel="alternate" type="application/rss+xml" title="RSS feed for PadrinoBook">
 
+    {% if jekyll.environment == "production" %}
+    <link rel="stylesheet" href="/css/application.css" />
+    {% else %}
     <link rel="stylesheet" href="/css/bulma.css" />
     <link rel="stylesheet" href="/css/syntax.css">
     <link rel="stylesheet" href="/css/style.css">
+    {% endif %}
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   </head>
   <body>
