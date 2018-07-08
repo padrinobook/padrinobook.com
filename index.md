@@ -303,7 +303,7 @@ active: home
         Get the book to start building your app now.!
       </p>
       <p class="center">
-        <a class="button is-danger is-large" style="text-decoration: none; margin-right: 10px" href="https://www.softcover.io/books/wikimatze/padrinobook#pricing">Get the Book!</a>
+        <a class="button is-light is-large" style="text-decoration: none; margin-right: 10px" href="https://www.softcover.io/books/wikimatze/padrinobook#pricing">Get the Book!</a>
       </p>
     </div>
   </div>
@@ -317,7 +317,7 @@ active: home
       </p>
 
       <p class="center">
-        <a class="button is-danger is-large" style="text-decoration: none; margin-right: 10px" href="https://wikimatze.us6.list-manage.com/subscribe/post?u=4010f8ce18503766e176536f1&id=198f8c0321">Get the newsletter</a>
+        <a class="button is-light is-large" style="text-decoration: none; margin-right: 10px" href="https://wikimatze.us6.list-manage.com/subscribe/post?u=4010f8ce18503766e176536f1&id=198f8c0321">Get the newsletter</a>
       </p>
     </div>
   </div>
@@ -330,7 +330,7 @@ active: home
       <p class="center">If you have any questions, don't hesitate to drop me a line.</p>
 
       <p class="center">
-        <a class="button is-danger is-large" style="text-decoration: none; margin-right: 10px" href="/mail.php">Contact me</a>
+        <a class="button is-light is-large" style="text-decoration: none; margin-right: 10px" href="/mail.php">Contact me</a>
       </p>
     </div>
   </div>
