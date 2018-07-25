@@ -300,7 +300,7 @@ active: home
   <div class="columns">
     <div class="column is-12">
       <p class="center">
-        Get the book to start building your app now.!
+        Get the book to start building your app now.
       </p>
       <p class="center">
         <a class="button is-light is-large" style="text-decoration: none; margin-right: 10px" href="https://www.softcover.io/books/wikimatze/padrinobook#pricing">Get the Book!</a>
