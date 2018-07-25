@@ -5,4 +5,7 @@ bin/*
 node_modules/
 css/application.css
 css/application.css.map
+js/application.js
+main.js
+main.js.map
 

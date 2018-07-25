@@ -7,7 +7,10 @@ module.exports = {
     main: [
       './css/bulma.css',
       './css/syntax.css',
-      './css/style.css'
+      './css/style.css',
+      './js/burger_menue_navigation.js',
+      './js/main.js',
+      './js/hotjar_tracking.js'
     ],
   },
 
@@ -24,7 +27,13 @@ module.exports = {
                 ExtractTextPlugin.loader,
                 "css-loader",
             ]
-      }
+      },
+      {
+        test: /\.js$/,
+        use: [
+                "babel-loader"
+            ]
+        }
     ]
   },
 
