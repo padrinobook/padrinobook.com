@@ -258,10 +258,7 @@ active: home
       <a class="button is-danger is-large" style="text-decoration: none; margin-right: 10px" href="https://www.softcover.io/books/wikimatze/padrinobook#pricing">Get the Book</a>
     </p>
     <p>
-      <a class="button is-success is-big" style="text-decoration: none;" href="https://www.softcover.io/download/wikimatze/padrinobook/ebooks/padrinobook-preview.pdf">Get a free Preview</a>
-    </p>
-    <p>
-      or <a href="/book">read online</a>.
+      <a class="button is-success is-big" style="text-decoration: none;" href="http://eepurl.com/Wskif">Get a free Preview</a>
     </p>
     </div>
   </div>
