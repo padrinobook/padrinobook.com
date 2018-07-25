@@ -50,9 +50,13 @@
 
     <link href="http://www.feedio.co/@padrinobook/feed" rel="alternate" type="application/rss+xml" title="RSS feed for PadrinoBook">
 
+    {% if jekyll.environment == "production" %}
+    <link rel="stylesheet" href="/css/application.css" />
+    {% else %}
     <link rel="stylesheet" href="/css/bulma.css" />
     <link rel="stylesheet" href="/css/syntax.css">
     <link rel="stylesheet" href="/css/style.css">
+    {% endif %}
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   </head>
   <body>
@@ -163,77 +167,13 @@
       </div>
     </footer>
 
-    <!-- <div class="row">                                         -->
-    <!--   <div class="small-10 large-10 medium-10 columns cover"> -->
-    <!--   </div>                                                  -->
-    <!--   <br>                                                    -->
-    <!--   <br>                                                    -->
-      <!-- <div class="large-6 medium-6 columns info"> -->
-        <!-- <div class="information badge author primary">                     -->
-
-        <!--   Written by <a href="http://twitter.com/wikimatze">@wikimatze</a> -->
-        <!-- </div>                                                             -->
-        <!-- <br><br>                                                           -->
-
-        <!-- <a class="nice large success button pretty large secondary btn " href="https://www.softcover.io/downloads/fd219c19/padrinobook">Preview</a> -->
-        <!-- or <a href="/book">read online</a>.                                                                                                         -->
-
-        <!-- <p><a href="https://gitter.im/padrinobook/padrinobook"><img style="max-width:100%;" data-canonical-src="https://badges.gitter.im/vimberlin/vimfest.svg" alt="Join the chat at https://gitter.im/padrinobook/padrinobook" src="https://camo.githubusercontent.com/8dcaef4365e5cfbabfb17fdb2df140a3b556a693/68747470733a2f2f6261646765732e6769747465722e696d2f76696d6265726c696e2f76696d666573742e737667"></a></p> -->
-        <!-- <div class="ui&#45;progress&#45;bar ui&#45;container" id="progress_bar"> -->
-        <!--   <div class="ui&#45;progress" style="width: 25%;"> -->
-        <!--     <span class="ui&#45;label"> -->
-        <!--       Book status: <b class="value">25%</b> -->
-        <!--     </span> -->
-        <!--   </div> -->
-        <!-- </div> -->
-      <!-- </div> -->
-      <!-- <hr> -->
-    <!-- </div> -->
-
-    <script>
-      document.addEventListener('DOMContentLoaded', function () {
-        // Get all "navbar-burger" elements
-        var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-
-        // Check if there are any navbar burgers
-        if ($navbarBurgers.length > 0) {
-
-          // Add a click event on each of them
-          $navbarBurgers.forEach(function ($el) {
-            $el.addEventListener('click', function () {
-
-              // Get the target from the "data-target" attribute
-              var target = $el.dataset.target;
-              var $target = document.getElementById(target);
-
-              // Toggle the class on both the "navbar-burger" and the "navbar-menu"
-              $el.classList.toggle('is-active');
-              $target.classList.toggle('is-active');
-
-            });
-          });
-        }
-      });
-    </script>
-
     {% if jekyll.environment == "production" %}
-    <script src="/js/main.js"></script>
-    <!-- <script type="text/javascript" src="/js/github-commits-widget.js"></script> -->
-
-    <!-- Hotjar Tracking Code for https://padrinobook.com -->
-    <script>
-        (function(h,o,t,j,a,r){
-            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-            h._hjSettings={hjid:442173,hjsv:5};
-            a=o.getElementsByTagName('head')[0];
-            r=o.createElement('script');r.async=1;
-            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
-    </script>
+    <script src="/js/application.js"></script>
 
     <!-- Piwik tracking pixel -->
     <noscript><p><img src="https://padrinobook.com/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+    {% else %}
+    <script src="/js/burger_menue_navigation.js"></script>
     {% endif %}
   </body>
 </html>

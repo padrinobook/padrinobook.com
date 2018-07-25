@@ -32,6 +32,16 @@ task :deploy do
   puts 'Clean site ..'.bold.green
   system 'bundle exec jekyll clean'
 
+  puts 'Running webpack'.bold.green
+  system './node_modules/webpack/bin/webpack.js'
+
+  puts 'Minify CSS'.bold.green
+  system './node_modules/uglifycss/uglifycss css/application.css > css/application_min.css'
+  system 'mv css/application_min.css css/application.css'
+
+  puts 'Minify JS'.bold.green
+  system './node_modules/uglify-js/bin/uglifyjs main.js > js/application.js'
+
   puts 'Build jekyll ..'.bold.green
   system 'export JEKYLL_ENV=production && bundle exec jekyll build'
 

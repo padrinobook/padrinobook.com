@@ -1,0 +1,30 @@
+{
+  "name": "padrinobook.com",
+  "version": "1.0.0",
+  "description": "<img src=\"https://padrinobook.herokuapp.com/badge.svg\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/padrinobook/padrinobook.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/padrinobook/padrinobook.com/issues"
+  },
+  "homepage": "https://github.com/padrinobook/padrinobook.com#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "css-loader": "^1.0.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "uglify-js": "^3.4.3",
+    "uglifycss": "0.0.29",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8"
+  }
+}
