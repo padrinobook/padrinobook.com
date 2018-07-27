@@ -255,7 +255,7 @@ active: home
   <div class="columns">
     <div class="column is-12 center">
     <p>
-      <a class="button is-danger is-large" style="text-decoration: none; margin-right: 10px" href="https://www.softcover.io/books/wikimatze/padrinobook#pricing">Get the Book</a>
+      <a class="button is-danger is-large" style="text-decoration: none; margin-right: 10px" href="/packages">Get the Book</a>
     </p>
     <p>
       <a class="button is-success is-big" style="text-decoration: none;" href="http://eepurl.com/Wskif">Get a free Preview</a>
