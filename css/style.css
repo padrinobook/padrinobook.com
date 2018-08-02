@@ -595,6 +595,7 @@ p.packages-intro {
 
 p.package-version-text {
   text-align: center;
+  margin-bottom: 2em;
 }
 
 /* Media-Queries */

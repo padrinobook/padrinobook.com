@@ -14,6 +14,8 @@ The book comes in two different flavors. Pick the one that fits best to you!
   <p class="package-version-text">Get proficient with Padrino, and get the perfect foundation to be an expert with
   Padrino and be able to explore further on your own.</p>
 
+  <br>
+
   <div class="columns">
     <div class="column package is-5 is-offset-1">
       <div class="columns">
@@ -64,10 +66,12 @@ The book comes in two different flavors. Pick the one that fits best to you!
     </div>
   </div>
 
+  <br>
+
   <div class="columns">
     <div class="column is-12">
       <p class="center">
-        <a class="button is-light is-large" style="text-decoration: none" href="https://www.softcover.io/buy/wikimatze/padrinobook?option=ebooks">Buy the Main Package for 35 €</a>
+        <a class="button is-light is-large" href="https://www.softcover.io/buy/wikimatze/padrinobook?option=ebooks">Buy the Main Package for 35 €</a>
       </p>
     </div>
   </div>
@@ -77,7 +81,9 @@ The book comes in two different flavors. Pick the one that fits best to you!
   <h2>The full book</h2>
 
   <p class="package-version-text">Get proficient with Padrino, and take an in-depth look into Padrino's more advanced
-  features. You'll get the <strong>book</strong>, plus:
+  features. You'll get the <strong>book</strong>, plus:</p>
+
+  <br>
 
   <div class="columns">
     <div class="column package is-5 is-offset-1">
@@ -121,10 +127,12 @@ The book comes in two different flavors. Pick the one that fits best to you!
     </div>
   </div>
 
+  <br>
+
   <div class="columns">
     <div class="column is-12">
       <p class="center">
-        <a class="button is-light is-large" style="text-decoration: none" href="https://www.softcover.io/buy/wikimatze/padrinobook?option=all">Buy the Main Package for 125 €</a>
+        <a class="button is-light is-large" href="https://www.softcover.io/buy/wikimatze/padrinobook?option=all">Buy the Main Package for 125 €</a>
       </p>
     </div>
   </div>
