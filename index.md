@@ -134,7 +134,7 @@ active: home
 <section id="getting">
   <h2>What You'll Get</h2>
   <figure class="image get">
-    <img src="/images/get.png" alt="What you can get from the book">
+    <img src="/images/get_small.png" srcset="/images/get_big.png 2000w, /images/get_medium.png 1000w, /images/get_small.png 500w" sizes="(min-width: 800px) 50vw, 100vw" alt="What you can get from the book">
   </figure>
   <div class="columns">
     <div class="column is-4">
