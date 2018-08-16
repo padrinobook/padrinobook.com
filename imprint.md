@@ -6,7 +6,8 @@ active: imprint
 
 <h1>Imprint</h1>
 Information in accordance with Section 5 TMG
-<br><br>Matthias Günther<br>Köpenicker Str. 149a<br>12355 Berlin<br>
+<br><br>Matthias Günther
+<br>
 
 <h2>Contact Information</h2>
 Telephone: 0177 4858289<br>E-Mail: <a href="mailto:padrinobook@gmail.com">padrinobook@gmail.com</a><br>Internet address: <a href="https://padrinobook.com" target="_blank">https://padrinobook.com</a><br><br>
