@@ -66,7 +66,7 @@ active: home
 <section id="getting">
   <h2>What You'll Get</h2>
   <figure class="image get">
-    <img src="/images/get_small.png" srcset="/images/get_big.png 2000w, /images/get_medium.png 1000w, /images/get_small.png 500w" sizes="(min-width: 800px) 50vw, 100vw" alt="What you can get from the book">
+    <img src="/images/get_small.png" srcset="/images/get_big.png 2000w, /images/get_medium.png 800w, /images/get_small.png 500w" sizes="(min-width: 800px) 50vw, 100vw" alt="What you can get from the book">
   </figure>
   <div class="columns">
     <div class="column is-4">
@@ -187,10 +187,10 @@ active: home
   <div class="columns">
     <div class="column is-12 center">
     <p>
-      <a class="button is-danger is-large" style="text-decoration: none; margin-right: 10px" href="/packages">Get the Book</a>
+      <a class="button is-danger is-large" style="text-decoration: none; margin-right: 10px" href="/packages">Get the book</a>
     </p>
     <p>
-      <a class="button is-success is-big cta-mobile"  href="http://eepurl.com/Wskif">Get a free Preview</a>
+      <a class="button is-success is-big cta-mobile"  href="http://eepurl.com/Wskif">Get a free preview</a>
     </p>
     </div>
   </div>
@@ -232,7 +232,7 @@ active: home
         Get the book to start building your app now.
       </p>
       <p class="center">
-        <a class="button is-light is-large cta" href="https://www.softcover.io/books/wikimatze/padrinobook#pricing">Get the Book!</a>
+        <a class="button is-light is-large cta" href="https://www.softcover.io/books/wikimatze/padrinobook#pricing">Get the book!</a>
       </p>
     </div>
   </div>
