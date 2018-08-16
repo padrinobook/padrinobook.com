@@ -16,66 +16,6 @@ active: home
   </div>
 </section>
 
-<section id="testimonials" class="hide">
-  <h2>What people are saying</h2>
-  <div class="columns">
-    <div class="column is-6 testimonial">
-      <blockquote>
-        <i class="fas fa-quote-right fa-sm"></i>
-        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de
-        <i class="fas fa-quote-left fa-sm"></i>
-      </blockquote>
-      <div class="quoted">
-        <div class="is-pulled-right is-hidden-mobile">
-          <h5 class="name">Matthias Günther</h5>
-          <h5 class="position">Software Developer</h5>
-        </div>
-        <div class="is-pulled-right is-hidden-mobile">
-          <a class="portrait" href="http://www.gander.io/">
-            <img src="https://c1.staticflickr.com/1/305/30960365443_dc82235ae2_q.jpg" alt="Testimonial 1">
-          </a>
-        </div>
-        <div class="center mobile-space is-hidden-tablet">
-          <h5 class="name">Matthias Günther</h5>
-          <h5 class="position">Software Developer</h5>
-        </div>
-        <div class="center mobile-space is-hidden-tablet">
-          <a class="portrait" href="http://www.gander.io/">
-            <img src="https://c1.staticflickr.com/1/305/30960365443_dc82235ae2_q.jpg" alt="Testimonial 2">
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="column is-6 testimonial">
-      <blockquote>
-        <i class="fas fa-quote-right fa-sm"></i>
-        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de
-        <i class="fas fa-quote-left fa-sm"></i>
-      </blockquote>
-      <div class="quoted">
-        <div class="is-pulled-right is-hidden-mobile">
-          <h5 class="name">Matthias Günther</h5>
-          <h5 class="position">Software Developer</h5>
-        </div>
-        <div class="is-pulled-right is-hidden-mobile">
-          <a class="portrait" href="http://www.gander.io/">
-            <img src="https://pbs.twimg.com/profile_images/814020419334311936/Ufc1etJh_400x400.jpg" alt="Testimonial 3">
-          </a>
-        </div>
-        <div class="center mobile-space is-hidden-tablet">
-          <h5 class="name">Matthias Günther</h5>
-          <h5 class="position">Software Developer</h5>
-        </div>
-        <div class="center mobile-space is-hidden-tablet">
-          <a class="portrait" href="http://www.gander.io/">
-            <img src="https://pbs.twimg.com/profile_images/814020419334311936/Ufc1etJh_400x400.jpg" alt="Testimonial 4">
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section id="padrino">
   <h2>What's Padrino?</h2>
   <div class="columns">
@@ -98,14 +38,6 @@ active: home
       </p>
     </div>
   </div>
-</section>
-
-<section id="building" class="hide">
-  <h2>What You'll Be Creating</h2>
-  <figure class="image is-square">
-    <img src="https://picsum.photos/1202/1202?image=877" alt="building">
-  </figure>
-  <h3>A job vacancy board with authentication, searching, and admin interface.</h3>
 </section>
 
 <section id="newsletter-signup" class="is-hidden-tablet">
