@@ -38,7 +38,7 @@ module.exports = {
   },
 
   plugins: [
-    new ExtractTextPlugin({filename: 'css/application.css'}),
+    new ExtractTextPlugin({filename: '_includes/application.css'}),
   ],
 
   mode: "none",

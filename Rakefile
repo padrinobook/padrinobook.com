@@ -36,11 +36,11 @@ task :deploy do
   system './node_modules/webpack/bin/webpack.js'
 
   puts 'Minify CSS'.bold.green
-  system './node_modules/uglifycss/uglifycss css/application.css > css/application_min.css'
-  system 'mv css/application_min.css css/application.css'
+  system './node_modules/uglifycss/uglifycss _includes/application.css > _includes/application_min.css'
+  system 'mv _includes/application_min.css _includes/application.css'
 
   puts 'Minify JS'.bold.green
-  system './node_modules/uglify-js/bin/uglifyjs main.js > js/application.js'
+  system './node_modules/uglify-js/bin/uglifyjs main.js > _includes/application.js'
 
   puts 'Build jekyll ..'.bold.green
   system 'export JEKYLL_ENV=production && bundle exec jekyll build'
