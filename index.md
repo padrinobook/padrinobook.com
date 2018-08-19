@@ -66,7 +66,7 @@ active: home
 <section id="getting">
   <h2>What You'll Get</h2>
   <figure class="image get">
-    <img src="/images/get_small.png" srcset="/images/get_big.png 2000w, /images/get_medium.png 800w, /images/get_small.png 500w" sizes="(min-width: 800px) 50vw, 100vw" alt="What you can get from the book">
+    <img src="/images/get_small.png" srcset="/images/get_big.png 2000w, /images/get_medium.png 900w, /images/get_small.png 700w" sizes="(min-width: 800px) 50vw, 100vw" alt="What you can get from the book">
   </figure>
   <div class="columns">
     <div class="column is-4">
@@ -200,7 +200,8 @@ active: home
   <h2>About the Author</h2>
   <div class="columns">
     <div class="column is-2">
-      <img src="https://c1.staticflickr.com/1/305/30960365443_dc82235ae2_q.jpg" class="center image circle" alt="Matthias Günther loves Vim and painting Warhammer figures">
+      <img src="/images/wikimatze_small.jpg" srcset="/images/wikimatze_big.jpg 2000w, /images/wikimatze_medium.jpg 900w, /images/wikimatze_small.jpg 700w" sizes="100%" class="center image circle" alt="Matthias Günther loves Vim and painting Warhammer figures">
+
       <p class="center name is-hidden-tablet">
         Matthias Günther
       </p>
