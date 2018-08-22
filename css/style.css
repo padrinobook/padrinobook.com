@@ -548,6 +548,24 @@ a.fa-medium:hover {
   margin-right: 1.3rem;
 }
 
+/* Questions */
+#questions {
+  border-top: 1px dotted #c9c5cf;
+  margin-top: 50px;
+}
+
+#questions h2 {
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+#questions h3 {
+  font-weight: 450;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
 /* Contact */
 #contact {
   border-top: 1px dotted #c9c5cf;

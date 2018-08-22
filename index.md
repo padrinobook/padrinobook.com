@@ -253,8 +253,31 @@ active: home
   </div>
 </section>
 
+<section id="questions">
+  <h2>Questions?</h2>
+  <div class="columns">
+    <div class="column is-6">
+      <h3>What about formats?</h3>
+      <p>If you'll get the optimized for computer screens (PDF), Kindle (MOBI), and iPad (EPUB).</p>
+    </div>
+    <div class="column is-6">
+      <h3>Which package is best?</h3>
+      <p>That depends on your purse. If you plan to go deeply into web development then I highly recommend the whole
+      package with the book and videos. The videos help you getting familiar with Padrino and explain you the most
+      important concepts.</p>
+    </div>
+  </div>
+  <div class="columns">
+    <div class="column is-6">
+      <h3>I don't like it?</h3>
+      <p>If you don't get anything out of the book then I will refund your money. Just <a href="/mail.php">contact me</a> with your mail, name,
+      and receipt number.</p>
+    </div>
+  </div>
+</section>
+
 <section id="contact">
-  <h2>Drop me a line</h2>
+  <h2>Other questions? Drop me a line</h2>
   <div class="columns">
     <div class="column is-12">
       <p class="center">If you have any questions, don't hesitate to drop me a line.</p>
