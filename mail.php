@@ -59,57 +59,35 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PadrinoBook</title>
+    <title>PadrinoBook | Imprint </title>
     <meta name="description" content="PadrinoBook - The Guide To Master The Elegant Ruby Web Framework" />
     <meta name="author" content="Matthias Günther">
     <meta content="noodp" name="robots" >
 
-    <link rel="canonical" href="https://padrinobook.com/" />
+    <link rel="canonical" href="https://padrinobook.com/imprint/" />
 
     <meta property="og:locale" content="en_US" />
     <meta property="og:site_name" content="Padrinobook" />
-    <meta property="og:title" content="PadrinoBook - The Guide To Master The Elegant Ruby Web Framework" />
+    <meta property="og:title" content="PadrinoBook | Imprint " />
     <meta property="og:description" content="PadrinoBook - The Guide To Master The Elegant Ruby Web Framework" />
-    <meta property="og:url" content="https://padrinobook.com/" />
+    <meta property="og:url" content="https://padrinobook.com/imprint/" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://padrinobook.com/logo.png" />
 
     <meta content="summary_large_image" name="twitter:card" />
     <meta content="@wikimatze" name="twitter:creator" />
     <meta content="@padrinobook" name="twitter:site" />
-    <meta content="PadrinoBook - The Guide To Master The Elegant Ruby Web Framework written by @wikimatze " name="twitter:title" />
+    <meta content="Imprint" name="twitter:title" />
     <meta content="PadrinoBook - The Guide To Master The Elegant Ruby Web Framework written by @wikimatze " name="twitter:description" />
-    <meta content="https://padrinobook.com/" name="twitter:url" />
+    <meta content="https://padrinobook.com/imprint/" name="twitter:url" />
     <meta content="https://farm4.staticflickr.com/3725/33337025026_d36474c52b_b_d.jpg" name="twitter:image:src" />
 
-    <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/favicons/android-chrome-192x192.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="/favicons/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="/favicons/manifest.json">
-    <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg">
     <link rel="shortcut icon" href="/favicons/favicon.ico">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png">
-    <meta name="msapplication-config" content="/favicons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
 
     <link href="http://www.feedio.co/@padrinobook/feed" rel="alternate" type="application/rss+xml" title="RSS feed for PadrinoBook">
 
-    <link rel="stylesheet" href="/css/bulma.css" />
-    <link rel="stylesheet" href="/css/syntax.css">
-    <!-- <link rel="stylesheet" href="/css/flexslider.css"> -->
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/application.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   </head>
   <body>
     <nav class="navbar">
@@ -158,10 +136,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <br>
 
     <div class="container content">
-      <a href="/index.html" title="Padrinobook - A book about the Elegant Ruby Web Framework">
-        <img id="logo" src="/logo.png" alt="Logo of Padrinobook"/>
+      <a class="is-hidden-mobile" href="/index.html" title="Padrinobook - A book about the Elegant Ruby Web Framework">
+        <img id="logo" src="/logo_big.png" srcset="/logo_big.png 2000w, /logo_medium.png 1000w, /logo_small.png 700w" sizes="100%" alt="Logo of Padrinobook">
       </a>
-      <div id="logo-text">
+      <div class="is-hidden-tablet" id="logo-text">
         <strong>PadrinoBook</strong>
       </div>
 
