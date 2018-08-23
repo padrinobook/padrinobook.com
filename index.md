@@ -66,7 +66,7 @@ active: home
 <section id="getting">
   <h2>What You'll Get</h2>
   <figure class="image get">
-    <img src="https://farm2.staticflickr.com/1866/30312906838_69682b1fb8_o_d.png" srcset="https://farm2.staticflickr.com/1866/30312906838_69682b1fb8_o_d.png 2000w, https://farm2.staticflickr.com/1862/44131803302_8229d12149_o_d.png 1000w, https://farm2.staticflickr.com/1879/43461920344_619d782d7b_o_d.png 700w" sizes="100%" alt="What you can get from the book">
+    <img class="lazy" src="/images/get_medium_blur.png" data-src="/images/get.png" data-srcset="/images/get.png 2000w, https://farm2.staticflickr.com/1862/44131803302_8229d12149_o_d.png 1000w, https://farm2.staticflickr.com/1879/43461920344_619d782d7b_o_d.png 700w" sizes="100%" alt="What you can get from the book">
   </figure>
   <div class="columns">
     <div class="column is-4">
@@ -200,8 +200,7 @@ active: home
   <h2>About the Author</h2>
   <div class="columns">
     <div class="column is-2">
-      <img src="https://farm2.staticflickr.com/1812/43274122665_f0f21facf4_o_d.png" srcset="https://farm2.staticflickr.com/1881/29242441647_d92e894e66_o_d.png 2000w, https://farm2.staticflickr.com/1842/30312619668_cc09e241e0_o_d.png 1000w, https://farm2.staticflickr.com/1812/43274122665_f0f21facf4_o_d.png 700w" sizes="100%" class="center image circle" alt="Matthias Günther loves Vim and painting Warhammer figures">
-
+      <img class="lazy center image circle" src="/images/wikimatze_small_blur.png" data-src="/images/wikimatze.png" data-srcset="https://farm2.staticflickr.com/1881/29242441647_d92e894e66_o_d.png 2000w, https://farm2.staticflickr.com/1842/30312619668_cc09e241e0_o_d.png 1000w, https://farm2.staticflickr.com/1812/43274122665_f0f21facf4_o_d.png 700w" sizes="100%"  alt="Matthias Günther loves Vim and painting Warhammer figures">
       <p class="center name is-hidden-tablet">
         Matthias Günther
       </p>
