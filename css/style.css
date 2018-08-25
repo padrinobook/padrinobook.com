@@ -269,6 +269,9 @@ code { color: #000}
 .social a.fa-github-square:hover {
   color: #2f2f2f;
 }
+.social a.fa-linkedin:hover {
+  color: #0077b5;
+}
 
 a.fa-reddit-alien:hover {
   color: #ff5700;
