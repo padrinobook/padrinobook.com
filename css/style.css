@@ -669,6 +669,10 @@ footer a.footer-mobile {
     display: none;
   }
 
+  #questions h3 {
+    margin-left: 1.2rem;
+  }
+
   footer nav a.footer-mobile {
     display: block;
     margin-bottom: 25px;
