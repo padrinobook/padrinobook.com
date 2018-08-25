@@ -9,5 +9,4 @@ gem 'redcarpet',      '~> 3.4'
 gem 'rouge',          '1.10.1'
 gem 'stringex',       '2.5.2'
 gem 'sweetie', path: '/home/wm/git/sweetie'
-gem 'jekyll-minifier'
 

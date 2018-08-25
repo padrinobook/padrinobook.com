@@ -10,10 +10,6 @@ redcarpet:
 
 plugins:
   - jekyll-sitemap
-  - jekyll-minifier
-
-jekyll-minifier:
-  exclude: '*.js'
 
 permalink: /:title/
 
