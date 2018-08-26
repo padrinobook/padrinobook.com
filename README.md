@@ -1,6 +1,8 @@
 # PadrinoBook website
 
-<img src="https://padrinobook.herokuapp.com/badge.svg">
+![Gitter](https://img.shields.io/gitter/room/padrinobook/padrinobook.js.svg)
+![<img src="https://padrinobook.herokuapp.com/badge.svg">](https://padrinobook.slack.com/messages)
+![Twitter Follow](https://img.shields.io/twitter/follow/padrinobook.svg?style=social&label=Follow)
 
 
 ## Notes about the technology
