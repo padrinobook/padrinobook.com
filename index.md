@@ -1,5 +1,7 @@
 ---
 active: home
+title: The Guide To Master The Ruby Web Framework
+description: The Guide To Master The Elegant Ruby Web Framework. A practical approach to learn crafting web applications in Padrino. Written by @wikimatze. If you want to go into web development with ease and no boundaries to which components you want to use, then dig into Padrino.
 ---
 <section>
   <div class="columns">

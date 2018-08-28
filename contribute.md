@@ -1,6 +1,8 @@
 ---
 title: Contribute
 permalink: contribute/
+description: I'm writing this book with much help of the community. Instead of waiting until the book is finished you can see the source, watch the online version, join the mailing list, post a pull request, visit the fanpage, or follow @padrinobook.
+
 active: contribute
 ---
 <h1>Contribute</h1>

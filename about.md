@@ -1,6 +1,7 @@
 ---
 title: About
 permalink: about/
+description: Matthias is an Open Sourcer by heart, loves giving presentations about Vim, and is writing this book about Padrino. Matthias is writting this book with much help of the community is contributing to Padrino, and helps keeping up padrinorb.com.
 active: about
 ---
 <h1>About</h1>

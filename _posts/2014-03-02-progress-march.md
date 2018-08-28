@@ -1,6 +1,6 @@
 ---
 title: Progress March 2014
-description: Own mail address and responsive website adjustments
+description: Own mail address and responsive website adjustments. Added recent commit section as a reminder to see the last commits for the book. I designed a first logo.
 active: news
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Progress June 2013
-description: News branding for the book and updgrade to Padrino 0.12
+description: News branding from Tom Parandyk for the book and updgrade to Padrino 0.12 - I also managed to refresh the layout of the twitter account.
 active: news
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Progress February 2014
-description: Switched from bootstrap to Gumby, news style for the book
+description: After moving houses and finally getting used in the new environment I started again working on the book again. Switched from bootstrap to Gumby, news style for the book.
 active: news
 ---
 

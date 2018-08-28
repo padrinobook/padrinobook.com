@@ -1,6 +1,6 @@
 ---
 title: Logo, Twitter, and Deployment 2014
-description: News branding for the book and updgrade to Padrino 0.12
+description: Another two weeks have passed by and finally the spring is coming. As mentioned in the last newsletter, Tom Parandyk from uxtemple.com made an awesome job and created a modern branding for the book PadrinoBook logo. I hope you enjoy it as much as I do.
 active: news
 ---
 

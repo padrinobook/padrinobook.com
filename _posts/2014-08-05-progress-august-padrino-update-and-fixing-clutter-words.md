@@ -1,7 +1,7 @@
 ---
 title: Switched to Padrino 0.12.2 and fixing grammar
-page_title: Switched to Padrino 0.12.2 and fixing a lot of clutter words
-description: Fixing a lot of grammar errors, removed clutter words and migrated to Padrino 0.12.2
+page_title: Fixing a lot of grammar errors, removed clutter words and migrated to Padrino 0.12.2
+description: Switched to Padrino 0.12.2 and during the last two weeks I was fixing a lot of grammar problems as well as removed many clutter words.
 twitter_src: https://gallery.mailchimp.com/4010f8ce18503766e176536f1/images/32684573-8372-4e96-bc1b-5864ce88a1a4.jpg
 active: news
 ---
