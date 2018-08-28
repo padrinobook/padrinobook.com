@@ -4,7 +4,7 @@ layout: default
 
 <article>
   <div class="container">
-    <h2>{{ page.title }}</h2>
+    <h1>{% if page.page_title %} {{ page.page_title }} {% else %} {{ page.title }} {% endif %}</h1>
 
     <header>
       <div class="article-author is-hidden-mobile">
