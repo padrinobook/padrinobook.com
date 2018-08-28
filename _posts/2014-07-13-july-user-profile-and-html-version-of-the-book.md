@@ -1,5 +1,6 @@
 ---
-title: User Profile and HTML Version of the Book July 2014
+title: User Profile and HTML Version of the Book
+page_title: User Profile and HTML Version of the Book July 2014
 description: Installed a new logo, changed github name, rename github URL, add newsletterarchive, switched to softcover
 active: news
 ---
