@@ -189,7 +189,7 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
   <div class="columns">
     <div class="column is-12 center">
     <p>
-      <a class="button is-danger is-large" style="text-decoration: none; margin-right: 10px" href="/packages">Get the book</a>
+      <a class="button is-danger is-large" style="text-decoration: none; margin-right: 10px" href="/packages/">Get the book</a>
     </p>
     <p>
       <a class="button is-success is-big cta-mobile"  href="http://eepurl.com/Wskif">Get a free preview</a>
