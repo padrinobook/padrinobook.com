@@ -8,10 +8,10 @@ Hio,
 
 after moving houses and finally getting used in the new environment I started again working on the
 book again. Before going on, I decided to create a new style for the book website
-[padrinobook.com](http://padrinobook.com/). I added the following features:
+[padrinobook.com](https://padrinobook.com/). I added the following features:
 
 
-- switched from bootstrap to [Gumby](http://gumbyframework.com/) which make the site more responsive
+- switched from bootstrap to [Gumby](https://gumbyframework.com/) which make the site more responsive
 - add more contribution links
 - add twitter for social sharing
 

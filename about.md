@@ -20,7 +20,7 @@ active: about
     <a href="http://www.vim.org/" title="Vim">Vim</a>, and is writing this book about
     <a href="http://www.padrinorb.com/" title="Padrino">Padrino</a>.
     Matthias is writting this book with much
-    <a href="https://github.com/wikimatze/padrino-book/issues?page=1&state=closed" title="help of the Padrino community">help of the community</a>
+    <a href="https://github.com/padrinobook/padrinobook/issues?page=1&state=closed" title="help of the Padrino community">help of the community</a>
     is <a href="https://github.com/padrino/padrino-framework/contributors" title="Contributing to Padrino">contributing</a> to Padrino, and helps
     keeping up <a href="http://padrinorb.com/" title="Padrino website">padrinorb.com</a>.
     </p>

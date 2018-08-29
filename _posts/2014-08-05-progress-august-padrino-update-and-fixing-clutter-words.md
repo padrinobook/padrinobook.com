@@ -17,7 +17,7 @@ I got used to GitHub issues as my workflow when I detect problems during my writ
 A code smell is part of your source code which may be the root of a design problem but is not actually a bug. It's good to have some tools to be "lord of the smells" for [Padrino](http://www.padrinorb.com/). I've written about possible tools under ["Code Coverage Tools For Padrino"](http://wikimatze.de/code-coverage-tools-for-padrino). Since I have a small side section about code coverage tools in the book so, would it okay for you to have a link to the article in the book instead of putting the content directly in the book? Please write me your opinion under <mailto:matthias@padrinobook.com>.
 
 
-In the last weekend it was [eurucamp 2014 time](https://2014.eurucamp.org/).
+In the last weekend it was [eurucamp 2014 time](http://2014.eurucamp.org/).
 
 ![Luca Guide explaining lotusrb](https://gallery.mailchimp.com/4010f8ce18503766e176536f1/images/32684573-8372-4e96-bc1b-5864ce88a1a4.jpg "Luca Guide explaining lotusrb")
 

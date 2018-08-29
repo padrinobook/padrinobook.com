@@ -1,16 +1,17 @@
 ---
 title: Progress March 2014
-description: Own mail address and responsive website adjustments. Added recent commit section as a reminder to see the last commits for the book. I designed a first logo.
+description: Own mail address and responsive website adjustments. I designed a first logo. Plans to finish the edit profile section and write a chapter how to deploy to heroku.
+update: 2018-08-29
 active: news
 ---
 
 Hio,
 
-I finally got an own mail address <matthias@padrinobook.com> from which the updates are send now. I also add a ["Recent commit"](http://padrinobook.com/recent_commits) section as a reminder to see the last commits for the book.
+I finally got an own mail address <matthias@padrinobook.com> from which the updates are send now.
 
 
 Designing a logo is not so difficult, all you need is to have a name, a slogan, and some design in your head. You can see
-results on [logos](http://padrinobook.com/logos.html), thanks for the feedback on twitter I got from [Nathan Esquenazi](https://twitter.com/nesquena/statuses/438551498956349440).
+results on [logos](https://padrinobook.com/logos.html), thanks for the feedback on twitter I got from [Nathan Esquenazi](https://twitter.com/nesquena/statuses/438551498956349440).
 
 
 I made some small improvement on the website and made it more responsive. According to your device, a different version of the logo is loaded.
