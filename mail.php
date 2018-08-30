@@ -224,8 +224,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       </div>
     </footer>
 
-    <script src="mail/public/js/contact-form.js"></script>
-    <script src="/js/main_min.js"></script>
+    <script defer src="mail/public/js/contact-form.js"></script>
+    <script defer src="/js/main_min.js"></script>
     <!-- Piwik tracking pixel -->
     <noscript><p><img src="https://padrinobook.com/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
   </body>
