@@ -59,7 +59,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PadrinoBook | Imprint </title>
+    <title>PadrinoBook | Contact</title>
     <meta name="description" content="PadrinoBook - If you want to contact then you are on the right page. Feel free to ask me anything related to the book I will answer in the following days." />
     <meta name="author" content="Matthias Günther">
     <meta content="noodp" name="robots" >
