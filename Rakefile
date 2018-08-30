@@ -38,6 +38,7 @@ task :deploy do
   puts 'Minify CSS'.bold.green
   system './node_modules/uglifycss/uglifycss _includes/application.css > _includes/application_min.css'
   system 'mv _includes/application_min.css _includes/application.css'
+  system 'cp _includes/application.css css/application.css'
 
   puts 'Minify JS'.bold.green
   system './node_modules/uglify-js/bin/uglifyjs main.js > _includes/application.js'
