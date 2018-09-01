@@ -7,12 +7,9 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
   <div class="columns">
     <div class="column is-12">
       <p>
-        If you want to go into web development with ease and no boundaries to which
-        components you want to use, then dig into <a href="http://padrinorb.com/">Padrino</a>.
-        This book will teach you how to craft web applications in Padrino with joy and fun.
-      </p>
-      <p>
-        Padrino is super interesting, but there aren't a lot of docs available so start learning it with this <a href="https://www.softcover.io/books/wikimatze/padrinobook">book</a>.
+        If you want to go into web development with fun and joy plus the freedom of choice which
+        components you want to use, then take a deeper look into <a href="http://padrinorb.com/">Padrino</a>.
+        This book will teach you how to craft web applications in Padrino.
       </p>
     </div>
   </div>
@@ -27,15 +24,11 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
         building <i>flexible</i>, <i>powerful</i> and <i>fast</i> web apps.
       </p>
 
-      <p>If you want to go into web development with ease and no boundaries to which components you want to use, then dig into Padrino.
-      </p>
-
       <p>
-
       It offers a <strong>Drop-In Admin</strong> to easy edit your models data in an Admin interface, it is <strong>agnostic</strong> so you can chose the components for your project you want without configuation hustle, it is extensible with all <strong>Sinatra like extensions</strong>, it is <strong>comprehensive</strong> by offering you generators for controller, mailer, test frameworks, localization and many more.
       </p>
 
-      <p> By following my step-by-step instructions you'll be able to get your own
+      <p>By following my step-by-step instructions you'll be able to get your own
      Padrino app up and running in a couple of days!
       </p>
     </div>
@@ -94,7 +87,7 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
         <i class="far fa-file-code fa-2x"></i>
         <h5>189 code samples</h5>
         <p>
-          From ruby to css and javascript - all written code is explained.
+          From ruby to css and javascript - all code samples are explained.
         </p>
       </div>
     </div>
@@ -103,7 +96,7 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
         <i class="far fa-file-alt fa-2x"></i>
         <h5>19 info boxes</h5>
         <p>
-          Explain basic concepts of web apps technologies + contains challenges.
+          Explain basic concepts of web apps technologies + homework challenges.
         </p>
       </div>
     </div>
@@ -114,7 +107,7 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
         <i class="far fa-file-image fa-2x"></i>
         <h5>2 images</h5>
         <p>
-          Detailed images will explain you concepts and ideas.
+          Detailed images highlight important concepts and ideas.
         </p>
       </div>
     </div>
@@ -123,7 +116,7 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
         <i class="far fa-sticky-note fa-2x"></i>
         <h5>31 footnotes</h5>
         <p>
-          Give you more detailed links and explanation for further reading.
+          Provide more detailed links and explanation for further reading.
         </p>
       </div>
     </div>
@@ -263,9 +256,15 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
     </div>
     <div class="column is-5">
       <h3>Which package is best?</h3>
-      <p>That depends on your purse. If you plan to go deeply into web development then I highly recommend the whole
-      package with the book and videos. The videos help you getting familiar with Padrino and explain you the most
-      important concepts.</p>
+      <p>
+        That depends on how you learn. If you plan to go deeply into web development then I highly recommend the
+        <a href="/packages#package-full">whole package</a> with the book and videos.
+        The videos help you getting familiar with Padrino and explain you the most important concepts.
+      </p>
+      <p>
+        If you learn best only through reading, the <a href="/packages#package-basic">basic package</a> is your best
+        choice.
+      </p>
     </div>
   </div>
   <div class="columns">
