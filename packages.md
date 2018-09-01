@@ -72,7 +72,7 @@ The book comes in two different flavors. Pick the one that fits best to you!
   <div class="columns">
     <div class="column is-12">
       <p class="center">
-        <a class="button is-light is-large" href="https://www.softcover.io/buy/wikimatze/padrinobook?option=ebooks">Buy the Main Package for 35 €</a>
+        <a class="button is-light is-large" href="https://www.softcover.io/buy/wikimatze/padrinobook?option=ebooks">Buy the Basic Package for 35 €</a>
       </p>
     </div>
   </div>
@@ -133,7 +133,7 @@ The book comes in two different flavors. Pick the one that fits best to you!
   <div class="columns">
     <div class="column is-12">
       <p class="center">
-        <a class="button is-light is-large" href="https://www.softcover.io/buy/wikimatze/padrinobook?option=all">Buy the Main Package for 125 €</a>
+        <a class="button is-light is-large" href="https://www.softcover.io/buy/wikimatze/padrinobook?option=all">Buy the Full Package for 125 €</a>
       </p>
     </div>
   </div>
