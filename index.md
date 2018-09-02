@@ -252,7 +252,7 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
   <div class="columns">
     <div class="column is-5 is-offset-1">
       <h3>What about formats?</h3>
-      <p>If you'll get the optimized for computer screens (PDF), Kindle (MOBI), and iPad (EPUB).</p>
+      <p>You'll get the optimized for computer screens (PDF), Kindle (MOBI), and iPad (EPUB).</p>
     </div>
     <div class="column is-5">
       <h3>Which package is best?</h3>
