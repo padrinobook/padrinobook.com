@@ -4,7 +4,6 @@ permalink: about/
 description: Matthias is an Open Sourcer by heart, loves giving presentations about Vim, and is writing this book about Padrino. Matthias is writting this book with much help of the community is contributing to Padrino, and helps keeping up padrinorb.com.
 active: about
 ---
-<h1>About</h1>
 <div class="columns">
   <div class="column is-2">
     <img src="https://c1.staticflickr.com/1/305/30960365443_dc82235ae2_q.jpg" class="center image circle" alt="Matthias Günther loves Vim and painting Warhammer figures">

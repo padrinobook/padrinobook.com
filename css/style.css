@@ -51,13 +51,13 @@ ul, menu, dir {
 #logo-text, img#logo {
   margin-bottom: 1.4rem;
 }
-#logo-text strong, h1 {
-  font-size: 2.6rem;
-  margin-left: 0;
-}
 #logo-text h1 {
   font-size: 2.6rem;
   margin-left: 0;
+  margin-bottom: 2.0rem;
+}
+#logo-text h1.news {
+  margin-bottom: 1.0rem;
 }
 
 .center {
@@ -271,6 +271,9 @@ code { color: #000}
 }
 .social a.fa-linkedin:hover {
   color: #0077b5;
+}
+.social a.fa-instagram:hover {
+  color: #313131;
 }
 
 a.fa-reddit-alien:hover {
@@ -625,7 +628,7 @@ p.package-version-text {
     display: none;
   }
 
-  #logo-text {
+  img.logo {
     display: none;
   }
 }
@@ -759,6 +762,10 @@ footer a.footer-mobile {
 @media (max-width: 440px) {
   .copyright, .footer-separater {
     display: none;
+  }
+
+  #logo-text h1.news {
+    font-size: 1.6rem;
   }
 
   .sharing h5 {

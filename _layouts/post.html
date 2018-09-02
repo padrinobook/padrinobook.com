@@ -4,15 +4,12 @@ layout: default
 
 <article>
   <div class="container">
-    <h1>{% if page.page_title %} {{ page.page_title }} {% else %} {{ page.title }} {% endif %}</h1>
-
     <header>
       <div class="article-author is-hidden-mobile">
         Written by <a href="https://twitter.com/wikimatze">{{ site.author }}</a>
         {% if page.update %}, updated <time>{{ page.update }}</time> {% endif %}
       </div>
     </header>
-
     {{ content }}
   </div>
 </article>

@@ -142,15 +142,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <a class="is-hidden-mobile" href="/index.html" title="Padrinobook - A book about the Elegant Ruby Web Framework">
         <img id="logo" src="/logo_big.png" srcset="/logo_big.png 2000w, /logo_medium.png 1000w, /logo_small.png 700w" sizes="100%" alt="Logo of Padrinobook">
       </a>
-      <div class="is-hidden-tablet" id="logo-text">
-        <strong>PadrinoBook</strong>
-      </div>
-
-      <br>
-      <br>
-
       <header>
-        <h1 class="lead">Contact</h1>
+        <div id="logo-text">
+          <h1>Contact</h1>
+        </div>
       </header>
 
     <?php if(!empty($emailSent)): ?>
