@@ -102,9 +102,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <div id="navbarMenu" class="navbar-menu">
           <div class="navbar-end">
             <a  class="navbar-item" href="/" title="Back to home of padrinobook">Home</a>
-            <a class="navbar-item" href="/about" title="Behind the padrinobook is wikimatze">About</a>
-            <a class="navbar-item is-active" href="/mail.php" title="Contact me">Contact</a>
             <a class="navbar-item" href="/news" title="Overview of latest articles">News</a>
+            <a class="navbar-item is-active" href="/mail.php" title="Contact me">Contact</a>
+            <a class="navbar-item" href="/about" title="Behind the padrinobook is wikimatze">About</a>
             <a class="navbar-item" href="/imprint" title="Legal stuff from me">Imprint</a>
           </div>
         </div>
