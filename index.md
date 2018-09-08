@@ -67,16 +67,16 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
     <div class="column is-4">
       <div class="feature">
         <i class="far fa-copy fa-2x"></i>
-        <h5>42 chapters</h5>
+        <h5>42 Chapters</h5>
         <p>
-          They will tell you everything about building the job vacancy app.
+          Tell you everything about building the job vacancy app.
         </p>
       </div>
     </div>
     <div class="column is-4 hide">
       <div class="feature">
         <i class="far far fa-file-video fa-2x"></i>
-        <h5>0 videos</h5>
+        <h5>0 Videos</h5>
         <p>
           Follow the book by Listen to my voice while I'm going through book.
         </p>
@@ -85,16 +85,16 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
     <div class="column is-4">
       <div class="feature">
         <i class="far fa-file-code fa-2x"></i>
-        <h5>189 code samples</h5>
+        <h5>189 Code Samples</h5>
         <p>
-          From ruby to css and javascript - all code samples are explained.
+          From ruby to css and javascript - all code samples are included.
         </p>
       </div>
     </div>
     <div class="column is-4">
      <div class="feature">
         <i class="far fa-file-alt fa-2x"></i>
-        <h5>19 info boxes</h5>
+        <h5>19 Info Boxes</h5>
         <p>
           Explain basic concepts of web apps technologies + homework challenges.
         </p>
@@ -105,16 +105,16 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
     <div class="column is-4">
       <div class="feature">
         <i class="far fa-file-image fa-2x"></i>
-        <h5>2 images</h5>
+        <h5>2 Images</h5>
         <p>
-          Detailed images highlight important concepts and ideas.
+          Detailed images explain important concepts and ideas.
         </p>
       </div>
     </div>
     <div class="column is-4">
       <div class="feature">
         <i class="far fa-sticky-note fa-2x"></i>
-        <h5>31 footnotes</h5>
+        <h5>31 Footnotes</h5>
         <p>
           Provide more detailed links and explanation for further reading.
         </p>
@@ -258,12 +258,11 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
       <h3>Which package is best?</h3>
       <p>
         That depends on how you learn. If you plan to go deeply into web development then I highly recommend the
-        <a href="/packages#package-full">full package</a> with the book and videos.
+        <a href="/packages#package-full">full package</a> (book + videos).
         The videos help you getting familiar with Padrino and explain you the most important concepts.
       </p>
       <p>
-        If you learn best only through reading, the <a href="/packages#package-basic">basic package</a> is your best
-        choice.
+        If you learn best only through reading, the <a href="/packages#package-basic">basic package</a> is your choice.
       </p>
     </div>
   </div>
@@ -277,7 +276,7 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
 </section>
 
 <section id="contact">
-  <h2>Drop me a line</h2>
+  <h2>Drop me a line!</h2>
   <div class="columns">
     <div class="column is-12">
       <p class="center">If you have any questions, don't hesitate to drop me a line.</p>
