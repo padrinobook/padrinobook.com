@@ -369,6 +369,12 @@ a.fa-medium:hover, footer nav a.fa-medium-m:hover {
   font-weight: 300;
 }
 
+/* Newsletter */
+#newsletter-signup div.field {
+  margin-left: 20px;
+}
+
+
 /* Author */
 #author p.center.name {
   margin-top: 5px;

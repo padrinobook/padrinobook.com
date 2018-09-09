@@ -197,15 +197,32 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
 </section>
 
 <section class="information">
-  <h2>Newsletter Subscription</h2>
+  <h2>Newsletter</h2>
   <div class="columns">
-    <div class="column is-12">
+    <div class="column is-12 is-hidden-mobile">
       <p class="center">Sign up to stay informed about the latest developments.
       </p>
 
       <p class="center">
-        <a class="button is-light is-large cta" href="https://wikimatze.us6.list-manage.com/subscribe/post?u=4010f8ce18503766e176536f1&id=198f8c0321">Get the newsletter</a>
+        <a class="button is-light is-large cta" href="https://subscribe.minutemailer.com/1kdgVZ5W">Get the newsletter</a>
       </p>
+    </div>
+    <div class="column is-12 is-hidden-tablet" id="newsletter-signup">
+      <form action="https://subscribe.minutemailer.com/1kdgVZ5W" method="post">
+          <div class="field">
+            <div class="control has-icons-left">
+              <input class="input" name="email" placeholder="Email" value="" type="email" required>
+              <span class="icon is-small is-left">
+                <i class="fas fa-envelope"></i>
+              </span>
+            </div>
+          </div>
+          <div class="field is-grouped">
+            <div class="control">
+              <button class="button is-big is-link" type="submit" value="Subscribe" name="subscribe">Send</button>
+            </div>
+          </div>
+      </form>
     </div>
   </div>
 </section>
