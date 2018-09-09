@@ -15,7 +15,7 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
   </div>
 </section>
 
-<section id="padrino">
+<section class="information">
   <h2>What's Padrino?</h2>
   <div class="columns">
     <div class="column is-12">
@@ -58,9 +58,9 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
   </div>
 </section>
 
-<section id="getting">
+<section class="information">
   <h2>What You'll Get</h2>
-  <figure class="image get">
+  <figure class="image">
     <img class="lazy" src="/images/get_medium_blur.png" data-src="/images/get.png" data-srcset="/images/get.png 2000w, https://farm2.staticflickr.com/1862/44131803302_8229d12149_o_d.png 1000w, https://farm2.staticflickr.com/1879/43461920344_619d782d7b_o_d.png 700w" sizes="100%" alt="What you can get from the book">
   </figure>
   <div class="columns">
