@@ -421,10 +421,6 @@ p.package-version-text {
   }
 }
 
-footer a.footer-mobile {
-  display: none;
-}
-
 @media (max-width: 1600px) {
   .social {
     display: none;
