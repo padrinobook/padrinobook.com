@@ -153,79 +153,14 @@ code { color: #000}
 
 .active { position: relative; background: #868d92; z-index: 1000; }
 
-
 .image.circle {
   border-radius: 50% !important;
   overflow: hidden;
   width: auto;
 }
 
-/* last commits plugin */
-.github-commits-list {
-  list-style: none;
-}
 
-.github-user, .github-commit {
-  padding-right: 10px;
-}
-
-.github-user img {
-  margin-right: 10px;
-}
-
-.fb-like span {
-   top: -6px;
-}
-
-
-.pretty.navbar {
-  margin-top: 25px;
-}
-
-.toc {
-  top: 0px;
-  left: 0px;
-  height: 100%;
-  position: fixed;
-  width: 150px;
-  padding-top: 20px;
-  color: #fff;
-  overflow-y: auto;
-}
-.toc ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.toc li {
-  padding: 5px 10px;
-}
-
-.toc a {
-  color: #d04526;
-  text-decoration: none;
-  display: block;
-}
-
-.toc .toc-h2 {
-  padding-left: 10px;
-}
-
-.toc .toc-h3 {
-  padding-left: 20px;
-}
-
-.toc .toc-h4 {
-  padding-left: 30px;
-}
-
-.toc .toc-active {
-  font-weight: bold;
-}
-
-
-// social-media hover colors
+/* social-media hover colors */
 
 .share {
   position: relative;
@@ -257,30 +192,30 @@ code { color: #000}
 .social a.icon-stumbleupon:hover, a.fa-stumbleupon:hover {
   color: #eb4823;
 }
-.social a.fa-twitter-square:hover, a.fa-twitter:hover {
+.social a.fa-twitter-square:hover, footer nav a.fa-twitter:hover {
   color: #55acee;
 }
-.social a.fa-facebook-square:hover, a.fa-facebook:hover {
+.social a.fa-facebook-square:hover, footer nav a.fa-facebook-f:hover {
   color: #3b5998;
 }
-.social a.fa-google-plus-square:hover, a.fa-google-plus:hover {
+.social a.fa-google-plus-square:hover, footer nav a.fa-google-plus-g:hover {
   color: #d34836;
 }
-.social a.fa-github-square:hover {
+.social a.fa-github-square:hover, footer nav a.fa-github-alt:hover {
   color: #2f2f2f;
 }
-.social a.fa-linkedin:hover {
+.social a.fa-linkedin:hover, footer nav a.fa-linkedin-in:hover {
   color: #0077b5;
 }
-.social a.fa-instagram:hover {
+.social a.fa-instagram:hover, footer nav a.fa-instagram:hover {
   color: #313131;
 }
 
-a.fa-reddit-alien:hover {
+a.fa-reddit-alien:hover, footer nav a.fa-medium-m:hover {
   color: #ff5700;
 }
 
-a.fa-medium:hover {
+a.fa-medium:hover, footer nav a.fa-medium-m:hover {
   color: #00ab6b
 }
 
@@ -683,6 +618,7 @@ footer a.footer-mobile {
     display: block;
     margin-bottom: 25px;
     font-size: 25px;
+    text-decoration: none;
   }
 
   #logo-text {

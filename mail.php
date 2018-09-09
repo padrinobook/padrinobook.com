@@ -120,6 +120,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           <a class='fab fa-facebook-square' href='https://www.facebook.com/padrinobook' rel='noopener noreferrer' target='_blank' title='Follow me on Facebook'></a>
         </li>
         <li>
+          <a class="fab fa-instagram" href="https://www.instagram.com/padrinobook/" rel="noopener noreferrer" title="Follow me on Instagram"></a>
+        </li>
+        <li>
           <a class='fab fa-google-plus-square' href="https://plus.google.com/109249095952663676924" rel='noopener noreferrer' target='_blank' title='Follow me on Google+'></a>
         </li>
         <li>
@@ -207,12 +210,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           <a class="footer-desktop" href="/imprint">Imprint</a>
           <span class="footer-separater">&bull;</span>
           <a class="footer-desktop" href="/contribute">Contribute</a>
-          <a class="footer-mobile" href="https://twitter.com/padrinobook" title="Follow padrinobook on twitter"><i class="fab fa-twitter"></i></a>
-          <a class="footer-mobile" href="https://www.facebook.com/padrinobook" title="Follow padrinobook on facebook"><i class="fab fa-facebook-f"></i></a>
-          <a class="footer-mobile" href="https://plus.google.com/109249095952663676924" title="Follow padrinobook on google+"><i class="fab fa-google-plus-g"></i></a>
-          <a class="footer-mobile" href="https://medium.com/@padrinobook" title="Follow padrinobook on medium"><i class="fab fa-medium-m"></i></a>
-          <a class="footer-mobile" href="https://github.com/padrinobook" title="Follow padrinobook on GitHub"><i class="fab fa-github-alt"></i></a>
-          <a class="footer-mobile" href="https://www.linkedin.com/groups/8687222" title="Follow padrinobook on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a class="footer-mobile fab fa-twitter" href="https://twitter.com/padrinobook" title="Follow padrinobook on twitter"></a>
+          <a class="footer-mobile fab fa-facebook-f" href="https://www.facebook.com/padrinobook" title="Follow padrinobook on facebook"></a>
+          <a class="footer-mobile fab fa-instagram" href="https://www.instagram.com/padrinobook/" title="Follow padrinobook on Instagram"</a>
+          <a class="footer-mobile fab fa-google-plus-g" href="https://plus.google.com/109249095952663676924" title="Follow padrinobook on google+"></a>
+          <a class="footer-mobile fab fa-medium-m" href="https://medium.com/@padrinobook" title="Follow padrinobook on medium"></a>
+          <a class="footer-mobile fab fa-github-alt" href="https://github.com/padrinobook" title="Follow padrinobook on GitHub"></a>
+          <a class="footer-mobile fab fa-linkedin-in" href="https://www.linkedin.com/groups/8687222" title="Follow padrinobook on LinkedIn"></a>
         </nav>
       </div>
     </footer>
