@@ -233,7 +233,7 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
   </div>
 </section>
 
-<section class="questions">
+<section class="information" id="questions">
   <h2>Questions?</h2>
   <div class="columns">
     <div class="column is-5 is-offset-1">

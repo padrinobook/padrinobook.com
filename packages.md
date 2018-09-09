@@ -101,10 +101,10 @@ The book comes in two different flavors. Pick the one that fits best to you!
         </div>
       </div>
     </div>
-    <div class="column package is-5">
+    <div class="column package is-5 ">
       <div class="columns">
         <div class="column is-one-quarter">
-          <i class="far fa-comments fa-5x"></i>
+          <i class="far fa-comments fa-4x"></i>
         </div>
         <div class="column is-three-quarter">
           <h4>Question</h4>

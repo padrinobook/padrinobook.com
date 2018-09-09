@@ -392,6 +392,13 @@ a.fa-medium:hover, footer nav a.fa-medium-m:hover {
   margin-right: 1.3rem;
 }
 
+/* Questions */
+#questions h3 {
+  font-weight: 450;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
 
 /* Packages */
 p.packages-intro {
@@ -457,7 +464,8 @@ footer a.footer-mobile {
   }
 
   #questions h3 {
-    margin-left: 1.2rem;
+    font-size: 1.4rem;
+    margin-left: 1.1rem;
   }
 
   footer nav a.footer-mobile {
