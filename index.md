@@ -35,29 +35,6 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
   </div>
 </section>
 
-<section id="newsletter-signup" class="is-hidden-tablet">
-  <h2>Sign up for thew Newsletter</h2>
-  <div class="columns">
-    <div class="column is-12">
-      <form action="https://wikimatze.us6.list-manage.com/subscribe/post?u=4010f8ce18503766e176536f1&amp;id=198f8c0321" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <div class="field">
-          <div class="control has-icons-left">
-            <input class="input" id="mce-EMAIL" name="EMAIL" placeholder="Email" value="" type="email" required>
-            <span class="icon is-small is-left">
-              <i class="fas fa-envelope"></i>
-            </span>
-          </div>
-        </div>
-        <div class="field is-grouped">
-          <div class="control">
-            <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button is-large is-link">Send</button>
-          </div>
-        </div>
-      </form>
-    </div>
-  </div>
-</section>
-
 <section class="information">
   <h2>What You'll Get</h2>
   <figure class="image">

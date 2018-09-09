@@ -374,24 +374,6 @@ a.fa-medium:hover, footer nav a.fa-medium-m:hover {
   margin-top: 5px;
 }
 
-/* Newsletter Signup (only on mobile visible)*/
-#newsletter-signup {
-  border-top: 1px dotted #c9c5cf;
-  margin-top: 50px;
-}
-
-#newsletter-signup h2 {
-  text-align: center;
-  font-weight: 300;
-  margin-bottom: 40px;
-  margin-top: 20px;
-}
-
-#newsletter-signup form {
-  margin-left: 1.3rem;
-  margin-right: 1.3rem;
-}
-
 /* Questions */
 #questions h3 {
   font-weight: 450;
