@@ -123,7 +123,7 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
   </div>
 </section>
 
-<section id="chapters">
+<section class="information" id="chapters">
   <h2>Chapters List</h2>
   <div class="columns">
     <div class="column is-10">
@@ -177,7 +177,7 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
   </div>
 </section>
 
-<section id="buy" class="is-hidden-tablet">
+<section class="information" class="is-hidden-tablet">
   <h2>Get the book</h2>
   <div class="columns">
     <div class="column is-12 center">
@@ -191,7 +191,7 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
   </div>
 </section>
 
-<section id="author">
+<section class="information" id="author">
   <h2>About the Author</h2>
   <div class="columns">
     <div class="column is-2">
@@ -219,7 +219,7 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
   </div>
 </section>
 
-<section id="starting-time">
+<section class="starting-time">
   <h2>Start to Discover Padrino</h2>
   <div class="columns">
     <div class="column is-12">
@@ -233,7 +233,7 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
   </div>
 </section>
 
-<section id="newsletter">
+<section class="information">
   <h2>Newsletter Subscription</h2>
   <div class="columns">
     <div class="column is-12">
@@ -247,7 +247,7 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
   </div>
 </section>
 
-<section id="questions">
+<section class="questions">
   <h2>Questions?</h2>
   <div class="columns">
     <div class="column is-5 is-offset-1">
@@ -275,7 +275,7 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
   </div>
 </section>
 
-<section id="contact">
+<section class="information">
   <h2>Drop me a line!</h2>
   <div class="columns">
     <div class="column is-12">
