@@ -219,20 +219,6 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
   </div>
 </section>
 
-<section class="starting-time">
-  <h2>Start to Discover Padrino</h2>
-  <div class="columns">
-    <div class="column is-12">
-      <p class="center">
-        Get the book to start building your app now.
-      </p>
-      <p class="center">
-        <a class="button is-light is-large cta" href="https://www.softcover.io/books/wikimatze/padrinobook#pricing">Get the book!</a>
-      </p>
-    </div>
-  </div>
-</section>
-
 <section class="information">
   <h2>Newsletter Subscription</h2>
   <div class="columns">
@@ -271,6 +257,18 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
       <h3>I don't like it?</h3>
       <p>If you don't get anything out of the book then I will refund your money. Just <a href="/mail.php">contact me</a> with your mail, name,
       and receipt number.</p>
+    </div>
+  </div>
+
+  <h2>Start to Discover Padrino</h2>
+  <div class="columns">
+    <div class="column is-12">
+      <p class="center">
+        Get the book to start building your app now.
+      </p>
+      <p class="center">
+        <a class="button is-light is-large cta" href="https://www.softcover.io/books/wikimatze/padrinobook#pricing">Get the book!</a>
+      </p>
     </div>
   </div>
 </section>

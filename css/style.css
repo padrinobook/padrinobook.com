@@ -374,19 +374,6 @@ a.fa-medium:hover, footer nav a.fa-medium-m:hover {
   margin-top: 5px;
 }
 
-/* Starting */
-#starting-time {
-  margin-top: 50px;
-}
-
-#starting-time h2 {
-  text-align: center;
-  font-weight: 300;
-  margin-bottom: 40px;
-  margin-top: 20px;
-  margin-left: -7px;
-}
-
 /* Newsletter Signup (only on mobile visible)*/
 #newsletter-signup {
   border-top: 1px dotted #c9c5cf;
