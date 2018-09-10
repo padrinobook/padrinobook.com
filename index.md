@@ -182,12 +182,14 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
     </div>
     <div class="column is-10">
       <p>Matthias is an Open Sourcer by heart, loves giving presentations about
-      <a href="http://www.vim.org/" title="Vim">Vim</a>, and is writing this book about
-      <a href="http://www.padrinorb.com/" title="Padrino">Padrino</a>.
+      <a href="http://www.vim.org/" title="Vim">Vim</a>, is running <a href="https://vimberlin.de/" title="vimberlin">vimberlin</a>, is organizing <a href="https://vimfest.org/" title="vimfest">the yearly vimfest in Berlin</a>, and is writing this book about
+      <a href="http://www.padrinorb.com/" title="Padrino Web framework">Padrino</a>.
+      </p>
+      <p>
       Matthias is writting this book with much
       <a href="https://github.com/padrinobook/padrinobook/issues?page=1&state=closed" title="help of the Padrino community">help of the community</a>
       is <a href="https://github.com/padrino/padrino-framework/contributors" title="Contributing to Padrino">contributing</a> to Padrino, and helps
-      keeping up <a href="http://padrinorb.com/" title="Padrino website">padrinorb.com</a>.
+      keeping up <a href="http://padrinorb.com/guides/" title="Padrino guides">the docs of padrinorb.com</a>.
       </p>
       <p class="is-hidden-mobile">
         <a href="https://twitter.com/wikimatze">Follow @wikimatze</a>
