@@ -16,19 +16,22 @@ active: about
   </div>
   <div class="column is-10">
     <p>Matthias is an Open Sourcer by heart, loves giving presentations about
-    <a href="http://www.vim.org/" title="Vim">Vim</a>, and is writing this book about
-    <a href="http://www.padrinorb.com/" title="Padrino">Padrino</a>.
+    <a href="http://www.vim.org/" title="Vim">Vim</a>, is running <a href="https://vimberlin.de/" title="vimberlin">vimberlin</a>, is organizing <a href="https://vimfest.org/" title="vimfest">the yearly vimfest in Berlin</a>, and is writing this book about
+    <a href="http://www.padrinorb.com/" title="Padrino Web framework">Padrino</a>.
+    </p>
+    <p>
     Matthias is writting this book with much
     <a href="https://github.com/padrinobook/padrinobook/issues?page=1&state=closed" title="help of the Padrino community">help of the community</a>
     is <a href="https://github.com/padrino/padrino-framework/contributors" title="Contributing to Padrino">contributing</a> to Padrino, and helps
-    keeping up <a href="http://padrinorb.com/" title="Padrino website">padrinorb.com</a>.
+    keeping <a href="http://padrinorb.com/guides/" title="Padrino guides">the docs of padrinorb.com</a> up-to-date.
     </p>
+
     <p class="is-hidden-mobile">
       <a href="https://twitter.com/wikimatze">Follow @wikimatze</a>
     </p>
     <p>
       Contact Matthias directly via <a href="/mail.php" title="Contact me via mail">mail</a>, or on
-      <a href="{{ site.twitter }}" title="Contact via twitter">twitter</a>, or join the <a href="https://wikimatze.us6.list-manage.com/subscribe/post?u=4010f8ce18503766e176536f1&id=198f8c0321" title="Padrinobook Mailing list">mailinglist</a>.
+      <a href="{{ site.twitter }}" title="Contact via twitter">twitter</a>, or join the <a href="https://subscribe.minutemailer.com/1kdgVZ5W" title="Padrinobook newsletter">newsletter</a>.
     </p>
   </div>
 </div>
