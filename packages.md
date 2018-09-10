@@ -7,11 +7,11 @@ active: home
 ---
 
 <p class="packages-intro">
-The book comes in two different flavors. Pick the one that fits best to you!
+The book comes in two different packages. Pick the one that fits best to you!
 </p>
 
-<section class="information">
-  <h2>The book</h2>
+<section class="information" id="basic-package">
+  <h2>The basic package</h2>
 
   <p class="package-version-text">Get proficient with Padrino, and get the perfect foundation to be an expert with
   Padrino and be able to explore further on your own.</p>
@@ -26,7 +26,7 @@ The book comes in two different flavors. Pick the one that fits best to you!
         </div>
         <div class="column is-three-quarter">
           <h4>Book</h4>
-          <p>The book with all 42 chapters in PDF, HTML, ePub, and Kindle formats.</p>
+          <p>The book with all 42 chapters in PDF, HTML, ePub, and Kindle format.</p>
         </div>
       </div>
     </div>
@@ -37,7 +37,7 @@ The book comes in two different flavors. Pick the one that fits best to you!
         </div>
         <div class="column is-three-quarter">
           <h4>Info-boxes</h4>
-          <p>Behind the scene explanation web apps technologies + challenges to deepen your knowledge.</p>
+          <p>Behind the scene explanation web apps technologies + challenges.</p>
         </div>
       </div>
     </div>
@@ -73,17 +73,17 @@ The book comes in two different flavors. Pick the one that fits best to you!
   <div class="columns">
     <div class="column is-12">
       <p class="center">
-        <a class="button is-light is-large" href="https://www.softcover.io/buy/wikimatze/padrinobook?option=ebooks">Buy the Basic Package for 35 €</a>
+        <a class="button is-light is-large" href="https://www.softcover.io/buy/wikimatze/padrinobook?option=ebooks">Buy the Basic Package</a>
       </p>
     </div>
   </div>
 </section>
 
-<section id="package-full">
-  <h2>The full book</h2>
+<section class="information "id="full-package">
+  <h2>The full package</h2>
 
   <p class="package-version-text">Get proficient with Padrino, and take an in-depth look into Padrino's more advanced
-  features. You'll get the <strong>book</strong>, plus:</p>
+  features. You'll get the features of the <a href="#basic-package">basic package</a> plus:</p>
 
   <br>
 
@@ -96,7 +96,7 @@ The book comes in two different flavors. Pick the one that fits best to you!
         <div class="column is-three-quarter">
           <h4>Videos</h4>
           <p>
-            Follow the book by Listen to my voice while I'm going through book.
+            Follow my voice while I'm going through book.
           </p>
         </div>
       </div>
@@ -108,8 +108,7 @@ The book comes in two different flavors. Pick the one that fits best to you!
         </div>
         <div class="column is-three-quarter">
           <h4>Question</h4>
-          <p>Consult me - whether you need implementation details, further explanations or architecture decisions I'll
-          be there for you.</p>
+          <p>Consult me - whether you need implementation details, further explanations or architecture decisions.</p>
         </div>
       </div>
     </div>
@@ -134,7 +133,7 @@ The book comes in two different flavors. Pick the one that fits best to you!
   <div class="columns">
     <div class="column is-12">
       <p class="center">
-        <a class="button is-light is-large" href="https://www.softcover.io/buy/wikimatze/padrinobook?option=all">Buy the Full Package for 125 €</a>
+        <a class="button is-light is-large" href="https://www.softcover.io/buy/wikimatze/padrinobook?option=all">Buy the Full Package</a>
       </p>
     </div>
   </div>
