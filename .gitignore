@@ -6,6 +6,7 @@ node_modules/
 css/application.css
 css/application.css.map
 js/application.js
+js/main_min.js
 _includes/application.css
 _includes/application.css.map
 _includes/application.js
