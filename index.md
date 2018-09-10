@@ -64,7 +64,7 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
         <i class="far fa-file-code fa-2x"></i>
         <h5>189 Code Samples</h5>
         <p>
-          From ruby to css and javascript - all code samples are included.
+          From Ruby to CSS and JavaScript - all code samples are included.
         </p>
       </div>
     </div>
