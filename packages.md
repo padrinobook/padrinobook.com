@@ -73,7 +73,7 @@ The book comes in two different packages. Pick the one that fits best to you!
   <div class="columns">
     <div class="column is-12">
       <p class="center">
-        <a class="button is-light is-large" href="https://www.softcover.io/buy/wikimatze/padrinobook?option=ebooks">Buy the Basic Package</a>
+        <a class="button is-light is-large cta" href="https://www.softcover.io/buy/wikimatze/padrinobook?option=ebooks">Buy the Basic Package</a>
       </p>
     </div>
   </div>
@@ -133,7 +133,7 @@ The book comes in two different packages. Pick the one that fits best to you!
   <div class="columns">
     <div class="column is-12">
       <p class="center">
-        <a class="button is-light is-large" href="https://www.softcover.io/buy/wikimatze/padrinobook?option=all">Buy the Full Package</a>
+        <a class="button is-light is-large cta" href="https://www.softcover.io/buy/wikimatze/padrinobook?option=all">Buy the Full Package</a>
       </p>
     </div>
   </div>
