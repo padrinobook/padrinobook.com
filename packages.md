@@ -1,9 +1,9 @@
 ---
 title: Packages
 page_title: Packages
-description: The book comes in two different flavors. Pick the one that fits best to you! The Book package helps you to get proficient with Padrino, and get the perfect foundation to be an expert with Padrino and be able to explore further on your own. Video package contains educational videos.
-permalink: packages
-active: home
+description: The book comes in two different packages. Pick the one that fits best to you! The book package helps you to get proficient with Padrino, and get the perfect foundation to be an expert with Padrino and be able to explore further on your own. Video package contains educational videos.
+permalink: packages/
+active: packages
 ---
 
 <p class="packages-intro">
