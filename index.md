@@ -189,7 +189,7 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
       Matthias is writting this book with much
       <a href="https://github.com/padrinobook/padrinobook/issues?page=1&state=closed" title="help of the Padrino community">help of the community</a>
       is <a href="https://github.com/padrino/padrino-framework/contributors" title="Contributing to Padrino">contributing</a> to Padrino, and helps
-      keeping up <a href="http://padrinorb.com/guides/" title="Padrino guides">the docs of padrinorb.com</a>.
+      keeping <a href="http://padrinorb.com/guides/" title="Padrino guides">the docs of padrinorb.com</a> up-to-date.
       </p>
       <p class="is-hidden-mobile">
         <a href="https://twitter.com/wikimatze">Follow @wikimatze</a>
