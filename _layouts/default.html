@@ -29,6 +29,12 @@ layout: compress
     <meta content="{% if page.description %}PadrinoBook | {{ page.description }}{% else %}{{ site.description }} written by @wikimatze {% endif %}" name="twitter:description" />
     <meta content="https://padrinobook.com{{ page.url }}" name="twitter:url" />
     <meta content="{% if page.twitter_src %}{{ page.twitter_src }}{% else %}https://farm4.staticflickr.com/3725/33337025026_d36474c52b_b_d.jpg{% endif %}" name="twitter:image:src" />
+    {% if page.active == 'news' %}
+    <meta property="article:published_time" content="{{ page.date | date: '%Y-%m-%d' }}" />
+    {% endif %}
+    {% if page.update %}
+    <meta property="article:modified_time" content="{{ page.update }}" />
+    {% endif %}
 
     <link rel="shortcut icon" href="/favicons/favicon.ico">
 
