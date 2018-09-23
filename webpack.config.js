@@ -9,7 +9,7 @@ module.exports = {
       './css/syntax.css',
       './css/style.css',
       './js/burger_menue_navigation.js',
-      './js/main.js',
+      './js/motomo.js',
       './js/hotjar_tracking.js'
     ],
   },

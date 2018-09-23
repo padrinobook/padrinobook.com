@@ -42,7 +42,8 @@ task :deploy do
 
   puts 'Minify JS'.bold.green
   system './node_modules/uglify-js/bin/uglifyjs main.js > _includes/application.js'
-  system './node_modules/uglify-js/bin/uglifyjs js/main.js > js/main_min.js'
+  # Need that step for mail.php file
+  system 'cp _includes/application.js js/application.js'
 
   puts 'Build jekyll ..'.bold.green
   system 'export JEKYLL_ENV=production && bundle exec jekyll build'
