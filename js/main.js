@@ -1,9 +1,4 @@
-// Contact form
-
-new ContactForm('#contact-form');
-
 // Burger menue navigation
-
 document.addEventListener('DOMContentLoaded', function () {
   // Get all "navbar-burger" elements
   var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);

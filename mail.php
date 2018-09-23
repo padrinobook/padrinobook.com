@@ -165,7 +165,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div class="field">
               <label for="form-email" class="label"><?php echo $config->get('fields.email'); ?></label>
               <div class="control has-icons-left">
-                <input type="email" class="input" id="form-email" name="form-email" placeholder="<?php echo $config->get('fields.email'); ?>" required>
+                <input type="email" class="input" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" id="form-email" name="form-email" placeholder="<?php echo $config->get('fields.email'); ?>" required>
                 <span class="icon is-small is-left">
                   <i class="fas fa-envelope"></i>
                 </span>
@@ -222,7 +222,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       </div>
     </footer>
 
-    <script defer src="mail/public/js/contact-form.js"></script>
+    <script defer src="/mail/public/js/contact-form.js"></script>
     <script defer src="/js/main_min.js"></script>
     <!-- Piwik tracking pixel -->
     <noscript><p><img src="https://padrinobook.com/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
