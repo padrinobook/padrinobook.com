@@ -11,4 +11,5 @@
 - [jekyll](https://jekyllrb.com/ "jekyll"): Static website generator written in [Ruby](https://www.ruby-lang.org/en/ "Ruby")
 - [lazyload](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/ "lazyload")
 - make blury images: `convert wikimatze_medium.png -filter Gaussian -resize 50% -define filter:sigma=2.5 -resize 200%  wikimatze_medium_blur.png`
+- [fontawesome](https://fontawesome.com/start "fontawesome"): For all the fancy icons
 
