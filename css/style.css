@@ -198,9 +198,6 @@ code { color: #000}
 .social a.fa-facebook-square:hover, footer nav a.fa-facebook-f:hover {
   color: #3b5998;
 }
-.social a.fa-google-plus-square:hover, footer nav a.fa-google-plus-g:hover {
-  color: #d34836;
-}
 .social a.fa-github-square:hover, footer nav a.fa-github-alt:hover {
   color: #2f2f2f;
 }
