@@ -1,10 +1,10 @@
-markdown: redcarpet
+markdown: kramdown
 rdiscount:
   extensions: [smart]
 timezone: DE
 
 
-redcarpet:
+kramdown:
   syntax_highlighter: rouge
 
 
