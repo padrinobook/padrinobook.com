@@ -240,11 +240,11 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
       <h3>Which package is best?</h3>
       <p>
         That depends on how you learn. If you plan to go deeply into web development then I highly recommend the
-        <a href="/packages#full-package">full package</a> (book + videos).
+        <a href="/packages#full-package">"Full Package"</a> (book + videos).
         The videos help you getting familiar with Padrino and explain you the most important concepts.
       </p>
       <p>
-        If you learn best only through reading, the <a href="/packages#basic-package">basic package</a> is your choice.
+        If you learn best only through reading, the <a href="/packages#basic-package">"Basic Package"</a> is your choice.
       </p>
     </div>
   </div>

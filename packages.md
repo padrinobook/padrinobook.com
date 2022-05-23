@@ -7,11 +7,11 @@ active: packages
 ---
 
 <p class="packages-intro">
-The book comes in two different packages. Pick the one that fits best to you!
+The book comes in two different packages. Pick the one that fits best for you!
 </p>
 
 <section class="information" id="basic-package">
-  <h2>The basic package</h2>
+  <h2>The Basic Package</h2>
 
   <p class="package-version-text">Get proficient with Padrino, and get the perfect foundation to be an expert with
   Padrino and be able to explore further on your own.</p>
@@ -79,8 +79,8 @@ The book comes in two different packages. Pick the one that fits best to you!
   </div>
 </section>
 
-<section class="information "id="full-package">
-  <h2>The full package</h2>
+<section class="information" id="full-package">
+  <h2>The Full Package</h2>
 
   <p class="package-version-text">Get proficient with Padrino, and take an in-depth look into Padrino's more advanced
   features. You'll get the features of the <a href="#basic-package">basic package</a> plus:</p>
