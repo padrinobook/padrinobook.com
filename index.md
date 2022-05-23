@@ -172,7 +172,7 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
   <h2>About the Author</h2>
   <div class="columns">
     <div class="column is-2">
-      <img class="lazy center image circle" src="/images/wikimatze_small_blur.png" data-src="/images/wikimatze.png" data-srcset="https://farm2.staticflickr.com/1881/29242441647_d92e894e66_o_d.png 2000w, https://farm2.staticflickr.com/1842/30312619668_cc09e241e0_o_d.png 1000w, https://farm2.staticflickr.com/1812/43274122665_f0f21facf4_o_d.png 700w" sizes="100%"  alt="Matthias Günther loves Vim and painting Warhammer figures">
+      <img class="lazy center image" src="/images/wikimatze_small_blur.png" data-src="/images/wikimatze.png" data-srcset="https://farm2.staticflickr.com/1881/29242441647_d92e894e66_o_d.png 2000w, https://farm2.staticflickr.com/1842/30312619668_cc09e241e0_o_d.png 1000w, https://farm2.staticflickr.com/1812/43274122665_f0f21facf4_o_d.png 700w" sizes="100%"  alt="Matthias Günther loves Vim and painting Warhammer figures">
       <p class="center name is-hidden-tablet">
         Matthias Günther
       </p>
