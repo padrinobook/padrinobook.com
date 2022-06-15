@@ -206,7 +206,7 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
       </p>
 
       <p class="center">
-        <a class="button is-light is-large cta" href="https://subscribe.minutemailer.com/1kdgVZ5W">Get the newsletter</a>
+        <a class="button is-light is-large cta" href="https://wikimatze.us6.list-manage.com/subscribe/post?u=4010f8ce18503766e176536f1&id=198f8c0321">Get the newsletter</a>
       </p>
     </div>
     <div class="column is-12 is-hidden-tablet" id="newsletter-signup">
