@@ -548,3 +548,8 @@ p.package-version-text {
     margin-left: 0.1rem;
   }
 }
+
+ul.list {
+  box-shadow: none;
+}
+
