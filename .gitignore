@@ -12,4 +12,6 @@ _includes/application.css.map
 _includes/application.js
 main.js
 main.js.map
+.jekyll-cache/
+_includes/application_min.css
 
