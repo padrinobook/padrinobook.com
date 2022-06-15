@@ -7,5 +7,5 @@ gem 'jekyll-sitemap', '~> 1.1'
 gem 'rake',           '~> 10.4'
 gem 'kramdown',       '~> 2.3'
 gem 'rouge',          '~> 3.0'
-gem 'sweetie', path: '/home/wm/git/sweetie'
+gem 'sweetie',        '~> 2.0'
 
