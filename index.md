@@ -8,8 +8,8 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
     <div class="column is-12">
       <p>
         Go into web development with fun and joy plus the freedom of choice which
-        components you want to use for your next web application, then take a deeper look into <a href="http://padrinorb.com/">Padrino</a>.
-        This book will teach you how to craft web applications in Padrino.
+        components you want to use for your next web application - take a deeper look into <a href="http://padrinorb.com/">Padrino</a>.
+        PadrinoBook will teach you how to craft web applications in <a href="http://padrinorb.com/">Padrino</a>.
       </p>
     </div>
   </div>
@@ -25,10 +25,10 @@ description: The Guide To Master The Elegant Ruby Web Framework. A practical app
       </p>
 
       <p>
-      It offers a <strong>Drop-In Admin</strong> to easy edit your models data in an Admin interface, it is <strong>agnostic</strong> so you can chose the components for your project you want out of the box, it' s extensible with all <strong>Sinatra like extensions</strong>, it' s <strong>comprehensive</strong> by offering you generators for controller, mailer, test frameworks, localization and much more.
+      It offers a <strong>Drop-In Admin</strong> to easy edit your models data in an admin interface, it is <strong>agnostic</strong> so you can chose the components for your project you want, it is extensible with all <strong>Sinatra like extensions</strong>, it is <strong>comprehensive</strong> by offering you generators for controller, mailer, test frameworks, localization and much more.
       </p>
 
-      <p>By following my step-by-step instructions you'll be able to get your own
+      <p>By following my step-by-step instructions, you'll be able to get your own
      Padrino app up and running in no time!
       </p>
     </div>
