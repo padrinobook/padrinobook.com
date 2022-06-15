@@ -1,7 +1,6 @@
 # PadrinoBook website
 
 ![Gitter](https://img.shields.io/gitter/room/padrinobook/padrinobook.js.svg)
-<a href="https://padrinobook.slack.com/messages"><img src="https://padrinobook.herokuapp.com/badge.svg"></a>
 ![Twitter Follow](https://img.shields.io/twitter/follow/padrinobook.svg?style=social&label=Follow)
 
 
