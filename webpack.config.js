@@ -10,7 +10,7 @@ module.exports = {
       './css/style.css',
       './js/burger_menue_navigation.js',
       './js/motomo.js',
-      './js/hotjar_tracking.js'
+      './js/microsoft_clarity_tracking.js',
     ],
   },
 
